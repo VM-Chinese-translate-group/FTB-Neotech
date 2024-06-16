@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "71DBF4FB7368CC06", title: "The NeoTech Journey" }
+		{ id: "2A82D89E6FF141B7", title: "Technological Singularity" }
+		{ id: "085766035AF08426", title: "Specializations" }
+		{ id: "6D0ECA7A2CCEBAC8", title: "Power Overwhelming" }
+		{ id: "3D9E759ACFEA2C5B", title: "Feed The Beast" }
+	]
+}

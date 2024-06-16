@@ -1,0 +1,54 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quantumania"
+	group: "71DBF4FB7368CC06"
+	icon: "modern_industrialization:quantum_circuit"
+	id: "6446ECB10204141C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A7F111A30368DF9"
+			tasks: [{
+				id: "49786B4657F2B142"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "486BB8E65D835C63"
+			tasks: [{
+				id: "0BCACF790ADE6570"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "4B19041DA806971E"
+			tasks: [{
+				id: "54AC290EC1D80FCF"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "473A7A426592034B"
+			tasks: [{
+				id: "2CD1A50379E0F867"
+				item: "modern_industrialization:uu_matter_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "7. Quantumania"
+}

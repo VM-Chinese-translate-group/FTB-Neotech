@@ -1,0 +1,1904 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steelyeyed_engineer"
+	group: "085766035AF08426"
+	icon: "immersiveengineering:radiator"
+	id: "14BDA78875C9345C"
+	order_index: 6
+	quest_links: [{
+		id: "1D4A4E9665602C58"
+		linked_quest: "64C350B6E762F1CA"
+		shape: "gear"
+		size: 2.0d
+		x: 1.5010204081632637d
+		y: 0.05969387755102673d
+	}]
+	quests: [
+		{
+			dependencies: ["227F02D80AE758EF"]
+			description: ["The Engineer's workbench is used to create a variety of speciality components from blueprints. You can craft some of the blueprints and others you may need to find or trade villagers for. Most of these components can later be automated in the Automated Workbench."]
+			id: "6C206FA7F0D902A4"
+			rewards: [
+				{
+					id: "73B3B2A0CA645431"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "components"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4A4761E9BE74D023"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "44EE3843F1228B4E"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "791BA1B21D991AE6"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EE46DAA1D5BF9C2"]
+			description: [
+				"The Metal Press is a 3×1×3 multiblock machine. It quickly transforms metal ingots into Plates, Rods, making it a valuable tool for your crafting and building projects. This can provide a simplified on demand production of gears, plates and rods. "
+				""
+				"Gears are a 6:1 ingot to gear ratio while plates and rods are 1:1. Plates are equivalent to MI in cost while rods and gears are slightly more costly than using MI machines but simpler to automate and produce on demand. "
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "03A2D3B9D338308C"
+			rewards: [
+				{
+					id: "34C3A8326FE5FFDA"
+					item: "immersiveengineering:mold_gear"
+					type: "item"
+				}
+				{
+					id: "5DAF1586872D22F9"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "4D38CAB2AD1B1521"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E7C16FE497756D1"
+					item: "immersiveengineering:mold_rod"
+					type: "item"
+				}
+				{
+					id: "0399314B20866D99"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					count: 2L
+					id: "454F109988BF2C9A"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "3B9352CE2D0B8EFF"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "674FB66197B45EED"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5741F8EE90EAE2DE"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			title: "Hard Pressed"
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["662103775B17DD6D"]
+			description: ["With access to an assembler, it's now possible to make Immersive Engineering and Actually Additions Machines to expand your options for processing. Most of these are optional processing methods that are more suited to on demand tasks. "]
+			id: "2EE46DAA1D5BF9C2"
+			rewards: [
+				{
+					count: 4
+					id: "7FB7B808BF13228E"
+					item: "immersiveengineering:wirecoil_redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42B7A2C3BF1BABCF"
+					item: "immersiveengineering:connector_redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4F998D507460E92F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "33F2497E78ABF328"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C206FA7F0D902A4"]
+			description: ["Vaccum tubes are a rudimentary subcomponent used in some archaic technologies. You'll most likely want these to get into Chicken Breeding and a few other odds and ends. Can be automated with the automated workbench."]
+			id: "6A120C441EE6009C"
+			rewards: [
+				{
+					count: 2
+					id: "7E4567CE0BC28CA3"
+					item: "immersiveengineering:electron_tube"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7566C29F0436D893"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "7A8CA4EC8BB6A046"
+				item: "immersiveengineering:electron_tube"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: ["Kinetic Dynamos are a simple form of passive power generation. Windmills and Waterwheels make very low amounts of energy but they are endless and passive so some may prefer to use them for certain application. It is not recommended to attempt to power fully functional bases on these alone for a multitude of reasons. "]
+			id: "2A31CFEDB30C3AEC"
+			rewards: [
+				{
+					id: "278B6A13A4DF6BD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "239CD763DEAFD0E7"
+					item: "immersiveengineering:watermill"
+					type: "item"
+				}
+				{
+					id: "13BB6D43C1FE7051"
+					item: "immersiveengineering:windmill"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2373DDCBD29C20FC"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"64C350B6E762F1CA"
+				"6DC63B86EDC1EFB9"
+			]
+			description: [
+				"Once you have Kanthal coils on an Electric Blast Furnace, you can highly process uranium into HE uranium which will allow you to make an alternate type of passive power using Thermoelectric generators. "
+				""
+				"These will passively produce energy based on the difference in temperature of the blocks on the opposite side of them. For example, lava on one side and ice on the other."
+			]
+			id: "74177287999D8D89"
+			rewards: [
+				{
+					count: 2
+					id: "44E64349A3E9D9E0"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "60C9C939E1A283AE"
+					item: "modern_industrialization:uranium_block"
+					type: "item"
+				}
+				{
+					id: "5B5F0D15A43D050E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "12CA3CF6370AFFAA"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C206FA7F0D902A4"]
+			description: ["The blast furnace can be upgraded into an improved blast furnace once you get some steel. This improved blast furnace is faster but can become even faster if you add preheaters onto it and supply some power."]
+			id: "5FB2F8B49CB8C397"
+			rewards: [
+				{
+					id: "69D286A9123BE379"
+					item: "immersiveengineering:blastfurnace_preheater"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4BDD4EB4D28EDA93"
+					item: "immersiveengineering:connector_mv"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6F1EC9F6DF4A955E"
+					item: "immersiveengineering:connector_mv_relay"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37D673E07A3FBAA0"
+					item: "immersiveengineering:wirecoil_electrum"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E22FB79851C2FA0"
+				item: "immersiveengineering:blastfurnace_preheater"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C206FA7F0D902A4"]
+			description: ["The fluid pump can pump fluids from the world directly, if you have a 2x2 pool of water it can also act as an infinite fluid source. This can be useful for providing waters to boilers and other applications before you can craft the water source block from Super Factory Manager."]
+			id: "59E33CBC4D9BBDE3"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1A42F94A546A3F8D"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6CA211F70016EF21"
+					item: "immersiveengineering:connector_lv_relay"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E46D0AFD717D91E"
+					item: "immersiveengineering:connector_lv"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "716308D3C6D2DDF5"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: [
+				"With an &6Atomic Reconstructor&r now you're able to make some &cRestonia Crystals&r."
+				""
+				"- Use them with some other components to now open up a world of &2interesting additions&r!"
+				""
+				"&8&oPS: But of course, since this is a basic coil, only some basic ones are available with this coil :p&r&r"
+			]
+			id: "765CD5A23915BADA"
+			rewards: [{
+				id: "7CB78304B68F4A5B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "For all your Basic Additions needs."
+			tasks: [{
+				id: "0AF5A0B7C8197131"
+				item: "actuallyadditions:basic_coil"
+				type: "item"
+			}]
+			title: "A Basic Component"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["765CD5A23915BADA"]
+			description: [
+				"Using some &6Basic Coils&r and &6Golden Carrots&r, you're now able to easily &dAutomate Mob Breeding&r using &3Actually Additions&r!"
+				""
+				"- And the best thing is, this &bFeeder&r &eRequires no Energy at all&r! just provide enough &2Food&r and it will &6Feed the Mobs&r until a reasonable amount."
+				""
+				"&8&oFeed the Mobs, a brand new Map Based Modpack coming to stores near you!&r&r"
+			]
+			id: "5AB10F30C4251A1E"
+			min_width: 300
+			rewards: [
+				{
+					count: 64
+					id: "0B13D8852127CB19"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "5720C763647098FA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make an Automatic Feeder!"
+			tasks: [{
+				id: "16A196FBBBCBA174"
+				item: "actuallyadditions:feeder"
+				type: "item"
+			}]
+			title: "Automated Feeding"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["765CD5A23915BADA"]
+			description: [
+				"&3Actually Addictions&r offers a very interesting machine capable of brewing what you probably drink every morning!"
+				""
+				"- With some &6Coffe Beans&r, &eEnergy&r and &9Water&r.... a &bCup of Coffe&r!"
+				""
+				"Also don't forget to check &2JEI&r for some extra things that you may add to &benhance your &bCoffe&r! and remember, &nsome of them are stackable&r!"
+				""
+				"&8&o~ Here, give me your Cup of Coffe and I'll fill it for you with my Special Brew!&r&r"
+			]
+			icon: "actuallyadditions:coffee_machine"
+			id: "12E2BFFB8B3F20A8"
+			rewards: [
+				{
+					id: "03015AC04E1F5861"
+					item: {
+						Count: 1
+						id: "actuallyadditions:coffee_cup"
+						tag: {
+							1: {
+								Amplifier: 3
+								Duration: 30
+								ID: "minecraft:speed"
+							}
+							Counter: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3472FC8D54DAE7D3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "with this Actually Addictions Machine!"
+			tasks: [
+				{
+					id: "3B45DAD1B917EBDA"
+					item: "actuallyadditions:coffee_machine"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0E8241ED46E74A7E"
+					item: "actuallyadditions:empty_cup"
+					type: "item"
+				}
+			]
+			title: "Let's brew some Coffe"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["765CD5A23915BADA"]
+			description: [
+				"And with your recent unlocked materials, you're now able to make &bAdvanced Coils&r!"
+				""
+				"- With this &bCoil&r you're finally able to make most of the content added by &3Actually Additions&r!"
+			]
+			id: "1E903A7984E5D376"
+			rewards: [{
+				id: "649978A7FE9B90FF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "For all your Advanced Additions needs."
+			tasks: [{
+				id: "28B493F967DB97B7"
+				item: "actuallyadditions:advanced_coil"
+				type: "item"
+			}]
+			title: "A Advanced Component"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"765CD5A23915BADA"
+				"55B7E3EE706E8D6F"
+			]
+			description: [
+				"Perhaps you're not satisfied with your current &6MI Macerator Performance&r... or perhaps you just want to &cspice up some of your Automations&r with a &dReally Pretty Machine&r well in any case, this &bCrusher&r may be the perfect solution for you!"
+				""
+				"- The &bAA Crusher&r is able to handle most of the &2Crushing Recipes&r so you should be able to use it even for some &2Ore Processing&r!"
+			]
+			id: "07EEC5AF4BD6227D"
+			min_width: 300
+			rewards: [{
+				id: "1F1D7C18B24853D3"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Let's make an AA Crusher!"
+			tasks: [{
+				id: "08405F5D57739C44"
+				item: "actuallyadditions:crusher"
+				type: "item"
+			}]
+			title: "Crushing with RF"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1E903A7984E5D376"
+				"07EEC5AF4BD6227D"
+			]
+			description: [
+				"Just like previously mentioned about the &6Single Crusher&r.... it all applys but now in &bDouble&r!"
+				""
+				"- 2x &2Processing"
+				"&r- 2x &eEnergy Consumption"
+				"&r- 2x &cSpice&r &8(&oLisan al Gaib)&r"
+			]
+			id: "63FD0A9D1D58DCEE"
+			rewards: [
+				{
+					id: "67AA7F33AA1300DC"
+					item: "pamhc2crops:spiceleafitem"
+					type: "item"
+				}
+				{
+					id: "78394EF35F4CC875"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "If a Single Crusher don't satisfy your needs..."
+			tasks: [{
+				id: "11AC39C3518297A9"
+				item: "actuallyadditions:crusher_double"
+				type: "item"
+			}]
+			title: "Crushing with even more Spice!"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"765CD5A23915BADA"
+				"55B7E3EE706E8D6F"
+				"7F042171234A9568"
+			]
+			description: [
+				"Tired of your &6Boring Single Furnaces&r?"
+				""
+				"- &3Actually Additions&r can solve just that! a &bPowered Furnace&r is capable of &aSmelting 2 items at a single time&r! really usefull if you want pretty smelters in some of your automation lines."
+			]
+			id: "7818C04CE3AD4912"
+			rewards: [
+				{
+					count: 4
+					id: "6934A89DBC18C387"
+					item: "pamhc2trees:roastedchestnutitem"
+					type: "item"
+				}
+				{
+					id: "1D8EB8C7B90628AF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Double th Fun!"
+			tasks: [{
+				id: "22A2B9AB815E1177"
+				item: "actuallyadditions:powered_furnace"
+				type: "item"
+			}]
+			title: "Double Smelting with RF!"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"614EF1FA7FD4F1D3"
+				"662103775B17DD6D"
+				"1E903A7984E5D376"
+			]
+			description: [
+				"By adding a &6Special Core&r and an &6Advanced Coil&r it is time to improve your simple &2Steam Drill&r and make this very powerfull &3Actually Additions Drill&r!"
+				""
+				"- But you may ask, what are the benefits of this &bDrill&r? well, you can add &eUpgrades&r to it!"
+				""
+				"- By &dShift Clicking with it&r you can open its internal buffer and &eadd as many upgrades you want&r!"
+			]
+			icon: {
+				Count: 1
+				id: "actuallyadditions:drill_light_blue"
+				tag: {
+					"neoforge:attachments": {
+						"actuallyadditions:energy": 250000
+					}
+					"neoforge:empty": 1b
+				}
+			}
+			id: "14D2AC2375696FDD"
+			rewards: [
+				{
+					id: "627FF39822601F2C"
+					item: "actuallyadditions:drill_upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "45C987AED23D1D01"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Time to Improve your Steam Drill!"
+			tasks: [{
+				id: "04144E71FE0AF306"
+				item: {
+					Count: 1
+					id: "actuallyadditions:drill_light_blue"
+					tag: {
+						"neoforge:attachments": {
+							"actuallyadditions:energy": 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Drilling your way through!"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E903A7984E5D376"]
+			description: [
+				"Want to &dclear a section of your base&r from all the &2Grass&r, &aLeaves&r, &6Dead Bushes&r and almost all things &2natural&r? fear not, a &bLeaf Blower&r can help you with just that!"
+				""
+				"- Simply &dhold right click&r with it and just &cadmire all the destruction&r that you're gonna be causing!"
+			]
+			id: "2399D6F85554F35C"
+			rewards: [
+				{
+					count: 64
+					id: "580A8F19F20CB8BD"
+					item: {
+						Count: 1
+						id: "minecraft:oak_leaves"
+						tag: {
+							display: {
+								Name: "\"Leaf Blower Food\""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45F4582E6E0FB605"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make a Leaf Blower!"
+			tasks: [{
+				id: "48E504D332017A10"
+				item: "actuallyadditions:leaf_blower"
+				type: "item"
+			}]
+			title: "A Hate of All Things Natural"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E903A7984E5D376"]
+			description: [
+				"&dPretty straight foward&r with this special device added by &3Actually Additions&r:"
+				""
+				"- You may &eCharge Any Device&r inside of its &2internal slot&r!"
+			]
+			id: "31078CE0238AEFF2"
+			rewards: [{
+				id: "510C5E85CDBC1C38"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Let's make a Energizer!"
+			tasks: [{
+				id: "2BE72AD58BE9FED4"
+				item: "actuallyadditions:energizer"
+				type: "item"
+			}]
+			title: "Charging"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E903A7984E5D376"]
+			description: [
+				"&dPretty straight foward&r with this special device added by &3Actually Additions&r:"
+				""
+				"- You may &eDischarge Any Device&r inside of its &2internal slot&r!"
+			]
+			id: "58CE664557A8C584"
+			rewards: [{
+				id: "166E75E254CA3DC2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Let's make a Enervator!"
+			tasks: [{
+				id: "7BA2D9587D0D5624"
+				item: "actuallyadditions:enervator"
+				type: "item"
+			}]
+			title: "Discharging"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E903A7984E5D376"]
+			description: [
+				"&3Actually Additions&r adds a &bvery interesting device&r, one that allows you to produce &bLava out of Energy&r!"
+				""
+				"- After constructing the &dfollowing structure&r and providing about &e150000FE&r you should be able to &afully automate&r a &cLava Production&r!"
+				""
+				"{image:ftbneotech:textures/quest/lava_factory_structure.png width:240 height:200 align:center}"
+			]
+			icon: "actuallyadditions:lava_factory_controller"
+			id: "7900C71175D793BD"
+			min_width: 300
+			rewards: [
+				{
+					id: "0A97168961A2E63E"
+					item: "pneumaticcraft:medium_tank"
+					type: "item"
+				}
+				{
+					id: "16FB8D28E45131D0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Let's make a Lava Factory!"
+			tasks: [
+				{
+					id: "2B770E8C99A1221D"
+					item: "actuallyadditions:lava_factory_controller"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "11ACD34DDE5ACC60"
+					item: { Count: 4, id: "actuallyadditions:lava_factory_casing" }
+					type: "item"
+				}
+			]
+			title: "Infinite Lava!"
+			x: 8.699999999999989d
+			y: -1.0040816326530617d
+		}
+		{
+			dependencies: [
+				"1E903A7984E5D376"
+				"55B7E3EE706E8D6F"
+				"7F042171234A9568"
+			]
+			description: [
+				"&3Actually Additions&r adds a very special &bDropper&r that can really make your like easier!"
+				""
+				"- It will &9Precisely Drop Items&r from its &2internal slot&r in front of it and you may use a &cRedstone Torch&r to configure its &credstone behavior&r."
+			]
+			id: "59355BA10094165E"
+			min_width: 300
+			rewards: [{
+				id: "15F02769DC81B892"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "No, not that Classic Custom Map..."
+			tasks: [{
+				id: "441C63F1310F2A7D"
+				item: "actuallyadditions:dropper"
+				type: "item"
+			}]
+			title: "The Best Dropper you'll ever need!"
+			x: 8.700000000000003d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7900C71175D793BD"]
+			description: [
+				"And now that you have a &6Lava Factory&r... this special &bGenerator&r is a real deal!"
+				""
+				"- By surrounding a &bHeat Collector&r with &c4 Lava Source Blocks&r you'll be &egenerating decent amounts of FE&r!"
+			]
+			id: "31FE1E75B9A19562"
+			min_width: 300
+			rewards: [
+				{
+					id: "0CCCCC58568C1926"
+					item: "immersiveengineering:capacitor_mv"
+					type: "item"
+				}
+				{
+					id: "1C9B98509D687915"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make a Heat Collector!"
+			tasks: [{
+				id: "26F7832853074D70"
+				item: "actuallyadditions:heat_collector"
+				type: "item"
+			}]
+			title: "Energy out of Lava!"
+			x: 8.700000000000003d
+			y: -2.534693877551021d
+		}
+		{
+			dependencies: ["1E903A7984E5D376"]
+			description: [
+				"And now that we are getting access to some &dadvanced devices&r from &3Actually Additions&r it is time to get the &6Ultimate Machine from this Mod&r!"
+				""
+				"- &dSimply Place&r an &bEmpowerer&r at the &2Center&r and skip &22 blocks for each cardinal point&r to place the &bDisplay Stands&r."
+				""
+				"- &dOne important thing&r, you only need to give &eFE&r to the &bDisplay Stands&r, not the &bEmpowerer&r itself!"
+				""
+				"{image:ftbneotech:textures/quest/empowerer_structure.png width:280 height:200 align:center}"
+			]
+			id: "616B5FD07CC88943"
+			min_width: 300
+			rewards: [
+				{
+					id: "47B2DF5B4ECEE597"
+					item: "actuallyadditions:empowered_canola_seed"
+					type: "item"
+				}
+				{
+					id: "3E3A2F2736ED2ABB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "I've got the Power!"
+			tasks: [
+				{
+					id: "0001FF489206C7DE"
+					item: "actuallyadditions:empowerer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "45C50F0AD1645E46"
+					item: { Count: 4, id: "actuallyadditions:display_stand" }
+					type: "item"
+				}
+			]
+			title: "Time to Empower Materials!"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["616B5FD07CC88943"]
+			description: [
+				"Want some &6Advanced Devices&r? well, what about a way to &2automatically deliver you materials&r? or even, what about a way to &eautomatically charge your devices&r from anywhere in the world?"
+				""
+				"- A &bPlayer Interface&r allows you to do just that!"
+				""
+				"- &n&dIt does not have a GUI&r&r tho, so you'll need to use some &apipes&r for the &aIns and Outs&r!"
+			]
+			id: "00C978ABE2FF0337"
+			min_width: 300
+			rewards: [
+				{
+					id: "392E4DACC57A653C"
+					item: {
+						Count: 1
+						id: "actuallyadditions:player_probe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "140A83AD9726CE1B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make a Player Interface!"
+			tasks: [{
+				id: "7BA774C6CAA6D8CB"
+				item: "actuallyadditions:player_interface"
+				type: "item"
+			}]
+			title: "Interacting with your Inventory"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: [
+				"&bCanola Oil&r can be a really good &9Liquid Fuel&r to be used in your Factory, and you may consider it a really good option over other &9Liquid Fuels&r since you may &aenhance it&r as you &2progress in the pack&r."
+				""
+				"- First, if you haven't set a way to &bAutomatically Farm Canola&r, consider doing so... one suggestion? You can use &ePNC Drones&r! &dThere's a Questline&r for it in the &6\"Attack of the Drones\"&r Chapter."
+			]
+			id: "6826CD78A4D853EE"
+			rewards: [
+				{
+					count: 64
+					id: "146268422686AA13"
+					item: "actuallyadditions:canola"
+					type: "item"
+				}
+				{
+					id: "26048A6FA844D726"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			subtitle: "Pressing Canola into an Oil!"
+			tasks: [{
+				id: "62804B2D4D0164C6"
+				item: "actuallyadditions:canola_press"
+				type: "item"
+			}]
+			title: "Producing and Enhancing Canola Part I"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6826CD78A4D853EE"]
+			description: [
+				"As it was mentioned previously &bCanola Oil&r an be &6Refined&r! and the &dfirst stage&r is by using a &bFermenting Barrel&r!"
+				""
+				"- &dThis process can be a bit slow&r, so may be better if you make more than a &6single barrel&r."
+			]
+			id: "470A3AA8DCCA7A2F"
+			rewards: [
+				{
+					id: "536AAB6947E0F397"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:small_tank"
+						tag: {
+							BlockEntityTag: {
+								SavedTanks: {
+									Tank: {
+										Amount: 8000
+										FluidName: "actuallyadditions:canola_oil"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "259C0ED1F3367942"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			subtitle: "Fermenting Canola Oil into a more Refined Version!"
+			tasks: [{
+				id: "4C165067726DCAE7"
+				item: "actuallyadditions:fermenting_barrel"
+				type: "item"
+			}]
+			title: "Producing and Enhancing Canola Part II"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["470A3AA8DCCA7A2F"]
+			description: [
+				"And now, time to &bImprove&r it even more!"
+				""
+				"- By Using an &3Atomic Reconstructor&r you'll be able to &6Crystallize some Canola Seeds&r."
+				""
+				"- &dAfter this process&r, simply drop it into a pool of &6Refined Canola Oil&r to &dInduce an Enhancement Process&r!"
+			]
+			id: "1AB33DEEEB923E0C"
+			rewards: [
+				{
+					id: "42648968E909302F"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:small_tank"
+						tag: {
+							BlockEntityTag: {
+								SavedTanks: {
+									Tank: {
+										Amount: 4000
+										FluidName: "actuallyadditions:crystallized_oil"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D07177A26BB1C53"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			subtitle: "Crystallizing Canola Oil!"
+			tasks: [
+				{
+					id: "4E18DFCA29FF2891"
+					item: "actuallyadditions:crystallized_canola_seed"
+					type: "item"
+				}
+				{
+					Amount: 1000
+					FluidName: "actuallyadditions:crystallized_oil"
+					id: "7C607059EDD91E0B"
+					type: "fluid"
+				}
+			]
+			title: "Producing and Enhancing Canola Part III"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1AB33DEEEB923E0C"
+				"616B5FD07CC88943"
+			]
+			description: [
+				"And now, the peak of &9Liquid Fuels&r, &bEmpowered Canola Oil&r!"
+				""
+				"- Just like the previous Step, make some &bEmpowered Canola Seeds&r and drop them into a pool of &6Crystallized Canola Oil&r to induce an &eEmpowering Reaction&r."
+			]
+			id: "7F335139EB58CE35"
+			rewards: [
+				{
+					id: "586B3CD1E1065574"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:small_tank"
+						tag: {
+							BlockEntityTag: {
+								SavedTanks: {
+									Tank: {
+										Amount: 2000
+										FluidName: "actuallyadditions:empowered_oil"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2259B5780CFE5B97"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			subtitle: "Empowering Canola Oil!"
+			tasks: [
+				{
+					id: "3F51CD82BBACB5E3"
+					item: "actuallyadditions:empowered_canola_seed"
+					type: "item"
+				}
+				{
+					Amount: 1000
+					FluidName: "actuallyadditions:empowered_oil"
+					id: "5558DBF9E680F349"
+					type: "fluid"
+				}
+			]
+			title: "Producing and Enhancing Canola Final Part"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64C350B6E762F1CA"
+				"5AE394A70883FA85"
+				"7F042171234A9568"
+			]
+			description: [
+				"Using a &bFerricore&r and some &6Analog Circuits&r... An &aEasy Way to Automate Crops&r!"
+				""
+				"- The &bFarmer&r from &3Actually Additions&r can gently &2harvest a 9x9 area&r in front of it 100% automatially, you just need to provide &eEnergy&r and handle the &2Ins and Outs&r!"
+			]
+			id: "63E0D8100CE07BF6"
+			min_width: 300
+			rewards: [{
+				id: "12348B9DF348C3D1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Let's make a Farmer!"
+			tasks: [{
+				id: "28BBD0CAE3061789"
+				item: "actuallyadditions:farmer"
+				type: "item"
+			}]
+			title: "A Easy way to Automate Crops!"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: [
+				"With this special device added by &3Actually Additions&r you shall easily &acollect scattered items&r around your base!"
+				""
+				"- &dInside of its GUI&r you may configure &aFilter&r and its &erange is a radius of approximately 6 blocks&r."
+			]
+			id: "51D3BA6B6F94AB93"
+			min_width: 300
+			rewards: [{
+				id: "3FC909CDFB20625E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Let's make a Ranged Collector!"
+			tasks: [{
+				id: "2675A7C1468D743F"
+				item: "actuallyadditions:ranged_collector"
+				type: "item"
+			}]
+			title: "Items the Gathering"
+			x: 1.5020408163265273d
+			y: -2.480102040816341d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: [
+				"By adding a &bLens&r to the &6Atomic Reconstructor Laser&r you may find some interesting utility features."
+				""
+				"- &dAnd the Quests&r around this one should highlight just that!"
+				""
+				"- To make them simply start by &6Reconstructing&r the &bBasic Lens&r."
+			]
+			id: "541FD69A77CCCAE8"
+			rewards: [{
+				id: "3FE6DF7DE684F759"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Lenses can be quite usefull!"
+			tasks: [{
+				id: "53074141EBC66AD8"
+				item: "actuallyadditions:lens"
+				type: "item"
+			}]
+			title: "Augmenting your Atomic Reonstructor!"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["541FD69A77CCCAE8"]
+			description: ["By using this &bLens&r you'll be able to &9cycle trough&r Minecraft's &cC&r&9o&r&2l&r&eo&r&br&r&ds&r from &aDropped or Placed Blocks/Items&r."]
+			id: "7845180560C90775"
+			rewards: [
+				{
+					count: 16
+					id: "75B9A03E2896AB16"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "1FB78B58D26F5F45"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Let's make the Lens of the Color!"
+			tasks: [{
+				id: "6D7C64F0926A370D"
+				item: "actuallyadditions:lens_of_color"
+				type: "item"
+			}]
+			title: "Lens of the True Gamer"
+			x: -0.5608843537414927d
+			y: -0.7462585034013927d
+		}
+		{
+			dependencies: ["541FD69A77CCCAE8"]
+			description: ["By using this &bLens&r you'll increase the &eRange of the Reconstructor to 30 Blocks&r and it will cause a &cFiery Explosion&r at its end."]
+			id: "61E23AF529B673B4"
+			min_width: 300
+			rewards: [
+				{
+					id: "77D8613EF97FB5B3"
+					item: "ae2:tiny_tnt"
+					type: "item"
+				}
+				{
+					id: "0B98445230785BB3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Let's make a Lens of Detonation!"
+			tasks: [{
+				id: "5E9F03AF7CF0189B"
+				item: "actuallyadditions:lens_of_detonation"
+				type: "item"
+			}]
+			title: "Lens of Kaboom"
+			x: -1.3942176870748213d
+			y: -0.7462585034013856d
+		}
+		{
+			dependencies: ["541FD69A77CCCAE8"]
+			description: ["By using this &bLens&r the &6Reconstructor&r will &cinflict 20 of Damage&r &8&o(or about 10 Hearts)&r&r to the &n&bFirst Entity&r&r hit by its &6Laser&r."]
+			id: "573FF2ADA46D0497"
+			min_width: 350
+			rewards: [
+				{
+					id: "3DA99C2D0AA5258F"
+					item: {
+						Count: 1
+						id: "minecraft:skeleton_skull"
+						tag: {
+							display: {
+								Name: "\"Nani?\""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "757F306DD8F9B08D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Let's make the Lens of Certain Death!"
+			tasks: [{
+				id: "562B1AFF050C21A5"
+				item: "actuallyadditions:lens_of_certain_death"
+				type: "item"
+			}]
+			title: "Lens of Omae Wa Mou Shindeiru"
+			x: -1.8227891156462448d
+			y: 0.015646258503373645d
+		}
+		{
+			dependencies: ["573FF2ADA46D0497"]
+			description: ["This &bLens&r is a straight up &dimprovement&r to the &6Lens of Certain Death&r, it will consume a bit more &eEnergy&r but &ait will drop EXP and Player Only Loot&r. "]
+			id: "5A07A5595F75A01C"
+			min_width: 300
+			rewards: [
+				{
+					id: "78D8608B182E198B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C6BDE65C0AFAA7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Let's make the Lens of the Killer!"
+			tasks: [{
+				id: "7D7EF360D80BACAF"
+				item: "actuallyadditions:lens_of_the_killer"
+				type: "item"
+			}]
+			title: "Lens of even more Omae Wa mou!"
+			x: -2.679931972789106d
+			y: 0.015646258503373645d
+		}
+		{
+			dependencies: ["541FD69A77CCCAE8"]
+			description: [
+				"By using this &bLens&r you'll be able to Separate &5Enchantments&r to &dEnchanted Books&r!"
+				""
+				"- Being more specific, it will slip the &5Topmost Enchantment&r from an &2Item&r into a &bBook&r, so you'll need to Drop both an &dEnchanted Item&r aswell as an &bEmpty Book&r."
+			]
+			id: "7C3A392405283CE9"
+			rewards: [
+				{
+					count: 4
+					id: "65E1FD23AA003EDE"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "6E5A3784EBEA676F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Let's make the Lens of Disenchanting!"
+			tasks: [{
+				id: "7210EDD335388A2D"
+				item: "actuallyadditions:lens_of_disenchanting"
+				type: "item"
+			}]
+			title: "Lens of {1}{W} Destroy target Enchantment"
+			x: -1.4180272108843397d
+			y: 0.7775510204081328d
+		}
+		{
+			dependencies: ["541FD69A77CCCAE8"]
+			description: [
+				"By using this &bLens&r you'll be able to simply convert &aStone into Ores&r!"
+				""
+				"- Yep, it that simple, although you may need to check &2JEI&r cause some &6Ores&r may not be generated by this &bLens&r and some may be a bit &dRare&r."
+			]
+			id: "658B824536036D5D"
+			rewards: [
+				{
+					id: "4EC26510F3CA59A2"
+					item: "actuallyadditions:breaker"
+					type: "item"
+				}
+				{
+					id: "4115791C6DC3FDE0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Let's make the Lens of the Miner!"
+			tasks: [{
+				id: "0E2C374B0801DBB7"
+				item: "actuallyadditions:lens_of_the_miner"
+				type: "item"
+			}]
+			title: "An Ancient Lens made by Dwarfs"
+			x: -0.5846938775510111d
+			y: 0.7775510204081328d
+		}
+		{
+			dependencies: ["6C206FA7F0D902A4"]
+			description: [
+				"&6Immersive Engineering&r adds a very interesting mechanic, &2Weapons and Special Ammunition&r for them!"
+				""
+				"- In this particular quest, We will only highlight the most basic of them, a &bRevolver&r!"
+				""
+				"1. &dFirst&r make yourself a Common Ammo Blueprint, You'll be using it to fill your &bCartridges&r with &8Gunpowder&r and &9Lead&r."
+				""
+				"2. &dThen make sure to&r, of course, make yourself a &bRevolver&r and don't forget, you can place it in an &6Engineer's Workbench&r to Apply &aSkins&r and even &eUpgrades&r!"
+				""
+				"3. And if you didn't figure how to add &eAmmo&r to your &bRevolver&r, simply &aright click to open its internal chambers&r."
+			]
+			icon: "immersiveengineering:revolver"
+			id: "44BB2CCED1B6FCB3"
+			min_width: 300
+			rewards: [
+				{
+					id: "448FA9144397889E"
+					item: {
+						Count: 1
+						id: "immersiveengineering:shader"
+						tag: {
+							shader_name: "immersiveengineering:magnum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56921120A5118FA5"
+					item: "immersiveengineering:toolupgrade_revolver_magazine"
+					type: "item"
+				}
+				{
+					id: "528E4B39CACAC4A4"
+					item: "immersiveengineering:toolupgrade_revolver_bayonet"
+					type: "item"
+				}
+				{
+					id: "34608F83BD1B73B4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make some Ammo and a Revolver! "
+			tasks: [
+				{
+					id: "37E4D553F6FBBF20"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03BD1AF989AB4DBC"
+					item: {
+						Count: 1
+						id: "immersiveengineering:revolver"
+						tag: {
+							"neoforge:attachments": {
+								"immersiveengineering:item_inventory": {
+									Items: [ ]
+									Size: 21
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5FBB55370E75E90E"
+					item: { Count: 4, id: "immersiveengineering:casull" }
+					type: "item"
+				}
+			]
+			title: "Anyway I started Blasting"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C206FA7F0D902A4"]
+			description: [
+				"A Very neat addition from &3Immersive Engineering&r, a &bGarden Cloche&r!"
+				""
+				"- Simply provide some &9Water&r, &eEnergy&r, a &6Soil&r and and some &2Seeds&r to start growing your &2Crops&r anywhere!"
+				""
+				"- Also its good to point out that you also provide &lBone Meal&r or items like it to improve your &2Crop growth&r."
+				""
+				"- &bThis Device&r may not be the fastest way to grow &2Crops&r, but its definetly a compat way to provide &2Materials for some Automations&r."
+			]
+			id: "75B8FC182DCC2A5E"
+			min_width: 300
+			rewards: [
+				{
+					count: 32
+					id: "6DC20C252774508F"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "3C3F0BCC2D5F91B3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make a Garden Cloche"
+			tasks: [{
+				id: "6C73403195725A45"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			title: "A Pocket Greenhouse"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44BB2CCED1B6FCB3"]
+			description: [
+				"Coming from a simple &6Revolver&r, a &bRailgun&r can be a real improvement, although not that fast to shoot, definetly a strong weapon to have with you."
+				""
+				"- But keep in mind, a &bRailgun&r consumes a lot of &eEnergy&r so consider carrying some batteries."
+				""
+				"- Oh and don't forget, a &bRailgun&r not only consumes energy but it also requires &6Rods&r, and the ones listed in this quest are the ones compatible with it &a&nbetter materials grant better damage and/or effects&r&r and here's some examples:"
+				""
+				"- &6Blaze Rods&r set entities on Fire."
+				"- &3End Rods&r can actually hit Endermans."
+				"- &dEnderpearls&r can be shoot from it."
+				"- &bSawblades and Tridents&r can be used to Pierce Armor."
+			]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:railgun"
+				tag: {
+					ammo_slot: 6
+					energy: 6400
+				}
+			}
+			id: "6ED2D5F944C32D03"
+			min_width: 300
+			rewards: [
+				{
+					id: "665844545A4F6B66"
+					item: {
+						Count: 1
+						id: "immersiveengineering:powerpack"
+						tag: {
+							"neoforge:attachments": {
+								"immersiveengineering:item_inventory": {
+									Items: [ ]
+									Size: 4
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74EEE85C86BD4DD8"
+					item: "immersiveengineering:toolupgrade_powerpack_antenna"
+					type: "item"
+				}
+				{
+					id: "5C91B9BBAF242760"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make a Railgun"
+			tasks: [
+				{
+					id: "34A1F42D0103F141"
+					item: "immersiveengineering:railgun"
+					type: "item"
+				}
+				{
+					id: "4122649F8785211E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(modern_industrialization:iron_rod)item(modern_industrialization:steel_rod)item(modern_industrialization:aluminum_rod)item(immersiveengineering:graphite_electrode)item(minecraft:blaze_rod)item(minecraft:end_rod)item(minecraft:ender_pearl)item(immersiveengineering:sawblade)item(minecraft:trident))"
+						}
+					}
+					title: "Any Railgun Ammo"
+					type: "item"
+				}
+			]
+			title: "Say hello to my Little Friend!"
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03A2D3B9D338308C"]
+			description: [
+				"A &bEngineer's Toolbox&r can be a handy thing to have in your hotbar, inside of it you have some specific slots for some things, and those include:"
+				""
+				"- &6Foods&r, &2Tools&r, &eWiring&r and even some &aWildcard Slots for anything you wish&r!"
+				""
+				"{image:ftbneotech:textures/quest/engineers_toolbox_gui.png width:120 height:140 align:center}"
+			]
+			id: "0F33832EB845A1EC"
+			rewards: [
+				{
+					id: "7862C2134962F04B"
+					item: "pamhc2foodcore:basicchickensandwichitem"
+					type: "item"
+				}
+				{
+					id: "0947CEEF94C64638"
+					item: "pamhc2foodcore:applejuiceitem"
+					type: "item"
+				}
+				{
+					id: "401CBAB84EA795A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "And much more of course!"
+			tasks: [{
+				id: "5005E7F6CAB03CC5"
+				item: {
+					Count: 1
+					id: "immersiveengineering:toolbox"
+					tag: {
+						"neoforge:attachments": {
+							"immersiveengineering:item_inventory": {
+								Items: [ ]
+								Size: 23
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "A Place to Store your Lunch"
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE46DAA1D5BF9C2"]
+			description: [
+				"An &bIE Crusher&r is a good alternative to a &6Macerator&r if you're going for &5looks instead of efficiency&r, or maybe you could set a special &aautomation line that drops the items on it&r? that could be an interesting thing to build!"
+				""
+				"- Anyway, the &bIE Crusher&r is able to handle a variety of &eCrushing Recipes&r and can be used during progression if you wish to do so."
+				""
+				"- Its a &dhuge multiblock&r so make sure to read the &6Engineer's Manual&r for specific Instructions, or maybe consult the image bellow for a quick glance."
+				""
+				"{image:ftbneotech:textures/quest/ie_crusher_structure.png width:220 height:200 align:center}"
+			]
+			icon: "immersiveengineering:crusher"
+			id: "361425413F11E9E1"
+			min_width: 300
+			rewards: [
+				{
+					count: 6
+					id: "4E69B50CBC900376"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "3F8FE8F432F9B61F"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "2212CF40C11C4965"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "21B5DC06DF6985B9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			subtitle: "Let's make a IE's Crusher!"
+			tasks: [
+				{
+					count: 10L
+					id: "2C79DCBB52EAD334"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "2B46B50D8FDE05A9"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6957C6FEF2DF03E8"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "67FFD146BC0EEC9E"
+					item: { Count: 8, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "25E191C8B876394E"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			title: "A Huge Alternative to a Macerator!"
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EE46DAA1D5BF9C2"]
+			description: [
+				"Just like an &6Alloy Kiln&r, the &bArc Furnace&r is capable of handling some &ausefull/unique alloying recipes&r aswell as some &3Common Alloy Smelting&r recipes too."
+				""
+				"- And of course &ddo not forget how pretty IE can be&r! sometimes you might just want to &eimprove how a section of your base looks&r by using a cool machine like this one ;)"
+				""
+				"{image:ftbneotech:textures/quest/ie_arc_furnace_structure.png width:220 height:200 align:center}"
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "66417E8F742F3355"
+			min_width: 300
+			rewards: [
+				{
+					count: 3
+					id: "39F5CD256A3D9E41"
+					item: "modern_industrialization:steel_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "009078DBBA70F3D2"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "60710B9F9CD58A5A"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "32BAD07F3DE22D80"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			subtitle: "Let's make an Arc Furnace!"
+			tasks: [
+				{
+					count: 8L
+					id: "08C644ED397A70A4"
+					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3FD3A3865E184E80"
+					item: { Count: 6, id: "modern_industrialization:steel_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4A6984A52369C9D3"
+					item: { Count: 5, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "0FABA3366AF15D81"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6FD6B038FC152A4A"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "591EE2DCD8CBE790"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "413451BE941648E3"
+					item: { Count: 14, id: "immersiveengineering:slab_sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "607F21448E57AF5F"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "170EC35A5314DD0B"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "A Huge Alloy Smelter"
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C206FA7F0D902A4"]
+			description: [
+				"Not the best &bArmor&r if compared to other options.. but it does provide a &aNeat Feature&r!"
+				""
+				"- 100% Immunity to &eIE's Wires&r! Usefull if you don't want to spend your precious resources &6insulating wires&r."
+			]
+			id: "263F31F1A9C68499"
+			rewards: [
+				{
+					id: "3C129EC8F798A895"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20DBDF6B53B13922"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Pharaday's Essential Equipment"
+			tasks: [
+				{
+					id: "0F5528FFBEA1ECBE"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689C5EE9BE674F0C"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E193A0A824C36D6"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77B6ED8025C92013"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "No More Damage from Wires!"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE46DAA1D5BF9C2"]
+			description: ["The Multiblock Diesel Generator can accept most standard fuels and will produce 4096 FE/t. This is equivalent to 4 standalone generators and is also slightly more fuel efficiency. Well worth building once you have access to stainless steel."]
+			icon: "immersiveengineering:generator"
+			id: "4375B7D1A756C04B"
+			optional: true
+			rewards: [
+				{
+					id: "0362B3ED89E00C07"
+					item: "immersiveengineering:radiator"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 6
+					id: "227C8DC3C7ED4C66"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "76C60409BB443270"
+					item: "immersiveengineering:fluid_pipe"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "69BDF8D9A11AFA3A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When it comes to power, diesel engines never run out of steam!"
+			tasks: [
+				{
+					count: 8L
+					id: "44B6EBDED83282B3"
+					item: { Count: 8, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "15C37B97F5E43C1F"
+					item: { Count: 4, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "11DE021FCB15918A"
+					item: { Count: 13, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "042FBD1933D034C7"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Rev Your Engines!"
+			x: -11.5d
+			y: -2.5d
+		}
+	]
+	title: "Actually Engineering"
+}

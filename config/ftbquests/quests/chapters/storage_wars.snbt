@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_wars"
+	group: "085766035AF08426"
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:limited_diamond_barrel_4"
+		tag: {
+			woodType: "acacia"
+		}
+	}
+	id: "0A92D1CF9DC08224"
+	images: [
+		{
+			alpha: 150
+			height: 2.5d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			alpha: 150
+			height: 2.5d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			alpha: 150
+			height: 2.5d
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "justanotherchiselmod:block/futura/mecontroller"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [{
+		id: "07EFBD7484EB6C86"
+		linked_quest: "5450778A20623EE7"
+		shape: "gear"
+		size: 2.0d
+		x: 3.5d
+		y: -5.5d
+	}]
+	quests: [
+		{
+			description: ["There are many varieties of &bchests&r both expandable and upgradeable in NeoTech. You can even &6enchant vanilla chests&r to increase their capacity!"]
+			id: "2A9DB7DDE2D9CB7F"
+			rewards: [
+				{
+					id: "66CC66E3D97BFCF1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enchantableblocks:storing"
+								lvl: 3s
+							}]
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "64B958B0AD0C9C1D"
+					item: {
+						Count: 1
+						id: "forcecraft:force_pack"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "14F355E5C5C199FE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(forge:chests)"
+					}
+				}
+				title: "Chests"
+				type: "item"
+			}]
+			title: "Basic Chests"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2A9DB7DDE2D9CB7F"
+				"233F05EB1C0271B1"
+			]
+			description: [
+				"All wood variants work for making &esophisticated storage&r, the recipe using acacia wood is just an example."
+				""
+				"You'll need some redstone to craft these so make sure you've looted some redstone dust or..."
+				""
+				"[ \"Refer to the \", { \"text\": \"Caveman Goes Tech Chapter\", \"underlined\": 1, color:\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"233F05EB1C0271B1\" } }, \" on how to process redstone before you've made machines.\" ]"
+			]
+			id: "0DA0C0B4C0BBDF59"
+			rewards: [{
+				id: "478A49DC1C1940AC"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F692CB3E2F3E651"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(sophisticatedstorage:base_tier_wooden_storage)"
+					}
+				}
+				title: "Base Tier Wooden Storage"
+				type: "item"
+			}]
+			title: "&eSophisticated Chests&r"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["Forget about &6Shulker Boxes&r! &eSophisticated Backpacks&r are all you will ever need."]
+			id: "38AE60B1B0AC4B7D"
+			rewards: [{
+				id: "757881E8C23E85DC"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6D901BF815771D3B"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "&6Sophisticated Backpacks&r"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"26218965EB69D84C"
+				"21A11C91269B4DB6"
+			]
+			description: ["Ancient meteors fell from the sky and inside their skystone prison you'll find schematics for advanced circuitry. Obtian a set of circuit presses and look for budding certus blocks. These can be transported back to your base and setup to grow certus crystals over time. The &bMeteorite compass&r will guide you to the meteor closest to your location. "]
+			icon: "minecraft:compass"
+			id: "77E39DB8F2806C69"
+			rewards: [
+				{
+					count: 4
+					id: "25325A90F808C3A4"
+					item: "ae2:flawless_budding_quartz"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "56FED0DD14FD7D1D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "01A1A4CB1EEB4FC9"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					id: "010F78FA19790F72"
+					structure: "ae2:meteorite"
+					title: "Locate a Meteor"
+					type: "structure"
+				}
+			]
+			title: "Intergalactic Technology"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77E39DB8F2806C69"]
+			description: [
+				"Now with some fluix you can begin working on your first network. AE2 Devices require channels on your network to operate. "
+				""
+				"Noramlly you can fit 8 devices per network but we've &ndoubled that in this pack&r to &616 channels&r. You can go even further by incorporating Controllers later, with each face providing you &664 additional channels&r to work with. "
+			]
+			id: "2E0609890471DABF"
+			rewards: [
+				{
+					count: 16
+					id: "32458538B41DFF4F"
+					item: "ae2:fluix_glass_cable"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2D479A56438D49F1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "4D43C3D35E69DEA4"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2E0609890471DABF"
+				"2E1CD296614F757A"
+			]
+			description: ["To complete the processor assembly you'll need molten redstone. You can either create this in the &6blast furnace&r, or if you have a suitable source of lava you can create it faster and more efficiently in a &6Thermo Pneumatic Processing Plant&r. The molten redstone should be piped into your assembler along with the circuit ingredients to complete the assembly."]
+			id: "7051D46F69250034"
+			rewards: [{
+				id: "221324B4A933620B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0908788670AB8987"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ae2:logic_processor)item(ae2:calculation_processor)item(ae2:engineering_processor))"
+					}
+				}
+				title: "Any Processor"
+				type: "item"
+			}]
+			title: "Completed Processor"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7051D46F69250034"]
+			description: ["The crafting terminal will allow you access all items stored within your network and craft with them directly in one place. Like most AE devices &6it will consume a channel on your network&r."]
+			id: "0B5F134C5B11532E"
+			rewards: [{
+				count: 16
+				id: "680D720070B21128"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2B093226004FCA67"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7051D46F69250034"]
+			description: ["You'll need an &bME drive&r bay to house all your storage disks. The &bME drive&r will &6use a channel&r on your network to provide digital access to all storages inserted into it."]
+			id: "0E807C2DBE3B3BFA"
+			rewards: [
+				{
+					id: "6841DE81F7E64632"
+					item: "ae2:conversion_monitor"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "22DDB165C42BA1E9"
+					item: "ae2:certus_quartz_wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "759829F98FDD9C38"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64C350B6E762F1CA"
+				"0E807C2DBE3B3BFA"
+			]
+			description: [
+				"Storage components are the core of your digital storage. They come in many sizes ranging from 1k to 256k and then even into MEGA variants. "
+				""
+				"Item storage cells can hold up to 63 &ndistinct types&r of items; the number of items they can store depends in part on how many types they're holding;"
+				""
+				"Each item type consumes a number of bytes (which varies with the cell size), and each item consumes &6one bit&r of storage, so eight items consume one byte, and a &6full stack of 64 consumes 8 bytes&r. "
+				""
+				"This will become intuitive as you use the mod but if you find this confusing there are also the &6Typeless drives&r available from &eAe2Things&r that cost a bit more but have no type limitations. "
+			]
+			id: "1D9288BC48CC6B9F"
+			rewards: [
+				{
+					count: 2
+					id: "3317CEF19D1BA2EB"
+					item: "ae2:cell_component_1k"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "61A774A6A1E478D1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "1C7A5D4995762635"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7051D46F69250034"
+				"7BC39748B698AB54"
+			]
+			description: ["&b ME Interfaces&r allow you to pipe items &ainto&r and &4out&r of your digital storage. They act a bit like an &aimport&r and &4export&r bus combined. You can set items to &4export&r in the top of the interface's UI and any items you pipe into it will automatically go into your network. "]
+			id: "22C7F2239A4709C0"
+			rewards: [
+				{
+					id: "6B56E5C3F4916AF1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5EF0F4DC951ACC37"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "5D94A817618D7797"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C3DE34C43183CD6"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22C7F2239A4709C0"]
+			description: ["The &bME storage bus&r will attach to external storage or tanks to provide access to and from them as part of your &eAE network&r."]
+			id: "6581216BEC8A093D"
+			rewards: [
+				{
+					id: "7D409D28FD378040"
+					item: {
+						Count: 1
+						id: "megacells:bulk_item_cell"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1D3C68F3AC8BAF89"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7D8E85525ACB7BDC"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E0609890471DABF"]
+			description: ["The &bcrystal resonance generator&r will passively generate some power for your digital network using the properties of fluix. Due to its unstable nature however you can only use &6one per network&r. This makes them great for starting new networks or powering one off adhoc networks."]
+			id: "59E36FF9B02570FA"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "465E895844F56F4B"
+					item: "ae2:certus_quartz_crystal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7478A1576242888C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "166D5DDE5DCA78F5"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7051D46F69250034"]
+			description: [
+				"Now that you have your items stored in your system you'll want to be able to &aimport&r and &cexport&r items to enable more advanced automations. "
+				""
+				"Craft an &ainput&r or &coutput bus&r to get started. Each one will take a channel on your network so keep that in mind. Level emitters can be used for stock keeping or limiting operations and &6do NOT&r use a &6channel&r on your network. "
+			]
+			id: "7726E419D77143C7"
+			rewards: [
+				{
+					count: 4
+					id: "2A980316181035D0"
+					item: "ae2:basic_card"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0BE254EEDABD350E"
+					item: "ae2:advanced_card"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C53CE16DFA2E3FB"
+					item: "ae2:level_emitter"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "57F9737B221A6538"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "43139EB108FF39F6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
+					}
+				}
+				title: "Any I/O Port"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7051D46F69250034"]
+			description: [
+				"&bCrafting CPUs&r are the central block for enabling your AE system to handle crafting operations for you on its own. You'll need to provide a channel on your network for each crafting cpu. "
+				""
+				"The crafting cpus are a multiblock structure of crafting storage and optionally &6crafting coprocessors&r and &6crafting monitors&r. The more complex the crafting operations, the more crafting storage each recipe will require. "
+			]
+			id: "01093F787C5765EE"
+			rewards: [
+				{
+					id: "7ADDF487BE57C759"
+					item: "ae2:crafting_accelerator"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "032507E31F27ADA6"
+					item: "ae2:crafting_monitor"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05A8130D111B208D"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01093F787C5765EE"]
+			description: [
+				"&bPattern Providers&r will allow you to insert recipes that you've set on Patterns using the &6Pattern Terminal&r. "
+				""
+				"These can be placed next to &6molecular assemblers&r to provide shape and shapeless crafting grid recipe capabilities to your system or they can be attached to machines to provide instructions for your system to use that machine to perform crafts. "
+			]
+			id: "63C56D389FF9ED91"
+			rewards: [
+				{
+					count: 4
+					id: "6B37F92CC3302C30"
+					item: "ae2:molecular_assembler"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "63A64255DA5B4EDC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "400B85FB6F547416"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7051D46F69250034"]
+			description: ["The &bannihilation&r and &bformation panes&r can place blocks or mine them when given a channel and connet to your network (or more commonly, a subnetwork). If you place annihilation panes facing upworld at &6build height&r they can collect &6skystone&r for you as well!"]
+			icon: "ae2:annihilation_plane"
+			id: "58019D271828BF15"
+			rewards: [
+				{
+					count: 16
+					id: "34AE6FFACB5F48BD"
+					item: "ae2:sky_dust"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "53F185B97FB95200"
+					item: "ae2:chest"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4FE47CB96A3E8E34"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "523550537ED97066"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "2848E3FDFBED5E9C"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D9288BC48CC6B9F"]
+			description: ["When normal storage and patterns just aren't enough for you anymore you can turn towards MEGA storage solutions. These will help millions of bytes of chemical, liquid and item data. The accumulation processors are the key component in these massive storage technology solutions."]
+			id: "236BAB236D21F31A"
+			rewards: [
+				{
+					id: "573DF66C68A48D9C"
+					item: "megacells:mega_pattern_provider"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "388CD9A0FA01DFDA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3AA09D27883F01A8"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			title: "MEGA STORAGE"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			description: ["Transporting Liquids or Items long distances can be a little bit of a hassle. &eDimensional Tanks&r and &eDimensional Chests&r can store and transfer items across large distances or even across dimensions!"]
+			id: "49702704A3D6EF3F"
+			rewards: [{
+				id: "28B456310ED9E005"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "65F179C3AA42BCD9"
+					item: "dimstorage:dimensional_tank"
+					type: "item"
+				}
+				{
+					id: "35357F3E8738BC75"
+					item: "dimstorage:dimensional_chest"
+					type: "item"
+				}
+			]
+			title: "Dimensional Storage"
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7051D46F69250034"
+				"7BC39748B698AB54"
+			]
+			description: ["The Ae2 Controller will allow you to extend your network's channels by 64 channels PER SIDE of the controller face. They also fit together into a multiblock in a variety of closed loop shapes."]
+			id: "7BF203BEF543EA4C"
+			rewards: [
+				{
+					count: 2
+					id: "1DAB1E1F6BF57C67"
+					item: "ae2:storage_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "156EA0B2129ACE68"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6109C8F90682ED56"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Assuming Direct Control"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5450778A20623EE7"]
+			description: ["In recent versions of &eApplied Energistics&r or AE for short the searchbar has been removed. to find items in your digital storage you will now have to use the &eEMI&r search bar at the bottom of your screen."]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "patchouli:item/book_blue"
+				}
+			}
+			id: "21A11C91269B4DB6"
+			rewards: [{
+				id: "1D4C5F46F9E25CA4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "72D724F135C4C17C"
+				type: "checkmark"
+			}]
+			title: "AE and how to find things"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38AE60B1B0AC4B7D"]
+			description: [
+				"&eSophisticated Backpacks&r even allow you to upgrade them with usefull utilities like a &6Void Upgrade&r which can void items automatically based on a filter you can set!"
+				""
+				"To start making upgrades, you'll need an upgrade filter. Since there are a lot of upgrades, make sure to use EMI to help you find them all!"
+			]
+			id: "50F42C867B87C99C"
+			rewards: [{
+				id: "2CC1880AB65420B8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "23A57F9557238088"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Sophisticated Upgrades"
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Storage Wars"
+}

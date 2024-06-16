@@ -1,0 +1,588 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_final_challenge"
+	group: "3D9E759ACFEA2C5B"
+	icon: "ftbneotech:ultimate_singularity"
+	id: "599E1C506FAF40D6"
+	images: [{
+		height: 1.0d
+		image: "ftbneotech:textures/quest/ftb.png"
+		rotation: 0.0d
+		width: 7.989010989010989d
+		x: -0.5d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41204853397E1E39"]
+			id: "340703A9E28A2948"
+			rewards: [{
+				id: "0BA5E00C115E2109"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apothic_attributes:long_flying"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48025392FD83F4F3"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1500000L
+			}]
+			title: "Master of LV"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "74DD256973F43192"
+			tasks: [{
+				count: 128L
+				id: "6F11CF1E114D0DA6"
+				item: "modern_industrialization:steel_plate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"340703A9E28A2948"
+				"27BF152EB09B5FBB"
+				"74DD256973F43192"
+				"0EB6073CE022A64C"
+				"6D97C0200E3B0069"
+				"53331DBF55A15D3A"
+				"73744BC1790D5FB3"
+				"765E4C5563279A17"
+				"3F552A305359B117"
+				"0BAF29952DD8004F"
+				"75FB481285668080"
+			]
+			hide_dependency_lines: true
+			id: "19779217F2431ADD"
+			rewards: [{
+				id: "25C0118E8E112332"
+				item: "stevescarts:upgrade_creative_mode"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60431799CB58656E"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 2400000L
+			}]
+			title: "Master of MV"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "0EB6073CE022A64C"
+			tasks: [{
+				count: 128L
+				id: "09AC3A1E9C4E0613"
+				item: "immersiveengineering:electron_tube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "7E9561429C810760"
+			tasks: [{
+				count: 128L
+				id: "65A15905F9CAF942"
+				item: "modern_industrialization:aluminum_plate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "7104C3E83D2338E0"
+			tasks: [{
+				count: 128L
+				id: "6DD9172F8D98876D"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "73744BC1790D5FB3"
+			tasks: [{
+				count: 32L
+				id: "39A8BEB68BAA0D42"
+				item: { Count: 32, id: "pneumaticcraft:compressed_iron_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "75FB481285668080"
+			tasks: [{
+				count: 128L
+				id: "43D6741DA4BC52AC"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "53331DBF55A15D3A"
+			tasks: [{
+				Amount: 1000000
+				FluidName: "immersiveengineering:creosote"
+				id: "217F9FBC436433B2"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			description: [
+				"Once you've got a chicken that laid the fiery egg, or an actually additions lava factory, making lava becomes much less of an issue. To that end we'll not have to keep milking the little clucker for eternity. Once you've produced 10k Buckets of lava you'll gain access to this infinite source. "
+				""
+				"NOTE: This quest is PETA approved."
+			]
+			icon: {
+				Count: 1
+				id: "modern_industrialization:creative_tank"
+				tag: {
+					BlockEntityTag: {
+						fluid: {
+							fk: {
+								fluid: "minecraft:lava"
+							}
+						}
+					}
+				}
+			}
+			id: "2E2429E06617F028"
+			rewards: [{
+				id: "021BDDFDD8295243"
+				item: {
+					Count: 1
+					id: "modern_industrialization:creative_tank"
+					tag: {
+						BlockEntityTag: {
+							fluid: {
+								fk: {
+									fluid: "minecraft:lava"
+								}
+							}
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				Amount: 10000000
+				FluidName: "minecraft:lava"
+				id: "1C52CBDE0143A5C3"
+				type: "fluid"
+			}]
+			title: "The Fires Inside"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "03950548E2EDFC8C"
+			tasks: [{
+				count: 128L
+				id: "0AE7149BD2DC7813"
+				item: "actuallyadditions:diamatine_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "421D650AC2BA7B69"
+			tasks: [{
+				count: 128L
+				id: "1CD744C7BD952245"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "0BAF29952DD8004F"
+			tasks: [{
+				count: 128L
+				id: "33FFF60120D11640"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "765E4C5563279A17"
+			tasks: [{
+				Amount: 1000000
+				FluidName: "modern_industrialization:synthetic_rubber"
+				id: "51C0B72C0D19B1B0"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "5476035E6800FCC7"
+			tasks: [{
+				Amount: 1000000
+				FluidName: "modern_industrialization:polyethylene"
+				id: "75667FC2BEF471E5"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "7A228CB97E6733B1"
+			tasks: [{
+				id: "367CEBAD731CADDA"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:clay_chicken"
+						}
+						stats: {
+							gain: 10
+							growth: 10
+							lifespan: 100
+							strength: 10
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "A Balanced Endeavor"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "27BF152EB09B5FBB"
+			tasks: [{
+				count: 128L
+				id: "385B1F6C03FBB10D"
+				item: "modern_industrialization:bronze_gear"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "3F552A305359B117"
+			tasks: [{
+				count: 128L
+				id: "724ADDA5C776F92B"
+				item: "pamhc2foodcore:epicbaconitem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "2B4ED8A4F96F1F42"
+			tasks: [{
+				count: 128L
+				id: "532498191706281C"
+				item: "justdirethings:blazegold_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "6D97C0200E3B0069"
+			tasks: [{
+				count: 128L
+				id: "33417C960DD0C950"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "2E6DBA666BC8A9A0"
+			tasks: [{
+				Amount: 1000000
+				FluidName: "modern_industrialization:boosted_diesel"
+				id: "58692B4D7F649063"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "4235CAE6BBC9D9F2"
+			tasks: [{
+				count: 16L
+				id: "25C7918F578D7B49"
+				item: { Count: 16, id: "ae2:cell_component_64k" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "5DC3F5A58957899A"
+			tasks: [{
+				count: 128L
+				id: "0DF475253A5D32B0"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "1C23EADC0C3AACC9"
+			tasks: [{
+				count: 128L
+				id: "56C190CC0D48CE6D"
+				item: "actuallyadditions:empowered_emeradic_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "2CF132EB88912C47"
+			tasks: [{
+				Amount: 1000000
+				FluidName: "modern_industrialization:cryofluid"
+				id: "4702FBBCFE72C3FC"
+				type: "fluid"
+			}]
+			title: "Iced Heart of the Machine"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "04E11038DF3B9CB8"
+			tasks: [{
+				count: 128L
+				id: "43C1B37C8950D53F"
+				item: "modern_industrialization:stainless_steel_plate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19779217F2431ADD"
+				"421D650AC2BA7B69"
+				"7E9561429C810760"
+				"2B4ED8A4F96F1F42"
+				"2E2429E06617F028"
+				"03950548E2EDFC8C"
+				"7A228CB97E6733B1"
+				"7104C3E83D2338E0"
+				"5476035E6800FCC7"
+			]
+			hide_dependency_lines: true
+			id: "038DE488F1636EF9"
+			rewards: [{
+				id: "250C772F5F2139AF"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A6C39F1E04EBDF0"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 10000000L
+			}]
+			title: "Master of HV"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"038DE488F1636EF9"
+				"2E6DBA666BC8A9A0"
+				"4235CAE6BBC9D9F2"
+				"04E11038DF3B9CB8"
+				"5DC3F5A58957899A"
+				"2CF132EB88912C47"
+				"1C23EADC0C3AACC9"
+			]
+			hide_dependency_lines: true
+			id: "7CF11091522D66DE"
+			tasks: [{
+				id: "1BB40E5D8B4CEA77"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			title: "Master of EV"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "556F811203BCBAA0"
+			tasks: [{
+				count: 128L
+				id: "4A44331774072ADB"
+				item: "modern_industrialization:titanium_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "33D10BAFEA2844EE"
+			tasks: [{
+				count: 128L
+				id: "50E24452E84B4E28"
+				item: "equivalentexchange:dark_matter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "32DF7662103830CE"
+			tasks: [{
+				count: 64L
+				id: "6562580D41BDC661"
+				item: { Count: 64, id: "modern_industrialization:quantum_circuit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "6D6B4DF3E50C0F30"
+			tasks: [{
+				count: 256L
+				id: "02515C4C2DCBDDD0"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CAA5DBE72DC0771"]
+			id: "593C8B81AC1DB4C5"
+			tasks: [{
+				Amount: 1000000
+				FluidName: "modern_industrialization:helium_plasma"
+				id: "34987EFD6377B204"
+				type: "fluid"
+			}]
+			title: "Fissile Mastery"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CAA5DBE72DC0771"]
+			id: "48055AA34B57522E"
+			tasks: [{
+				count: 128L
+				id: "52E0F75A57715E68"
+				item: "equivalentexchange:red_matter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7CF11091522D66DE"
+				"556F811203BCBAA0"
+				"6D6B4DF3E50C0F30"
+				"33D10BAFEA2844EE"
+				"32DF7662103830CE"
+			]
+			hide_dependency_lines: true
+			id: "4CAA5DBE72DC0771"
+			rewards: [{
+				id: "2156D52DDDE3B49E"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "697B06945CE1A777"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			title: "Master of Quantum"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4CAA5DBE72DC0771"
+				"593C8B81AC1DB4C5"
+				"48055AA34B57522E"
+			]
+			hide_dependency_lines: true
+			id: "5AFB1959CE6A331D"
+			rewards: [{
+				id: "20410996FBECA154"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F861382BF9B395"
+				item: "modern_industrialization:replicator"
+				type: "item"
+			}]
+			title: "Mastery of Creation"
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "The Final Challenge"
+}

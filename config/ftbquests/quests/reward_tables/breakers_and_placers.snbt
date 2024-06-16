@@ -1,0 +1,11 @@
+{
+	icon: "justdirethings:blockplacert1"
+	id: "0BB22964B97AAE1C"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "justdirethings:blockbreakert1" }
+		{ item: "justdirethings:blockplacert1" }
+	]
+	title: "Breakers and Placers"
+}

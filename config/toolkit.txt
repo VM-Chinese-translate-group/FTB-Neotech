@@ -1,0 +1,7 @@
+# Config for Toolkit 汉化新打开的
+
+# Show join message on player join will display a custom message when the player joins a server or single player world
+show_on_join_message=true
+
+# The custom message to show to players
+join_message=感谢您使用我们的汉化(≧ω≦)/出现这条代表§b汉化安装成功§f。如有任何问题欢迎加入QQ群向我们反馈§b376139397§f。

@@ -1,0 +1,1031 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv_and_me"
+	group: "71DBF4FB7368CC06"
+	icon: "modern_industrialization:analog_circuit"
+	id: "50C9A9E6CEB64B3E"
+	images: [
+		{
+			alpha: 100
+			height: 2.0d
+			image: "justdirethings:block/sensort2_bottom"
+			rotation: 45.0d
+			width: 2.0d
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: -1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43EDF843EE3FE31E"]
+			description: [
+				"The LV Steam Turbine produces 32 EU/t. Note that you need Modern Industrialization power to run MI machines. You can use Tin Cables to connect things up. "
+				""
+				"Each network of cables can only support up to a certain limit. Silver, Copper and Tin cables are LV cables. They can pull a total of 256 Eu/T. "
+				""
+				"If you need more than that you should use different cables to make seperate energy nets. In this way you could transfer up to 768 Eu/T worth of LV power. When you're ready to make even MORE power you can look at transforming up to MV or HV with transformers and using higher tier cables."
+			]
+			id: "5477727AA298B556"
+			rewards: [
+				{
+					count: 2
+					id: "0FD09C1BC5BEF17A"
+					item: "modern_industrialization:redstone_battery"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6E54DC15C17F5214"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "3803ED1096FFE446"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46EE1CB3F3BA50DA"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5477727AA298B556"]
+			description: [
+				"The assembler is used to construct many advanced machines, components and frames for technological progression. It will require power, items and sometimes fluid as inputs to create the final product. Pay attention to the EU/T requirements of the recipe to make sure you're applying the correct power required to execute the given recipe. "
+				""
+				"NOTE: You can lock input and output slots to prevent certain recipes from crafting. This is important to know for automation. Also, you're going to want A LOT of these eventually!"
+			]
+			id: "662103775B17DD6D"
+			rewards: [
+				{
+					count: 2
+					id: "548816D028804409"
+					item: "modern_industrialization:analog_circuit"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "57EAF98EBB6CDEBD"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 16
+					id: "52E53ACD1C794372"
+					item: "modern_industrialization:robot_arm"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19D8A770D1317128"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			title: "Not Quite an Autocrafter"
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: ["The Drill is an electric-powered mining implement which can be upgraded using various augments. Note that to use an augment of a higher tier, it requires all of the previous tiers to be installed."]
+			id: "488CDEEC26986984"
+			rewards: [
+				{
+					id: "426DE0B87E1AE755"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "2FD8BAC12FA5EF8A"
+					item: "actuallyadditions:drill_upgrade_silk_touch"
+					type: "item"
+				}
+				{
+					id: "3A52BA28E603BFE6"
+					item: "actuallyadditions:drill_upgrade_three_by_three"
+					type: "item"
+				}
+				{
+					id: "4A1AFAEB821E4CAE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.25d
+			tasks: [{
+				id: "4927686BF87AB809"
+				item: {
+					Count: 1
+					id: "actuallyadditions:drill_light_blue"
+					tag: {
+						"neoforge:attachments": {
+							"actuallyadditions:energy": 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Power Mining"
+			x: -17.42142857142857d
+			y: -7.349999999999998d
+		}
+		{
+			dependencies: ["0FD3CA713EDF2729"]
+			description: [
+				"&bA Chemical Reactor&r is an &aEssential Machine&r to have from &3MI&r!"
+				""
+				"- You'll house pretty much any &bChemical Reaction&r needed for &6materials and components&r."
+				""
+				"- For example, &6P-Doped Silicons&r for the &anext quest&r! =)"
+			]
+			id: "7086CCD8CF55C4AD"
+			rewards: [
+				{
+					count: 4
+					id: "4B6967F888D516E8"
+					item: "modern_industrialization:pump"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "79226DC36A80B4C2"
+					item: "modern_industrialization:basic_upgrade"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "yeah... you're right!"
+			tasks: [{
+				id: "1B05BF16854BE61B"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
+			title: "Say my name..."
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5477727AA298B556"]
+			description: ["The Polarizer gives a magnetic charge to various items. Primarily useful for making Magnetic Steel Rods."]
+			id: "26218965EB69D84C"
+			rewards: [
+				{
+					count: 4
+					id: "14FB9BC080AF29AD"
+					item: "modern_industrialization:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "359808EB4725AEAA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BB6A15BEEFB974B"
+					item: "modern_industrialization:basic_machine_hull"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11BFE98F36CB53CB"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"26218965EB69D84C"
+				"508A06D6D695131A"
+			]
+			description: [
+				"The Electric Blast Furnace is a multiblock designed for smelting. In particular, it is required for smelting Bauxite Dust into Alumin(i)um Nuggets, before you can process it in the Electrolyzer (which you will still need to smelt the dust in the EBF anyway)."
+				""
+				"Since this machine runs on electricity, you will need an LV Energy Input."
+			]
+			icon: "modern_industrialization:electric_blast_furnace"
+			id: "08FEA84BA47968A1"
+			rewards: [
+				{
+					count: 10
+					id: "2AE76C8AFE28DE66"
+					item: "modern_industrialization:heatproof_machine_casing"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0938D117FC405905"
+					item: "modern_industrialization:cupronickel_coil"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "57D5AB9431FBD882"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "1361FBAB08DACFC0"
+					item: "modern_industrialization:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "550FE8CDCECAA99C"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "01F94C6BCF77BEDB"
+					item: { Count: 15, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "6B66D4C8195F587A"
+					item: "modern_industrialization:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A19D5E3151FAF5F"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "64B72E061E024613"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08FEA84BA47968A1"]
+			description: ["To start off processing aluminum you'll smelt bauxite dust in the Electric Blast Furnace into Aluminium nuggets. You'll be able to make aluminum more efficiently a bit later but for now this is the primary method and will get you started."]
+			id: "7BC39748B698AB54"
+			rewards: [
+				{
+					count: 16
+					id: "5648A58C5182B873"
+					item: "modern_industrialization:aluminum_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "39B6F5E3FC17E705"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "699163AA2F0B57D2"
+				item: "modern_industrialization:aluminum_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E1CD296614F757A"]
+			description: [
+				"To get Silicon, you'll need to track down a Meteorite. These are easily found by using a Meteorite Compass, made by sending a Compass through the Polarizer."
+				""
+				"Each spawns 9 Flawless Budding Certus, plenty to get you going."
+			]
+			id: "69AC60052F0D4707"
+			rewards: [{
+				count: 16
+				id: "57AC596DFB2FD195"
+				item: "modern_industrialization:silicon_dust"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "10070BA26E747C40"
+				item: "modern_industrialization:silicon_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"69AC60052F0D4707"
+				"7086CCD8CF55C4AD"
+			]
+			description: ["By using Doped Silicon Plates over their regular counterparts, you can greatly increase the yield from their various recipes."]
+			id: "60035E587080FE81"
+			rewards: [
+				{
+					count: 8
+					id: "1DEC977A9044B41B"
+					item: "modern_industrialization:silicon_n_doped_plate"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D5A3B9CA59BEB37"
+					item: "modern_industrialization:silicon_p_doped_plate"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3379ABC8DA6D5D1F"
+					item: "modern_industrialization:silicon_n_doped_plate"
+					type: "item"
+				}
+				{
+					id: "69662716F32E0087"
+					item: "modern_industrialization:silicon_p_doped_plate"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422E2521D203BC72"]
+			description: [
+				"More advanced processors will be the key to unlocking many new technologies from Mekanism to MV tier to a great deal of new utility options. "
+				""
+				"[ \"Opens up the \", { \"text\": \"Mekanicles\", \"underlined\": 1, \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"648C4207E8219B27\" } }, \" questline. Head over there to continue delving deeper into Mekanism machines and processing.\" ]"
+				""
+				""
+				"[ \"Also opens up \", { \"text\": \"Kinda Mid\", \"underlined\": 1,\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D7053E25B02DB4B\" } }, \" for further progress into the MV Technology tier.\" ]"
+			]
+			id: "0FD3CA713EDF2729"
+			rewards: [
+				{
+					count: 8
+					id: "349970BCA63EC202"
+					item: "modern_industrialization:electronic_circuit"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3ECFADCC3D6E8EDC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "683EE393DA2363A2"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BC39748B698AB54"]
+			description: ["You'll be using it to &6Assemble&r the &bCurrent Tier Circuits&r of course but its good to know that it is a good idea to &2keep some for later&r as you'll be &dimproving this one for the next tier of circuit too&r!"]
+			id: "422E2521D203BC72"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "65B06DAA0FBC328B"
+					item: "modern_industrialization:electronic_circuit_board"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D01B4752BC19D03"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Just like a Surf Board... for Electronic Components!"
+			tasks: [{
+				id: "71CF9F813741A40C"
+				item: "modern_industrialization:electronic_circuit_board"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD3CA713EDF2729"]
+			description: ["It's worth upgrading your large bronze boilers into the advanced versions now that you can make the circuitry. They produce four times as much steam! Make sure you use the wrench on the multiblock to see the new shape and block requirements."]
+			id: "274A63D6351A8D02"
+			rewards: [
+				{
+					id: "68968F2A54ADB7A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5FDB63C1BB55C9C8"
+					item: "actuallyadditions:laser_relay_fluids"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "498838C6F13005D7"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FD3CA713EDF2729"]
+			description: ["&bA Distillery&r will be &2Essential&r until you're able to make yourself a &6Distillation Tower&r later in progression, until there, processing a variety of &aOils and Chemicals&r should done via &bthis machine&r."]
+			id: "3426C57547F19427"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "203F60B28023930B"
+					item: "modern_industrialization:basic_upgrade"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B58EDF0739D6B86"
+					item: "actuallyadditions:laser_relay_fluids"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "Let's make a Distiller!"
+			tasks: [{
+				id: "194C056896753D3C"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
+			title: "Distillin 'n chilling"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["508A06D6D695131A"]
+			description: [
+				"The Large Steam Boiler is a multiblock which performs the same task as many small Bronze or Steel Boilers. You can run one with just one Bronze Water Pump feeding it water, but you will eventually need up to 2 steel water pumps to fully provide enough water. "
+				""
+				"[ \"It is ideal to use a \", { \"text\": \"Steve's Cart\", \"underlined\": 1, \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"595F1E9BDF4FB832\" } }, \" Tree farm to provide burnble fuel for it.\"] "
+				""
+				"You can convert the logs to charcoal in a coke oven and burn both the charcoal and the creosote in the boiler. You may need several coke ovens to keep up with demand. One Large Bronze Boiler can support 8 LV Steam Turbines constantly."
+			]
+			icon: "modern_industrialization:large_steam_boiler"
+			id: "777928E4F16C7C96"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "200AF6A53EEE2C24"
+				item: "modern_industrialization:bronze_plated_bricks"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1EECA595E8187346"
+					item: "modern_industrialization:large_steam_boiler"
+					type: "item"
+				}
+				{
+					id: "41EA28E0B3FEC800"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "782CB1125C8F8529"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "20514C542D89B4E5"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2B669C6714620BAB"
+					item: { Count: 6, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4E4E709053F9BA58"
+					item: { Count: 2, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "3ED206003AC447D8"
+					item: { Count: 25, id: "modern_industrialization:bronze_plated_bricks" }
+					type: "item"
+				}
+			]
+			title: "Full Steam Ahead!"
+			x: -11.464285714285715d
+			y: 2.482142857142861d
+		}
+		{
+			dependencies: [
+				"7F042171234A9568"
+				"0447020F0D99B8A0"
+				"1B78B2E46C75C1FA"
+			]
+			description: ["Each machine in the LV age will require these &bBasic Machine Hulls&r. You'll use &cA LOT&r of them."]
+			id: "43EDF843EE3FE31E"
+			rewards: [
+				{
+					count: 16
+					id: "4E0A2187413F5F51"
+					item: "modern_industrialization:battery_alloy_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3392289DC179B620"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "687C73BB93DF37FE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "It's Time For LV!"
+			tasks: [{
+				id: "3A115F345CFCBE27"
+				item: "modern_industrialization:basic_machine_hull"
+				type: "item"
+			}]
+			title: "&dBasic Machine Hull&r"
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43EDF843EE3FE31E"]
+			description: ["To fuel one LV Steam Turbine, you will need either 4 Bronze Boilers or 2 Steel Boilers. You can submit this quest with either combination in your inventory."]
+			icon: "modern_industrialization:steel_boiler"
+			id: "74BC32AACDEE0B2E"
+			rewards: [
+				{
+					count: 16
+					id: "082862B1D956060A"
+					item: "forcecraft:golden_power_source"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "38E951A1B118CB03"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				icon: { Count: 2, id: "modern_industrialization:steel_boiler" }
+				id: "2F7A67A5B8C50648"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(and(item(modern_industrialization:steel_boiler)stack_size(>=2))and(item(modern_industrialization:bronze_boiler)stack_size(>=4)))"
+					}
+				}
+				title: "4 Bronze Boilers or 2 Steel Boilers"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5477727AA298B556"]
+			description: [
+				"Sounds like a really simple &bmachine&r, and in reality it is, but with its simplicity comes some &avery usefull and essential recipes&r!"
+				""
+				"- &bA Packer&r will be used to &6Print AE2 Processors&r for example!"
+			]
+			id: "3EDA94315DFEE01F"
+			rewards: [{
+				count: 4
+				id: "0B09B44A97ED353E"
+				item: "modern_industrialization:basic_upgrade"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "Let's make a Packer"
+			tasks: [{
+				id: "640366DBFE8884EF"
+				item: "modern_industrialization:electric_packer"
+				type: "item"
+			}]
+			title: "Packing Time!"
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74BC32AACDEE0B2E"]
+			description: [
+				"&bThis Machine Casing&r will be using in a variety of &6Multiblock Structures from MI&r."
+				""
+				"- Make sure to &2craft some&r."
+			]
+			id: "508A06D6D695131A"
+			rewards: [
+				{
+					count: 6
+					id: "3F354AB64E63AA75"
+					item: "modern_industrialization:heatproof_machine_casing"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4AD7A02393C08D20"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Let's make some Heatproof Machine Casings!"
+			tasks: [{
+				id: "48F063DDC9AEFB27"
+				item: "modern_industrialization:heatproof_machine_casing"
+				type: "item"
+			}]
+			title: "A Machine Casing capable of sustaining High Temps!"
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5477727AA298B556"]
+			description: [
+				"&bA Mixer&r is also a &2very essential&r machine to have from MI, as you'll be using it to &6mix&r a variety of &3Dusts&r and/or &6Materials/Components&r!"
+				""
+				"- For example, you can &6mix&r &3Quarts Dusts with a piece of Sand&r to get your first &6Silicon&r!"
+			]
+			id: "2E1CD296614F757A"
+			rewards: [{
+				count: 3
+				id: "2CD234AE08EE8B86"
+				item: "modern_industrialization:motor"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "Let's make a Mixer"
+			tasks: [{
+				id: "26FA1B2EA78B76A1"
+				item: "modern_industrialization:electric_mixer"
+				type: "item"
+			}]
+			title: "Mixing 'n Matching"
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EDA94315DFEE01F"]
+			description: [
+				"By using your recently obtained &bPacker&r, its time to make some &bPrinted Circuitry&r!"
+				""
+				"- You'll be further developing this &6Circuits into Processors&r in &2the following quests&r!"
+			]
+			id: "556012AED2B79BF6"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "59E5AEF075221973"
+					item: "ae2:printed_calculation_processor"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "11FEB17F9C83CA90"
+					item: "ae2:printed_logic_processor"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5ED823EA7B8EA1FE"
+					item: "ae2:printed_engineering_processor"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "Yeah baby, time for some AE2!"
+			tasks: [
+				{
+					id: "509A2D1D02FB2C27"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "02BF942ACEC9040E"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "2BF0093BE540B1CF"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			title: "Printing Circuits!"
+			x: -15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"69AC60052F0D4707"
+				"3EDA94315DFEE01F"
+			]
+			description: [
+				"By using your recently obtained &bPacker&r, its time to make some &bPrinted Silicon&r!"
+				""
+				"- You'll be further developing this &6Printed Wafer into Processors&r in &2the following quests&r!"
+			]
+			id: "48BDC8DF4C8952FE"
+			rewards: [{
+				count: 8
+				id: "0680E805848582F1"
+				item: "ae2:printed_silicon"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "AE2 is near!"
+			tasks: [{
+				id: "46BEC7F1D953CCB7"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			title: "Printing Silicon!"
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"48BDC8DF4C8952FE"
+				"556012AED2B79BF6"
+			]
+			description: ["&eApplied Energistics&r allows you to convert your physical items into a digital form for quick access and storage. To get started you'll need an &benergy accepter&r to convert power into a digital signal capable of energizing the network. Head over to the &eStorage Wars&r chapter to explore more into AE."]
+			id: "5450778A20623EE7"
+			rewards: [
+				{
+					count: 16
+					id: "04B31201ABD94ED2"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "29062DCC242B5BB9"
+					item: "modern_industrialization:quartz_dust"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72DD9D75F8E9D21F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "071122DB885C74E4"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			title: "Matter to Energy"
+			x: -13.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["74BC32AACDEE0B2E"]
+			description: ["Large steel tanks can hold a large buffer of liquids for steam or other resources. They also look pretty cool so have at it!"]
+			id: "2E26BC0DE9984E83"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "36B9F8BB708A2256"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "237FC2E053C1EDE5"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "28372D9007ACBFB7"
+					item: "modern_industrialization:large_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "510EC24258391984"
+					item: "modern_industrialization:large_tank_hatch"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "0FCC36E9137A962C"
+					item: { Count: 20, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+			]
+			title: "We need a bigger tank!"
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"662103775B17DD6D"
+				"390B84E04109C9A4"
+			]
+			description: [
+				"The Atomic Reconstructor can take a variety of materials and convert them to more advanced materials using energy. The item to be transformed must be placed in front of the reconstructor and then a redstone pulse applied to activate it. This requires FE Power which you can transform automatically from MI Power Cables or any FE source."
+				""
+				"[ \"This quest will open up the chapter on \", { \"text\": \"ForceCraft\", \"underlined\": 1,\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38F8175C616B1985\" } }, \", allowing you to procure power ore and force gems.\" ]"
+			]
+			id: "64C350B6E762F1CA"
+			rewards: [
+				{
+					id: "3E2022E369F82E80"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "7547AE60D1704379"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:collector_drone"
+						tag: {
+							"neoforge:attachments": {
+								"pneumaticcraft:air": 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "67C48C460367E80A"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			title: "Atomic Reconstruction"
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["662103775B17DD6D"]
+			description: ["Molten redstone is a volatile substance from superheating redstone that is used to recrystalize many advanced components. You'll want an automated supply of this eventually. You have multiple options for how you wish to process it. You can either run redstone through a steam blast furnace or you can mix with lava in a Thermopneumatic Processing Plant to process it faster and more efficiently."]
+			id: "390B84E04109C9A4"
+			rewards: [
+				{
+					id: "546A69F35C25BFFA"
+					item: "wirelessredstone:redstone_transmitter"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "727DA7157AE64CE3"
+					item: "wirelessredstone:redstone_receiver"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BF72BD2F77CEB1E"
+				item: "modern_industrialization:molten_redstone_bucket"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BC39748B698AB54"]
+			description: [
+				"The empowerer will further allow you to take reconstructed atomic matter such as void and enori crystals and empower them with material essences to create an even more refined material. The recipe for each is shown in JEI but you'll need a combination of items, the energized crystal and more power fed into the bottom of the display stands to complete the transformation."
+				""
+				"[ \"This quest opens up the chapter \", { \"text\": \"Equivalency\", \"underlined\": 1, \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68DB318D885398CB\" } }, \", head over there to continue progressing with Equivalent Exchange!\" ]"
+			]
+			id: "45859AB81C22F034"
+			rewards: [
+				{
+					count: 4
+					id: "0E65AF15CA87B892"
+					item: "actuallyadditions:display_stand"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "19284DB2EE5B5E87"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "257629046D81D598"
+				item: "actuallyadditions:empowerer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FD3CA713EDF2729"]
+			description: ["Your steam quarry can be upgraded directly into electric by using the same multiblock. This new and improved quarry will allow you to use better drills like gold, steel, and stainless. If you wish to get into petrochemicals and sustainable diesel fuels it may be worth building an oil drilling rig soon with aluminum drills for Virulent Mixture."]
+			id: "3C7306E9D6E4C130"
+			rewards: [
+				{
+					count: 32
+					id: "1C9D82C10506FCE3"
+					item: "modern_industrialization:steel_drill"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2A27A0F59BEF7536"
+					item: "modern_industrialization:gold_drill"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60F74BF64D338526"
+				item: "modern_industrialization:electric_quarry"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5477727AA298B556"]
+			description: ["&bStorage Units&r allow for saving EU for a later time. They work under the same tiering restrictions as any generators."]
+			id: "20011204769833BE"
+			rewards: [{
+				id: "30FC34316C91DDAA"
+				item: "modern_industrialization:lv_storage_unit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15FBB94ECD940082"
+				item: "modern_industrialization:lv_storage_unit"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+	]
+	title: "3. LV and Me"
+}

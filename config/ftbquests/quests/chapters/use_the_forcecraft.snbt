@@ -1,0 +1,614 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "use_the_forcecraft"
+	group: "6D0ECA7A2CCEBAC8"
+	icon: "forcecraft:force_gem"
+	id: "210106815C8C3B07"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "38F8175C616B1985"
+			rewards: [
+				{
+					id: "45B3A10D715402B1"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "forcecraft:force_and_you"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F2B23B9178CF38"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3013809C06FF2E3D"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["178B1BB7272D2AAE"]
+			id: "666F26D77909A417"
+			tasks: [{
+				id: "22A4D1D38F3C4D3F"
+				item: "forcecraft:infuser"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["666F26D77909A417"]
+			description: [
+				"As you may have noticed the Forcecraft Upgrade Tome starts at tier 0. To upgrade the book you need to apply at least one of every infusion alongside this you need to make sure you apply enough infusions for the book to get the required EXP, in the case of Tier 0 you would need to infuse a bat &bClaw&r in to a Sword, Bow or Force Armor."
+				""
+				"{@pagebreak}"
+				"A &bClaw&r can be infused in to a Force Sword giving it Sharpness 1, on a Force Bow to apply Power 1 or on Force Armor to gain Force Punch, this will increase the damage you deal by a flat amount."
+			]
+			id: "0D2944E5179C7989"
+			tasks: [{
+				id: "51E5D51A1E7A58B3"
+				item: "forcecraft:claw"
+				type: "item"
+			}]
+			title: "Tier 0"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FACE3AC16167C0F"]
+			id: "178B1BB7272D2AAE"
+			tasks: [{
+				id: "75EBF777DB13B949"
+				item: {
+					Count: 1
+					id: "forcecraft:upgrade_tome"
+					tag: {
+						points: 0
+						progressCache: ""
+						tier: 0
+						tier0: [ ]
+						tier1: [ ]
+						tier2: [ ]
+						tier3: [ ]
+						tier4: [ ]
+						tier5: [ ]
+						tier6: [ ]
+						tier7: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6938F4D183617459"]
+			id: "2FACE3AC16167C0F"
+			tasks: [{
+				id: "0E7811753091F8D6"
+				item: {
+					Count: 1
+					id: "forcecraft:force_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0D2944E5179C7989"
+				"4038ED15F35BDA1D"
+			]
+			description: ["The &bGrindstone&r is your friend when it comes to ForceCraft, it allows you to disenchant those pesky tools allowing you to use the same tool to upgrade your tome"]
+			id: "49BED0B0EA35EE05"
+			optional: true
+			tasks: [{
+				id: "3CC75E66AA23A136"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4038ED15F35BDA1D"]
+			description: ["&bSugar&r will infuse Force Tools with Efficiency, A bow infused with &bSugar&r will have it's arrows fly faster. While Force Armor infused with &bSugar&r increases the base movement speed of the entity wearing it by a flat amount"]
+			id: "4CEB7C31E5187D98"
+			tasks: [{
+				id: "47680D357693F815"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "Tier 1"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["683EF521DC0B514C"]
+			description: ["Infusing Force Axes with a &bForce Log&r gives the Axe the ability to cut down the entire tree in one go, if combined with auto smelt you will even get the Golden Fuel Source"]
+			id: "6D9F2EDCBC03EAF9"
+			tasks: [{
+				id: "449FEEDD00DBD0E0"
+				item: "forcecraft:force_log"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["666F26D77909A417"]
+			description: ["The &bForce Nugget&r is used to apply knockback 1 to a Force Sword. you will need to do this at least once to upgrade your Upgrade Tome to a Tier 1 tome."]
+			id: "4038ED15F35BDA1D"
+			tasks: [{
+				id: "52A84966AAD09E93"
+				item: "forcecraft:force_nugget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CEB7C31E5187D98"]
+			description: ["&bThe Golden Power Source&r is used on most Force Tools to infuse them with Auto Smelt, while a Force Shear infused with this will set the mobs on fire when shearing them. While Force Armor is infused it will increases the player damage by a flat amount alongside dealing fire damage to the mobs."]
+			id: "683EF521DC0B514C"
+			tasks: [{
+				id: "57BD365C2716F386"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6938F4D183617459"]
+			description: ["These shears can be used to shear more then just sheep. givem them a nice cozy winter jacket."]
+			id: "528443021C8E9212"
+			tasks: [{
+				id: "5820F62C11D9B06C"
+				item: {
+					Count: 1
+					id: "forcecraft:force_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F840BFC0C6D6A18"]
+			description: ["To craft an &bUpgrade Core&r you need to combine a force rod together with a Experience Tome, this recipe does require you to have at least 7.5 vanilla levels this equals to 100 exp points"]
+			id: "7DA4996958F6CEE4"
+			tasks: [{
+				id: "2A973525C36F15E7"
+				item: "forcecraft:upgrade_core"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7DA4996958F6CEE4"]
+			description: ["Infusing a Upgrade core with a &bBottle of Enchanting&r will result in a Experience Core, this core can be used in Force Furnaces this will make the Furnace generate more Experience."]
+			icon: "forcecraft:experience_core"
+			id: "1AED529D3647F1E5"
+			tasks: [
+				{
+					id: "4AA2CDA210E1DD50"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "783E6FE93E57CD45"
+					item: "forcecraft:experience_core"
+					type: "item"
+				}
+			]
+			title: "Experience Core"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D9F2EDCBC03EAF9"]
+			description: ["Combining a &bBottle of Enchanting&r with a book inside the infuser will result in to a Experience Tome, this tome can be used to store Exp in it for later use."]
+			icon: "forcecraft:experience_tome"
+			id: "4F840BFC0C6D6A18"
+			tasks: [
+				{
+					id: "4B2BADFD28750983"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "5ACB5DB416A2F380"
+					item: "forcecraft:experience_tome"
+					type: "item"
+				}
+			]
+			title: "Tier 2"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AED529D3647F1E5"]
+			description: ["A &bSnow Cookie&r can be used on a Force Bow will make the Bow freeze enemies when they are shot with an Arrow. while infusing an Upgrade Core will give you access to the Freezing core which unlocks Freezing Recipes in Force Furnaces"]
+			icon: "forcecraft:freezing_core"
+			id: "3C7F6DFF787242C7"
+			tasks: [
+				{
+					id: "4D3B008A2F846DC9"
+					item: "forcecraft:snow_cookie"
+					type: "item"
+				}
+				{
+					id: "34E04725C9F52A91"
+					item: "forcecraft:freezing_core"
+					type: "item"
+				}
+			]
+			title: "Freezing Upgrades"
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C7F6DFF787242C7"]
+			description: ["Infusing &bFlint&r in to a Upgrade core makes the core a Grinding Core, this Core when inserted in to a Force Furnace turns the Furnace in to a grinder."]
+			icon: "forcecraft:grinding_core"
+			id: "4A3657B2FE8C01AC"
+			tasks: [
+				{
+					id: "081AB1EE23E1A19E"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "3C5BDEFEDD4D845C"
+					item: "forcecraft:grinding_core"
+					type: "item"
+				}
+			]
+			title: "Grinding Core"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0FE702377B54AA59"]
+			description: ["A &bForce Pack&r is basically just a regular backpack, while it starts out with very few slots it can be upgraded using the infuser. These can be dyed."]
+			id: "5B7744DBE7FAC473"
+			tasks: [{
+				id: "23E623A17D9E816E"
+				item: {
+					Count: 1
+					id: "forcecraft:force_pack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "When the Backpack looks Sus"
+			x: 17.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5B7744DBE7FAC473"]
+			description: [
+				"Infusing a Force Pack with a &bForce Pack Upgrade&r will increase your Suspicious looking backpack to 8 more slots."
+				"&4Note this can only be done once per level of the Upgrade Tome."
+			]
+			id: "57960FF0B0AD4CE3"
+			progression_mode: "linear"
+			tasks: [{
+				id: "403FE21337D7A7DE"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["57960FF0B0AD4CE3"]
+			description: ["By crafting and then consuming a &bFortune Cookie&r you will gain your very own &bFortune&r. If you then decide to Infuse the &bFortune&r in to a Force Sword or Bow your Sword or Bow will gain Looting. While infusing it on any other tool will grant the tool the Fortune Enchantment. Infusing Force Armor with this will cause your fists to be enchanted with Looting."]
+			icon: "forcecraft:fortune_cookie"
+			id: "51136699F7235A31"
+			tasks: [
+				{
+					id: "509109F7E761B3C7"
+					item: "forcecraft:fortune_cookie"
+					type: "item"
+				}
+				{
+					id: "317B76F5D04DC3E7"
+					item: "forcecraft:fortune"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["51136699F7235A31"]
+			description: ["Infusing &bBlue Dye&r on to shears gives shears a &4R&r&ca&r&ei&r&2n&r&9b&r&1o&r&5w&r infusion, causing sheeps that are sheared to drop a random color of wool when sheared."]
+			id: "44FB7837207B7DC7"
+			tasks: [{
+				id: "177256C5856F4786"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			title: "&4R&r&ca&r&ei&r&2n&r&9b&r&1o&r&5w&r  Shears"
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4A3657B2FE8C01AC"]
+			description: ["Infusing a Upgrade Core with &bSugar&r will turn the core in to a Speed Upgrade, putting this inside Force Machines will do as the name implies, speed them up."]
+			icon: "forcecraft:speed_core"
+			id: "0FE702377B54AA59"
+			tasks: [
+				{
+					id: "30281F8C921A90E9"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "420EB62AD9B0EF39"
+					item: "forcecraft:speed_core"
+					type: "item"
+				}
+			]
+			title: "Speed Core"
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44FB7837207B7DC7"]
+			description: ["When infusing &barrows&r on Force bows, Swords or Armor it will infuse them with bleeding causing you to deal bleeding damage to the mobs you attack."]
+			id: "6742011125CB8D2D"
+			tasks: [{
+				id: "20E0B6A744694D12"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			title: "Tier 3"
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6742011125CB8D2D"]
+			description: ["When Infusing a Force rod with a &bPotion of Invisibility&r it will allow the player to use the potion on demand for as long as the rod has durability left, while infusing Force Armor with this will cause the Armor to render invisible showcasing your amazing skin!"]
+			id: "230AAFA286ACD2E8"
+			tasks: [{
+				id: "04FD8F34BC4D68F7"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			title: "Camo"
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["230AAFA286ACD2E8"]
+			description: [
+				"Infusing a Force Pack with a &bForce Pack Upgrade&r will increase your Suspicious looking backpack to 8 more slots."
+				"&4Note this can only be done once per level of the Upgrade Tome."
+			]
+			id: "4B585F8B8DF83998"
+			progression_mode: "linear"
+			tasks: [{
+				id: "27156155FB6113E9"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			title: "Holding 2"
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B585F8B8DF83998"]
+			description: ["Infusing Force Tools with a &bCobweb&r will give them the Silk Touch enchant."]
+			id: "702A649480D2326B"
+			tasks: [{
+				id: "5346FE72AEB40A11"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			title: "Silky"
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["702A649480D2326B"]
+			description: ["Infusing A Force Sword, Bow or Armor with a &bSpider Eye&r will give them Bane a powerful infusion that renders abilities of certain mobs useless, creepers won't explode and endermen won't teleport."]
+			id: "254E565F27707709"
+			tasks: [{
+				id: "7C44026D3A41A116"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			title: "Tier 4"
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["254E565F27707709"]
+			description: ["Infusing an upgrade core with a &bGolden Power Source&r will turn the upgrade core in to the Heat upgrade, this upgrade will allow you to smelt more items for less fuel."]
+			id: "54094729636D8022"
+			tasks: [{
+				id: "3C01B0A11FE51100"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
+			title: "Heat Upgrade"
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54094729636D8022"]
+			description: [
+				"Infusing a Force Pack with a &bForce Pack Upgrade&r will increase your Suspicious looking backpack to 8 more slots."
+				"&4Note this can only be done once per level of the Upgrade Tome."
+			]
+			id: "68862A92903BAA97"
+			progression_mode: "linear"
+			tasks: [{
+				id: "1A3EC2990223D876"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			title: "Holding 3"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["68862A92903BAA97"]
+			description: ["Infusing a Force Rod with a &bGhast Tear&r will allow the player to use the Force Rod to heal themselves, this will use up durability of the rod."]
+			id: "5B4ACD518C71C6DB"
+			tasks: [{
+				id: "65A99B16372FADC7"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "Tier 5"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B4ACD518C71C6DB"]
+			description: [
+				"Infusing a Force Pack with a &bForce Pack Upgrade&r will increase your Suspicious looking backpack to 8 more slots."
+				"&4Note this can only be done once per level of the Upgrade Tome."
+			]
+			id: "2D27A3F72288E74B"
+			progression_mode: "linear"
+			tasks: [{
+				id: "05DD6F555711E74A"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D27A3F72288E74B"]
+			description: ["Infusing a Force Sword with a &bFeather&r will allow you to proppel yourself forwards when right clicking with the sword. Be warned though as this consumes durability"]
+			id: "7CE196D535245AAC"
+			tasks: [{
+				id: "37D765F81D2B1FEB"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			title: "Wing"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CE196D535245AAC"]
+			description: ["&bEnder Pearls&r can be infused in to a Force Bow this will make enemies shot teleport to a random spot. while infusing a Force Rod or Force Sword with one will allow them to be used as a teleportation device."]
+			id: "31BBE15680ACDCD4"
+			tasks: [{
+				id: "68F8A6EC0A3FB5CA"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Tier 6"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31BBE15680ACDCD4"]
+			description: ["Infusing Force Armor with &bObsidian&r causes the entity wearing it to take less damage. while infusing tools will add unbreaking to the tools."]
+			id: "555C521AA402FCD7"
+			tasks: [{
+				id: "5A424D62723EB0D3"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Sturdy"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["555C521AA402FCD7"]
+			description: ["Infusing a Force Torch with a &bClock&r will provide you with one of the most powerful tools you can get, a &bTime Torch&r this torch will speed up nearby machines."]
+			icon: "forcecraft:time_torch"
+			id: "51D2B2D62C3FB65F"
+			tasks: [
+				{
+					id: "66A5A971A05B8B55"
+					item: "forcecraft:time_torch"
+					type: "item"
+				}
+				{
+					id: "141856D6DE650C2B"
+					item: "minecraft:clock"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51D2B2D62C3FB65F"]
+			description: ["Infusing a Force Rod with a &bGlowstone&r block will allow the user of the rod to make nearby mobs glow when used. Infusing a Force Bow will cause the shot mob to glow."]
+			id: "5481CBA06F449D82"
+			tasks: [{
+				id: "1EFC0FE281376FD5"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			title: "Tier 7"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5481CBA06F449D82"]
+			description: ["Infusing a Force Axe or Force Sword with a &bTreasure Core&r will allow mobs to start dropping treasure cards, these can be used to craft spoil bags, these bags are little goodie bags. Once you have done this you have completed all the infusions Force Craft has to offer!"]
+			id: "122C9BB17C1FE5E8"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "176A81947F682E18"
+				item: "forcecraft:treasure_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["38F8175C616B1985"]
+			id: "6938F4D183617459"
+			tasks: [{
+				id: "6B88834AE574B6D3"
+				item: "forcecraft:force_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: "Use the Force...Craft"
+}

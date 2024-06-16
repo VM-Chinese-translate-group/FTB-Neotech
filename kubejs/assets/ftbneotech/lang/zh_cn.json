@@ -1,0 +1,18 @@
+{
+  "biome.incendium.ash_barrens": "灰烬荒原",
+  "biome.incendium.infernal_dunes": "炼狱沙丘",
+  "biome.incendium.quartz_flats": "石英平地",
+  "biome.incendium.toxic_heap": "毒料堆",
+  "biome.incendium.volcanic_deltas": "火山三角洲",
+  "biome.incendium.withered_forest": "枯焦森林",
+  "biome.incendium.ashen_canyons": "灰烬峡谷",
+  "biome.incendium.sanctum": "圣所",
+  "sdrp.overworld.in": "在主世界",
+  "sdrp.overworld": "主世界",
+  "sdrp.void.in": "在科技虚空",
+  "sdrp.void": "科技虚空",
+  "sdrp.undergarden.in": "在地下花园",
+  "sdrp.undergarden": "地下花园",
+  "sdrp.spatial_storage.in": "在模拟现实",
+  "sdrp.spatial_storage": "模拟现实"
+}

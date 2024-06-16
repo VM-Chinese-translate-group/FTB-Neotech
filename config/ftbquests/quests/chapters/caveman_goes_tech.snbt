@@ -1,0 +1,1583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "caveman_goes_tech"
+	group: "71DBF4FB7368CC06"
+	icon: "modern_industrialization:forge_hammer"
+	id: "5E44F9FB0702D50E"
+	images: [
+		{
+			alpha: 100
+			height: 2.5d
+			image: "justdirethings:block/sensort1_bottom"
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			alpha: 150
+			height: 1.75d
+			image: "actuallyadditions:textures/blocks_old/block_firework_box.png"
+			rotation: 45.0d
+			width: 1.75d
+			x: 10.0d
+			y: 9.0d
+		}
+	]
+	order_index: 1
+	quest_links: [
+		{
+			id: "2BB0611ACC1A55A4"
+			linked_quest: "43EDF843EE3FE31E"
+			shape: "gear"
+			size: 2.0d
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			id: "0C601A4E769206ED"
+			linked_quest: "3FB51F0568B0896C"
+			shape: "gear"
+			size: 1.5d
+			x: 8.5d
+			y: 1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6163307643A3D854"]
+			description: [
+				"Mine up some &6raw iron ore&r and use it to crudely craft an &bEngineer's Hammer&r. While it's not the &obest&r to use, this is how we'll smash down our ores down for now."
+				""
+				"Using this hammer, you can smash &6raw iron ore&r in your crafting grid into dust. Smelt this iron dust in a furnace to obtain your first few iron ingots!"
+				""
+				"The hammer is also important for forming &eImmersive Engineering&r multiblocks!"
+			]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E505E58DAB4291F"
+			min_width: 250
+			rewards: [
+				{
+					id: "2402F54B8C309535"
+					item: {
+						Count: 1
+						id: "justhammers:diamond_hammer"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							display: {
+								Name: "{\"text\":\"Discount Quarry\",\"obfuscated\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"color\":\"#FFFFFF\",\"bold\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "580983FEDE3157E3"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "23F8E57021AC20C2"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "0608DB5438AD1765"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Engineer's Hammer&r"
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E505E58DAB4291F"]
+			description: [
+				"Now that you can make Iron Ingots, you can craft a &bForge Hammer&r! This will allow you to smash all varieties of ore and even process the ingots into plates, rings, rods, and other materials. "
+				""
+				"While it is easier to do, this method of making materials is considered very inefficient, due to the cost of remaking the hammers."
+				""
+				"You should progress onto machine processing with a &6Steam Macerator&r as soon as you're able. "
+				""
+				"{@pagebreak}"
+				"Now that you have a source of Iron, you can look into enhancing your machines and gear with an anvil and any enchanments you may find. If you're lucky enough to loot an &dEnchanting Table&r, you'll have even more options! Otherwise, you'll have to wait until you make an assembler to build your own. "
+				""
+				"This quest opens up the chapter:"
+				" "
+				"{ \"text\": \"Esoteric Enhancements\", \"color\": \"aqua\", \"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0237CB9284CFBC62\" } }"
+			]
+			id: "7B69241820241BA4"
+			min_width: 200
+			rewards: [
+				{
+					id: "2087579CA7A7ACF1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "64CF216FCD09B55F"
+					item: "pamhc2foodcore:sweetberrypieitem"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1DA02BA33D91D8F0"
+				item: "modern_industrialization:forge_hammer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B69241820241BA4"]
+			description: [
+				"After you've crafted the forge hammer, you'll want to make some &bIron Plates&r which will be used in a multitude of crafting recipes. "
+				""
+				"We'll be making an &6Alloy Kiln&r soon, so make sure to have a spare &6Engineer's Hammer&r ready!"
+			]
+			id: "28A803E69CA51EC9"
+			rewards: [
+				{
+					count: 4
+					id: "220AF1889015F6B8"
+					item: "immersiveengineering:seed"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5B301FC789D9730C"
+					item: {
+						Count: 1
+						id: "chickens:chicken_item"
+						tag: {
+							ChickenType: {
+								id: "chickens:clay_chicken"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5B196069674C2860"
+					item: "immersiveengineering:craftingtable"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B1B976AB8A4738E"
+					item: "modern_industrialization:iron_plate"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "77704B9BF5441225"
+				item: { Count: 4, id: "modern_industrialization:iron_plate" }
+				type: "item"
+			}]
+			title: "Iron Plated"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28A803E69CA51EC9"]
+			description: [
+				"The &6Alloy Kiln&r is how you'll make many alloys in the early game, including your first &6Bronze Ingots&r. It's built in a &62x2&r configuration using Alloy Kiln Bricks. "
+				""
+				"Once you've built a 2x2 cube of Kiln Bricks, right-click it with an &6Engineer's Hammer&r to form the Alloy Kiln!"
+			]
+			id: "234165E6DFE11B75"
+			rewards: [
+				{
+					count: 32
+					id: "28EB92D108294CB0"
+					item: "minecraft:sand"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "224A402CCAF5BAA7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "60AF7C3BC5B649F6"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["234165E6DFE11B75"]
+			description: ["Using our new Alloy Kiln, place in 3 &6copper&r and 1 &6tin&r ingot to alloy them into &6Bronze&r!"]
+			id: "450CD2FAA6D70842"
+			rewards: [
+				{
+					count: 8
+					id: "24A1DFB884ACC7D0"
+					item: "modern_industrialization:bronze_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4A00D973F88084F7"
+					item: "modern_industrialization:wrench"
+					type: "item"
+				}
+				{
+					id: "2574B4D6B69FE189"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "657ACDFA7BD7F6C8"
+				item: "modern_industrialization:bronze_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["450CD2FAA6D70842"]
+			description: [
+				"The &bBronze Boiler&r is your first method of producing &7Steam&r to power all of your bronze age tech! "
+				""
+				"For it to work, you'll need to first give it &9water&r, either by manually putting buckets of water in, or by piping in water from a &6Water Pump&r. It also needs some kind of &6burnable fuel&r like coal or charcoal, which can be hoppered in for now!"
+				""
+				"Once you have both pumping into the boiler, you can pump out &7Steam&r from the output face, which is the face with a square on it. This can be changed using a &6wrench&r as well!"
+			]
+			id: "71225FFFFA9BA5B2"
+			min_width: 300
+			rewards: [
+				{
+					id: "0EE80AFA985BD095"
+					item: "mekanism:basic_fluid_tank"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "184422B63E0F24FA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4AF52DDD38535255"
+					item: "undergarden:dweller_steak"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5AED8D7F95330597"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71225FFFFA9BA5B2"]
+			description: [
+				"The first few basic machines you'll want to make are the &6Bronze Furnace&r and the &6Macerator&r."
+				""
+				"The Bronze Furnace is powered by &bsteam&r to smelt items faster than a regular vanilla furnace."
+				""
+				"The &bMacerator&r is crucial to providing ore multiplication, as well as getting different byproducts from several items."
+			]
+			icon: "modern_industrialization:bronze_macerator"
+			id: "1997B0010219CB76"
+			min_width: 300
+			rewards: [
+				{
+					count: 6
+					id: "7515DBD1756F373D"
+					item: "modern_industrialization:item_pipe"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "310B5DD8E5A7F8AB"
+					item: "modern_industrialization:config_card"
+					type: "item"
+				}
+				{
+					id: "6295EE3E6047B4B3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "5814BD1597705774"
+					item: "modern_industrialization:bronze_macerator"
+					type: "item"
+				}
+				{
+					id: "230F51EFB6A094B1"
+					item: "modern_industrialization:bronze_furnace"
+					type: "item"
+				}
+			]
+			title: "Crushing and Cutting"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71225FFFFA9BA5B2"]
+			description: [
+				"The Modern Industrialization &bSteam Coke Oven&r is much faster than the Immersive Engineering variant, however it needs to be powered with &7steam&r to continually operate. This is another multiblock made just like the regular coke oven, except this one needs &6item and fluid hatches&r to function properly."
+				""
+				"While that may seem complicated, these are definitely worth making! The Oven will need 2 &6inputs&r, one for &bSteam&r (which is a fluid), and one to input &6Coal&r. This will produce 2 &6outputs&r, the Creosote Oil and Coal Coke!"
+			]
+			icon: "modern_industrialization:coke_oven"
+			id: "672486EB19E35C42"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "761DC2A962613CE2"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
+				}
+				{
+					id: "11B6D550F3D038DD"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "146BCE896284D10C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "731261B70C70354F"
+					item: "modern_industrialization:coke_oven"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "6202A7BA7F4CBCD1"
+					item: { Count: 21, id: "minecraft:bricks" }
+					type: "item"
+				}
+				{
+					id: "5F83DED4CB878D48"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1556C0025E08CFD6"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Faster Coke Oven"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28A803E69CA51EC9"]
+			description: [
+				""
+				"The &bCoke Oven&r will convert &6Coal&r into &6Coke&r over time. "
+				""
+				"To make one, you'll need to make a solid 3x3x3 cube of &6Coke Bricks&r, then right-clicking the center block of one side with an &6Engineer's Hammer&r to form the multiblock."
+				""
+				"This process creates a byproduct called &6Creosote Oil&r, which you can burn for fuel or use to create &6Treated Planks&r and &6Treated Sticks&r."
+			]
+			id: "74F2C1A86CEC0B66"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					count: 7
+					id: "5587A121B1888239"
+					item: "immersiveengineering:cokebrick"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3EF4D5DE33EF9920"
+					item: "minecraft:coal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "20162CA7E9621852"
+					type: "xp"
+					xp: 6
+				}
+				{
+					count: 3
+					id: "63F1D887F1CC5FF3"
+					item: "pamhc2crops:roastedkohlrabiitem"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 20L
+				id: "25C1F20A509FBB36"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "Slow Coke Oven"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27214FE4FFDAD2A8"]
+			description: [
+				"&6Steel&r is obtained by blasting &bUncooked Steel Dust&r in a &6Blast Furnace&r. The &6Steel Blast Furnace&r will do this faster than its Immersive Engineering counterpart."
+				""
+				"The Immersive Engineering &6Blast Furncace&r doesn't require &7Steam&r to operate and can later be upgraded with &6Blast Furnace Preheaters&r. Either way you'll need the basic &7Steam&r &6Blast Furnace&r to make the &6Immersive Blast Bricks&r"
+			]
+			id: "7F90A65B77AF8053"
+			rewards: [
+				{
+					id: "4138AB9418F5F763"
+					item: "minecraft:diamond"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5C9C9A3968203072"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "231B1245BFD216B2"
+				item: "modern_industrialization:uncooked_steel_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27214FE4FFDAD2A8"]
+			description: ["The &eImmersive Engineering&r &6Blast Furnace&r can also create &6steel&r without the need for &7steam&r. It does so at a much slower rate however, and the &6Steam Blast furnace&r is required to make the more compacted blast bricks nescesary to craft it. This is an &loptional&r multiblock you can use or not at your discretion."]
+			id: "7DF341EE0E207D72"
+			rewards: [
+				{
+					id: "77E1502EEEA4B23A"
+					item: "immersiveengineering:blastbrick"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "40C7C085B5DD678F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2D886528009CEEFF"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			title: "Immersive Blast Furnace"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71225FFFFA9BA5B2"]
+			description: [
+				"The &bSteam Blast Furnace&r is your first major &eModern Indsutrialization&r multiblock. You'll need to give it &6steam&r &2inputs&r and &6uncooked steel dust&r for it to make &6steel ingots&r."
+				""
+				"In addition the controller block, you'll need a fluid and item &2input&r as well as an item &coutput&r as shown in the quest. The remaining blocks should be fire clay bricks. You can configure the inputs and outputs many different ways. Holding the wrench or an &2input&r/&coutput&r hatch should show you where the valid placements are."
+			]
+			icon: "modern_industrialization:steam_blast_furnace"
+			id: "27214FE4FFDAD2A8"
+			min_width: 300
+			rewards: [
+				{
+					count: 9
+					id: "67AC4182A5FB1D7F"
+					item: "modern_industrialization:fire_clay_bricks"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4C71DE30F7F63F31"
+					item: "modern_industrialization:uncooked_steel_dust"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4861F3C6DB7920FB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "5CFD2B3A874A6039"
+					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "14ED3ECDDCD0B836"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3EE3B59CC82C0A4C"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "56B3A15F56B247F2"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "00274A3D9EF1F99A"
+					item: { Count: 20, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F90A65B77AF8053"]
+			description: [
+				"&bSteel&r is a hearty enough metal to open up many Industrial Machines and can be directly used to create &6upgrades&r for your &6bronze machines&r to upgrade them to their steel variants."
+				""
+				"&l&6HINT&r: You will need A LOT of this. Keep it cooking as often as possible."
+			]
+			id: "0447020F0D99B8A0"
+			rewards: [
+				{
+					count: 4
+					id: "7E3C1E40CEC1BFFE"
+					item: "immersiveengineering:component_steel"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4D699C267C07BB4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 64
+					id: "688D121D45A89CF0"
+					item: "modern_industrialization:steel_ingot"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "0C83365CBA880265"
+				item: "modern_industrialization:steel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0447020F0D99B8A0"]
+			description: [
+				"The &bWiremill&r is needed to make MOST forms of wire and fine wire. You'll be using this machine quite a bit to make circuits and more intricate machinery, items, and gear."
+				""
+				"It's &6generally worth upgrading&r to the highest tier that your current technological progression will allow for."
+			]
+			id: "540243C0DE5FF249"
+			rewards: [
+				{
+					count: 32
+					id: "1CEE13516C328EEC"
+					item: "modern_industrialization:copper_wire"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "01CC15EFA15A9191"
+					item: "pamhc2foodcore:noodlesoupitem"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5D25BBF6C2E5497A"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71225FFFFA9BA5B2"]
+			description: [
+				"&bMixers&r are used to combine multiple components and sometimes liquids into new ingredients. Make sure to pay attention to the tier of mixer required for recipes!"
+				""
+				"2 eu/t is a &bsteam mixer&r. 4 eu/t is a steel mixer, any higher than that will require an electric mixer or better."
+			]
+			id: "6751FEFB177D8044"
+			rewards: [
+				{
+					id: "32693A3AA5F9F077"
+					item: "modern_industrialization:rubber_sheet"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0FE82A382707B6CD"
+					item: "modern_industrialization:bronze_machine_casing"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "28DF99A997FD105A"
+					item: "pamhc2foodcore:trailmixitem"
+					type: "item"
+				}
+				{
+					id: "15695CB3B8AED9C0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "3EF9124AF6BB2D57"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71225FFFFA9BA5B2"]
+			description: [
+				"The &bCompressor&r will take many gem-like materials, among other things, and &6compress&r them into a useable &6plate&r form. A perfect example of this can be seen in the reward from this quest! Why 2 Diamond Plates specifically?"
+				""
+				"[ \"Head over to the \", { \"text\": \"Dimension Hopping\", \"color\":\"aqua\",\"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C8B7C3F2DBE9E03\" } }, \" chapter to see what they are for!\" ]"
+			]
+			id: "68C0BB1D128946B2"
+			rewards: [
+				{
+					count: 2
+					id: "4751944CA02B100E"
+					item: "modern_industrialization:diamond_plate"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "227DFDC7F257B7AF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "06E1C49BADC028E3"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0447020F0D99B8A0"]
+			description: ["&bSteel Boilers&r produce twice as much &7Steam&r as Bronze Boilers."]
+			id: "367B8656F529E477"
+			rewards: [
+				{
+					count: 32
+					id: "4EA4BC01F0E6F121"
+					item: "forcecraft:golden_power_source"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "42BEDE662AC9569F"
+					item: "modern_industrialization:steel_tank"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "0311EB8743442373"
+				item: "modern_industrialization:steel_boiler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0447020F0D99B8A0"]
+			description: ["&bSteel upgrades&r can be shape crafted OR applied directly to bronze tier machines in world by &6right clicking&r the upgrade onto them. This will perform an in-place upgrade to the new steel variant and immediately be ready for processing!"]
+			id: "122B11F76484AB5A"
+			rewards: [
+				{
+					count: 4
+					id: "49208AABC6087840"
+					item: "modern_industrialization:steel_upgrade"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4CE65580945A1422"
+					item: "modern_industrialization:steel_plate"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FDFF0A76ECA8B15"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5AE394A70883FA85"
+				"71568E9EF0D8808C"
+			]
+			description: [
+				"&bCompressed Iron&r is a much stronger version of the smelted iron we normally make, but it can only be created under high pressures."
+				""
+				"Unfortunately, in order to build something that can withstand that much pressure, you'll first need to &6compress Fericore Ingots&r into compressed iron to start with. Later on, you'll be able to make this directly from iron in a &bPressure Chamber&r."
+			]
+			id: "3F3A6491F8E1EFE3"
+			min_width: 250
+			rewards: [
+				{
+					id: "436C6576E326D86D"
+					item: "pneumaticcraft:compressed_iron_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0C9DDF969F688D34"
+					item: "pamhc2foodcore:basicmuttonsandwichitem"
+					type: "item"
+				}
+				{
+					id: "166A67EFD670CC15"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "55F389C99FC0A868"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1802A8883DF99AC4"]
+			description: [
+				"The &b Ferricore Ingot&r is created by allowing the &6Primogel Goo&r to absorb an &6Iron Block&r next to it. Once this process completes it will turn in to a &6crystal&r which you can mine for &63-4 Raw Ferricore&r."
+				""
+				"{@pagebreak}"
+				"[ \"Ferricore Ingots can be used to create new machines and tools! Head over to the \", { \"text\": \"Dire Technologies\", \"underlined\": 1, \"color\":\"aqua\", clickEvent\": { \"action\": \"change_page\", \"value\": \"0296A983FFF18698\" } }, \" chapter to explore this fantastical new metal ore!\" ]"
+			]
+			id: "5AE394A70883FA85"
+			rewards: [
+				{
+					count: 3
+					id: "637BFCC7986CFA30"
+					item: "justdirethings:ferricore_ingot"
+					type: "item"
+				}
+				{
+					id: "78393AB1301886F2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "075CD3DC65EEB6D1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "veinmining:vein_mining"
+								lvl: 1s
+							}]
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2A8F1D3F854824D7"
+					item: "justdirethings:ferricore_wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BFA94FBCC40C35F"
+				item: "justdirethings:ferricore_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6751FEFB177D8044"]
+			description: [
+				"With the mixer, you can now create &bPrimogel Goo&r. This mysterious goo will &6slowly transform&r some types of materials placed next to it."
+				""
+				"Start off by creating some Fericore Ingots by place a block of iron next to the goo and allowing it to completely transform into a crystal. Each crystal you mine you'll get 3-4 raw ore, and &cFortune does not affect the drop rate&r."
+			]
+			id: "1802A8883DF99AC4"
+			min_width: 250
+			rewards: [
+				{
+					id: "7DAAA7579E63B864"
+					item: "minecraft:iron_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "62537EA5088E6D39"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "31DC88EE4CECFBC9"
+				item: "justdirethings:gooblock_tier1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71225FFFFA9BA5B2"]
+			description: [
+				"Your boilers will need a constant supply of water. You can do this with buckets but that gets tedious."
+				""
+				"Build a &bBronze Water Pump&r, place water blocks around it, and then give it a steam input for power. It will generate water constantly which you can pipe to your boilers or anywhere else you need water!"
+			]
+			id: "466E534665319D44"
+			rewards: [
+				{
+					count: 6
+					id: "46E6EC1086535006"
+					item: "modern_industrialization:fluid_pipe"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26F42309A6B5A38C"
+					item: "minecraft:hopper"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C92E0D6074C8FEA"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"122B11F76484AB5A"
+				"68C0BB1D128946B2"
+			]
+			description: [
+				"The &6bronze compressor&r can do any recipes up to &64 Eu/t&r, but in order to compress Ferricore into compressed iron, we'll need a stronger compressor."
+				""
+				"The &eSteel Compressor&r can do recipes up to &e8 Eu/t&r and will be sufficient for this task!"
+			]
+			id: "71568E9EF0D8808C"
+			rewards: [
+				{
+					count: 2
+					id: "25DF1E0CE131D557"
+					item: "modern_industrialization:steel_gear"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BFEF1BFA6AD9B95"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "7BD2B8B9B70105F5"
+				item: "modern_industrialization:steel_compressor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0447020F0D99B8A0"]
+			description: [
+				"The &bSteam Quarry&r uses &7steam&r and &6Drills&r to produce resources over time. Each operation has a &6low chance to consume the drill&r so you'll want to provide it with plenty of  replacements."
+				""
+				"The good news is the system creates a more than net positive loop of resource income and is self sustaining once you fully automate it!"
+				""
+				"&l&6Note&r: Different drills and tiers will yield different ores, so check the uses to best target the ores you want the most."
+			]
+			icon: "modern_industrialization:steam_quarry"
+			id: "0DE4FE028264F30C"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "5088FF8E6DA7065A"
+					item: "modern_industrialization:bronze_drill"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7E8B7B8B133CB4B6"
+					item: "modern_industrialization:steel_item_input_hatch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "20BA3294DAE19C42"
+					item: "modern_industrialization:steel_item_output_hatch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "009D593AC61E37AB"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C8D06A87F3E998D"
+					item: "modern_industrialization:steel_machine_casing"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "14ECCD667B9E0649"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "46D8E458FCB8EE09"
+					item: "modern_industrialization:steam_quarry"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6C4A7594DDF131E0"
+					item: { Count: 16, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "432000F167A05343"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2048540E63A3A729"
+					item: { Count: 4, id: "minecraft:chain" }
+					type: "item"
+				}
+			]
+			title: "Your First &dQuarry&r!"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1997B0010219CB76"]
+			description: [
+				"Now that you have bronze, you'll be able to make &eModern Indstrialization&r pipes. These are highly versatile pipes that are absolutely worth using."
+				""
+				"You can stack up to &63 pipes in the same block space&r, you can &6dye&r them so they wont connect to each other, and you can configure each of their connection states with the wrench."
+				""
+				"Think that's cool? Just wait, there's more."
+				"  "
+				"{@pagebreak}"
+				"You can go even further create a facade out of any block for the pipes to blend seemlessly into your build by &6sneak+right clicking on a block&r you want the pipes to display as, and then &6right clicking to apply the block to the pipe bundle&r. This will consume blocks from your inventory, and can easily be popped back off when you sneak+right click the block with a wrench."
+				""
+				"And to make copying settings of pipes easier, you have been given a &6Pipe Configure Card&r!"
+				""
+				"{@pagebreak}"
+				"With this tool, you can copy settings of a pipe onto the card, and then place it in your offhand. Any pipe you place like this will automatically copy the settings on the card!"
+			]
+			icon: "modern_industrialization:config_card"
+			id: "413A68E79F0E227A"
+			min_width: 300
+			rewards: [
+				{
+					id: "55254E2D0BF5EC17"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "36B59EAA074E0E04"
+					item: "modern_industrialization:fluid_pipe"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B325B53B2667203"
+					item: "modern_industrialization:item_pipe"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6E7C30AEC73B4ABF"
+					item: "modern_industrialization:tin_cable"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "6533918264AB51E2"
+				type: "checkmark"
+			}]
+			title: "The Pipe Configurator"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27214FE4FFDAD2A8"]
+			description: [
+				"The next thing you'll need as you work towards making circuitry is some &6Rubber!&r"
+				""
+				"Rubber can be manufactured from &bSynthetic Oil&r or &bSynthetic Rubber&r at a better yield. You can make it via &ePneumaticCraft&r or a &6Mixer&r. The &ePNC&r route is more efficient but will require a bit more setup, the choice is yours."
+			]
+			id: "22942537C6878961"
+			min_width: 250
+			rewards: [
+				{
+					count: 16
+					id: "39E2D687C90917C1"
+					item: "minecraft:coal_ore"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72B4D50CD925E7A7"
+					item: "pamhc2foodcore:cookingoilitem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2178060E82DBD293"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(modern_industrialization:synthetic_oil_bucket)item(modern_industrialization:synthetic_rubber_bucket))"
+					}
+				}
+				title: "Synthetic Oil or Rubber Bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["22942537C6878961"]
+			description: ["For the next step, you'll need to turn the rubber into &bRubber Sheets&r to make your circuit plates."]
+			id: "07D6F5CC74505389"
+			rewards: [
+				{
+					count: 4
+					id: "795CFBF083DE31FE"
+					item: "modern_industrialization:copper_plate"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "08F76BA3EB1C6015"
+					item: "modern_industrialization:rubber_sheet"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1250113A46C27A54"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "13428FF70911E09E"
+				item: "modern_industrialization:rubber_sheet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["07D6F5CC74505389"]
+			description: ["&eAnalog Circuits&r are the basis for all LV technology. You'll want to make a bunch of these in bulk as crafting them one by one can get very tedious when you just need one for a craft."]
+			id: "7F042171234A9568"
+			rewards: [
+				{
+					count: 32
+					id: "7AF70E2AA3E7FC88"
+					item: "modern_industrialization:analog_circuit_board"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7A682355E6E35EC1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1E122EA0788C19B0"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			title: "We cannot Resist this"
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"540243C0DE5FF249"
+				"07D6F5CC74505389"
+			]
+			description: [
+				"&eModern industrialization&r has several different cables for each tier. For &6LV&r, for example, there is &6copper, silver and Tin Cables&r. All can transfer the same amount and there is no cable loss."
+				""
+				"The reason for the different types is that they &6wont connect with each other&r, allowing you to place &6multiple in the same blockspace&r (up to 3) for ease of wiring!"
+			]
+			id: "1B78B2E46C75C1FA"
+			min_width: 250
+			rewards: [
+				{
+					count: 8
+					id: "3F4C14F808C298CE"
+					item: "modern_industrialization:copper_cable"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5854FABAB9579606"
+					item: "modern_industrialization:silver_cable"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7EE03D5274AD1724"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2F4539ED740B4A9E"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B78B2E46C75C1FA"]
+			description: ["&eModern Industrialization&r utilizes many of these sub components in their general craft through most tiers of technology. In addition to being &6crafting ingredients&r they act as &6functional upgrades&r. For example, you can &6insert a motor into your pipes to speed them up&r. Consult the &l&6Modern Industrialization manual&r for a full list. You'll want to keep a good stock pile of these on hand."]
+			id: "3A870013B44FB3B7"
+			rewards: [
+				{
+					count: 16
+					id: "5E869A0A9202F3D6"
+					item: "modern_industrialization:steel_rod"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0317B0A211C40E42"
+					item: "modern_industrialization:tin_rotor"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "04E196C42F4C86B9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "0A50C8ED5F17F64D"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+				{
+					id: "713861F6764F61EF"
+					item: "modern_industrialization:pump"
+					type: "item"
+				}
+				{
+					id: "3E6F35161158C797"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+				{
+					id: "337192A497CA9085"
+					item: "modern_industrialization:piston"
+					type: "item"
+				}
+				{
+					id: "7980ABB35FDD343F"
+					item: "modern_industrialization:conveyor"
+					type: "item"
+				}
+			]
+			title: "Components and You"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1997B0010219CB76"]
+			description: [
+				"&dSilk Touch&r is important for maximizing your ore outputs. By mining them with silk touch, processing them in block form will give you more products and byproducts than standard mining. Luckily, Modern Industrialization provides a solution to this! The miraculous &bSteam Mining Drill&r can &6mine a 3x3&r area AND has a &6Silk Touch mode&r. "
+				""
+				"To use it, you'll need to provide it &9water&r by just having a bucket in your inventory or by right clicking a water source block. "
+				""
+				"To power the drill, open your inventory and drag a &6fuel source&r like coal over top of the drill and then &6right click on the drill&r to deposit the fuel. You can change the drill mode to silk touch by &6Shift+Right&r clicking while holding the drill&r."
+				""
+				"&lNOTE: &rLater, you'll be able to upgrade it into an FE powered drill! "
+			]
+			id: "614EF1FA7FD4F1D3"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "39AA0780A278016D"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "0E74065DE261C333"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "I had a Drill joke but it bit the dust."
+			tasks: [{
+				id: "08D7B9CE65461EBD"
+				item: {
+					Count: 1
+					id: "modern_industrialization:steam_mining_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["466E534665319D44"]
+			description: ["Upgrading to a &6Steel Pump&r will keep up with even more machines, and you can upgrade easily by applying a &bSteel Upgrade kit&r to your bronze pumps! "]
+			id: "46D457C43B8E33D4"
+			rewards: [
+				{
+					count: 8
+					id: "7DA735DEA1B48B46"
+					item: "modern_industrialization:fluid_pipe"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3411325EE6A7A31B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "67365C2243307F9B"
+				item: "modern_industrialization:steel_water_pump"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46D457C43B8E33D4"]
+			description: [
+				"If you want to upgrade your pumps further, you'll need to first craft an &6Electric Packer&r and produce some &bLapis Plates&r. With these, you can upgrade the Steel Water Pump into a &bWater Tank&r which acts as an infinite water source! "
+				""
+				"When placed near 2 blocks of water, the tank will produce 1000mb of Water 20 times per second at no fuel or &7steam&r costs!"
+			]
+			id: "4270E62828796E78"
+			rewards: [
+				{
+					id: "231AA6283FCD0A28"
+					item: "pamhc2crops:bakedwaterchestnutitem"
+					type: "item"
+				}
+				{
+					id: "100628E2E5A81434"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6F6EA73885D1D2B7"
+					item: "pneumaticcraft:small_tank"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C914907656CEE6A"
+				item: "sfm:water_tank"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B69241820241BA4"]
+			description: [
+				"&cRedstone Ore&r drops as a block and must be processed to get redstone dust. To do this, we can process it through the &bForge Hammer&r for now. Don't worry, you can increase your yield later on using machines!"
+				""
+				"[ \"Unlocks the Sophisticated Storage section of \", { \"text\": \"Storage Wars\", \"color\": \"aqua\", \"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DA0C0B4C0BBDF59\" } }]"
+			]
+			icon: "minecraft:redstone"
+			id: "233F05EB1C0271B1"
+			rewards: [
+				{
+					count: 8
+					id: "02B0F1DB97DDAF98"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2E6DFB39CFBB9A87"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19C2CD291D7879D1"
+					item: "pamhc2foodcore:fishjerkyitem"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1154D053389DAA29"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "2CADA81E2F88F425"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			title: "Powered by Sticks and Stones"
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E505E58DAB4291F"]
+			description: [
+				"If you haven't noticed, all &cbasic ore smelting mechanics have been disabled&r&r."
+				""
+				"► In order to start processing ores, &6you'll need to first start with the Forge Hammer and then move onto special machinery&r dedicated to doing so, such as the Macerator, Crushers, Enrichment Chambers and more. If you're ever stuck trying to figure out how to process an ore, it's best to refer to EMI."
+				""
+				"► &aFuture Quests&r should provide you with a bit more detailed info on each of the processing systems you may use as you unlock the technology to create them."
+				""
+				"Also, here's a cookie."
+			]
+			icon: "minecraft:iron_ore"
+			id: "2EB0250475880CAE"
+			min_width: 300
+			rewards: [
+				{
+					id: "53015D75B2C1FE93"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "3097218D70889F81"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Here's a brief explanation of the changes"
+			tasks: [{
+				id: "53A16D7EF448020A"
+				title: "Click Here"
+				type: "checkmark"
+			}]
+			title: "You're gonna Crush IT!"
+			x: -10.535714285714285d
+			y: -0.6964285714285765d
+		}
+		{
+			dependencies: [
+				"7B69241820241BA4"
+				"233F05EB1C0271B1"
+			]
+			description: [
+				"Once you have iron tier tools or better, you can harvest and process &6Gold&r! Once you have both gold and redstone, you have two very important resources for making machinery!"
+				""
+				"[ \"Head over to the \", { \"text\": \"Wheels of Fortune Chapter\", \"color\":\"aqua\",\"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"595F1E9BDF4FB832\" } }, \" if you are interested in setting up your first Tree Farm using Steve's Carts 2!\" ]"
+			]
+			id: "5E6B7B99E22305CF"
+			min_width: 300
+			rewards: [{
+				count: 8
+				id: "4337C19A24B70646"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "052934D054786C4B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "A Golden Opportunity."
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"74F2C1A86CEC0B66"
+				"672486EB19E35C42"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Creosote Oil&r from your coke ovens can be used to create a &btreated wood&r. This will enable you to craft many useful items and is a gateway into everything from chicken breeding to deeper &eImmersive Engineering&r machinery."
+				""
+				"Want to try your hand at Chicken Breeding for fun and profit? "
+				"[ \"Head on over to the \", { \"text\": \"What the Cluck?\", \"underlined\": 1, \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4BA1DFC5EAD73A91\" } }, \" chapter to get started!\" ]"
+			]
+			id: "227F02D80AE758EF"
+			min_width: 250
+			rewards: [
+				{
+					id: "0A3DF864541CDB88"
+					item: "mekanism:advanced_fluid_tank"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4672255E37FB3BD9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				count: 8L
+				id: "726E317E91D15C56"
+				item: { Count: 8, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			title: "Oily Wood"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6751FEFB177D8044"]
+			description: [
+				"The &bcutting machine&r can make some plates more efficiently but is also used for cutting blocks into plates for materials that would otherwise lack direct plate recipes. It will also give you 6 planks per log when cutting wood."
+				""
+				"It's important to note that all operations with the cutting saw take a &6small amount of lubricant&r, so automating it is advised."
+			]
+			id: "06C13C73D44093E2"
+			rewards: [
+				{
+					id: "1D201A31176BB891"
+					item: "modern_industrialization:lubricant_bucket"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "75ACABE1B37C0CAA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5A3AF51E053FCE29"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56158CC9617513D1"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "2. Caveman Goes Tech"
+}

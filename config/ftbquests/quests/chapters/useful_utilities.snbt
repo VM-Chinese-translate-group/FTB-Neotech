@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_utilities"
+	group: "085766035AF08426"
+	icon: "buildinggadgets2:gadget_building"
+	id: "1F7A0C3205D608C9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bA Building Gadget&r can pretty much &dsolve any problems that you've had or probably will have&r with &2Building&r!"
+				""
+				"- Its advised to set a keybind to open the Menu."
+				""
+				"- On its Menu, you'll be able to use a variety of &2building functions&r, like placing a row of blocks from where you're looking to where you are."
+				""
+				"Or maybe placing a grid of &etorches&r to keep your base lit. Or even placing entire &2walls, floors and ceilings&r with a single click."
+				""
+				"The Possibilities are endless! These gadgets are &2handy companions for builders&r. "
+			]
+			id: "35782B4EB04B0503"
+			rewards: [{
+				id: "282EC63D63F77DA8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			subtitle: "For Dire Builders"
+			tasks: [{
+				id: "1B1F0CB8C1AA833B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))"
+					}
+				}
+				type: "item"
+			}]
+			title: "A Dire's Gadget"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "34ED751AB0D67A16"
+			shape: "diamond"
+			tasks: [{
+				id: "6A8E98F66F0C54F1"
+				item: {
+					Count: 1
+					id: "equivalentexchange:destruction_catalyst"
+					tag: {
+						charge: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "2C32E0F1BBAE92D5"
+			shape: "diamond"
+			tasks: [{
+				id: "573AC5EFD2AE359C"
+				item: {
+					Count: 1
+					id: "equivalentexchange:mind_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "02FF25B7C34EBF9B"
+			shape: "diamond"
+			tasks: [{
+				id: "17593BAE5A89E550"
+				item: {
+					Count: 1
+					id: "equivalentexchange:body_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "63EBBD8FD7D8AD55"
+			shape: "diamond"
+			tasks: [{
+				id: "2DB16D37440A6244"
+				item: {
+					Count: 1
+					id: "equivalentexchange:soul_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38F8175C616B1985"]
+			description: [
+				"&bThis Neat Pouch&r allows you to slowly collect &eTime&r as you keep it &ain your Inventory.&r"
+				""
+				"- After some its accumulated, you can &dright click to release it into any block&r!"
+				""
+				"- And well... this is really usefull to &6quickly smelt or process something that you're in need&r!"
+			]
+			id: "2F7CEE803A6A9DAC"
+			rewards: [
+				{
+					id: "2DFBCF28270F758F"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "3BC90C6FF8D227F8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Let's make a Time in a Bottle!"
+			tasks: [{
+				id: "3404FBCF2F7E1D4D"
+				item: {
+					Count: 1
+					id: "gag:time_sand_pouch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "A Temporal Pouch for all your Temporal Problems!"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Just like the &6Compact Machines Mod&r, &bA Hyperbox&r is able to provide a &e13x13x13&r Area&r for anything that you desire!"
+				""
+				"- One thing to keep note is that you'll need to use the &bApperture Blocks&r inside of it to move items, redstone signals and even yourself &aIn and Out&r of it."
+			]
+			id: "2519F82990B1396F"
+			rewards: [
+				{
+					count: 4
+					id: "7F7DF8B66936A614"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "796195D359F241FE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			subtitle: "Let's make a HyperBox!"
+			tasks: [{
+				id: "0EB0B1AD4008315D"
+				item: "hyperbox:hyperbox"
+				type: "item"
+			}]
+			title: "A Compact Space for your Compact Machines!"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"T&bhis Powerfull Torch&r shall completely stop &cAgressive Mob Spawning&r on an radious of &a64x32 Blocks&r."
+				""
+				"- &2Very Usefull&r if you're tired of &6Mobs on your base&r!"
+			]
+			id: "69065BE30DFE89F2"
+			min_width: 300
+			rewards: [{
+				id: "0FE320AA7CF56501"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Let's make a Diamond Magnum Dong"
+			tasks: [{
+				id: "6EB2876527355ED5"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "Completely Removing Mobs from your Base!"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["The &bMagnet&r is a nifty gadget that attracts nearby item entities to you."]
+			id: "18DC7A13FC6F079E"
+			rewards: [{
+				id: "7170703ACBD93B03"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5F80C4D68EE01CB5"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			description: ["The &bHang Glider&r is a way to cross long horizontal distances, so long as you start from a high y-level."]
+			id: "672D8964978CDEE6"
+			rewards: [{
+				id: "6A7D7E810D3CC1FC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1064A759FA8DFECD"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: ["The &bSlimesling and Slime Boots&r let you travel the landscape rather quickly. The boots even protect you from fall damage, at the cost of forcing you to bounce unless you hold sneak."]
+			id: "4E9B4037A501EF08"
+			rewards: [{
+				id: "5BE12116DF720FF7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "620D01B13B252C3E"
+					item: "slimylocomotion:earth_slime_sling"
+					type: "item"
+				}
+				{
+					id: "1E90E6F89C0B99A2"
+					item: "slimylocomotion:earth_slime_boots"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			id: "1D6E686A554B5A0D"
+			shape: "square"
+			tasks: [{
+				id: "7BC9B72A474B8291"
+				item: "pneumaticcraft:aerial_interface"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "6FD0DD9CC88C6E71"
+			shape: "square"
+			tasks: [{
+				id: "2593625099F05890"
+				item: "mffs:projector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Modular Routers are versatile tools for logistics and world interaction. There are many Modules that you can insert into them, which all do different things. Most of them are self explanatory."
+				""
+				"MAKE SURE YOU ENABLE FAKE PLAYERS IN CLAIM CHUNKS!"
+			]
+			id: "0972E0D38CD8C733"
+			shape: "square"
+			tasks: [{
+				id: "15B2E2606D3E6554"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Are you tired of the Wandering Trader? Is he pushing you around while you are looking at your quests? Now you can make a sign to solve all of your problems!"
+				""
+				"This sign prevents traders from spawning in a 100 block radius from the sign."
+				""
+				"\"Or you can just keep killing them for me.\" - AlfredGG"
+			]
+			id: "631E1F73D2D6E754"
+			min_width: 250
+			rewards: [{
+				id: "00E58D1BA09274DA"
+				item: "minecraft:trader_llama_spawn_egg"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "43BA98F99E18C1E4"
+				item: "gag:no_solicitors"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+	]
+	title: "Useful Utilities"
+}
