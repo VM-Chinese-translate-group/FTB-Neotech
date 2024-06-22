@@ -6,11 +6,11 @@
   "logState": true,
   "buttons": [
     {
-      "label": "Download FTB NeoTech",
+      "label": "下载FTB NeoTech",
       "url": "https://feed-the-beast.com/modpacks/123-ftb-neotech?tab\u003dabout"
     },
     {
-      "label": "Download the FTB App",
+      "label": "下载FTB App",
       "url": "https://go.ftb.team/app"
     }
   ]
