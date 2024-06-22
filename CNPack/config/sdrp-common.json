@@ -1,0 +1,17 @@
+{
+  "clientId": 1237690966157168671,
+  "enabled": true,
+  "screenEvent": true,
+  "clientJoinEvent": false,
+  "logState": true,
+  "buttons": [
+    {
+      "label": "Download FTB NeoTech",
+      "url": "https://feed-the-beast.com/modpacks/123-ftb-neotech?tab\u003dabout"
+    },
+    {
+      "label": "Download the FTB App",
+      "url": "https://go.ftb.team/app"
+    }
+  ]
+}
