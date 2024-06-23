@@ -1,14 +1,14 @@
 {
-    "item.slimylocomotion.earth_slime_boots":"Slime Boots",
-    "item.slimylocomotion.earth_slime_boots.tooltip":"Makes you bounce when landing",
-    "item.slimylocomotion.earth_slime_sling":"Slime Sling",
-    "item.slimylocomotion.earth_slime_sling.tooltip":"Charge up, aim low, get flinging!\nUse the slime boots if you value your life!",
-    "item.slimylocomotion.ender_slime_sling":"Enderslime Sling",
-    "item.slimylocomotion.ender_slime_sling.tooltip":"Charge up, point it at a wall, come out the other side!",
-    "item.slimylocomotion.sky_slime_sling":"Skyslime Sling",
-    "item.slimylocomotion.sky_slime_sling.tooltip":"Charge up, let go, get back in the air!\nUse the slime boots if you value your life!",
-    "itemGroup.slimylocomotion":"Slimy Locomotion",
-    "subtitles.slimylocomotion.equip.slime":"Slime equips",
-    "subtitles.slimylocomotion.slime_sling":"Slime Sling bounces",
-    "subtitles.slimylocomotion.slimy_bounce":"Slimy bouncing"
+    "item.slimylocomotion.earth_slime_boots":"黏液靴子",
+    "item.slimylocomotion.earth_slime_boots.tooltip":"能让你在落地时弹跳",
+    "item.slimylocomotion.earth_slime_sling":"黏液弹弓",
+    "item.slimylocomotion.earth_slime_sling.tooltip":"蓄力，瞄准，发射！\n珍爱生命，记得使用黏液靴子！",
+    "item.slimylocomotion.ender_slime_sling":"末影黏液弹弓",
+    "item.slimylocomotion.ender_slime_sling.tooltip":"蓄力，对墙，穿梭！",
+    "item.slimylocomotion.sky_slime_sling":"碧空黏液弹弓",
+    "item.slimylocomotion.sky_slime_sling.tooltip":"蓄力，松手，腾跃！\n珍爱生命，记得使用黏液靴子！",
+    "itemGroup.slimylocomotion":"黏性运动",
+    "subtitles.slimylocomotion.equip.slime":"黏液：装备",
+    "subtitles.slimylocomotion.slime_sling":"黏液弹弓：弹起",
+    "subtitles.slimylocomotion.slimy_bounce":"黏液弹跳"
 }

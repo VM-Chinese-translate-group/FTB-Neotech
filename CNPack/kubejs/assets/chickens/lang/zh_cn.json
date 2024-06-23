@@ -90,7 +90,7 @@
     "gui.chickens.ovoscope.non_viable":"Non Viable",
     "gui.chickens.ovoscope.viable":"Viable",
     "gui.drops":"鸡死亡掉落,",
-    "gui.laying":"Laying Egg",
+    "gui.laying":"产蛋",
     "gui.laying.time":"%1$s-%2$smin。",
     "gui.throws":"Color Egg Throwing",
     "item.chickens.catcher":"鸡捕手",
