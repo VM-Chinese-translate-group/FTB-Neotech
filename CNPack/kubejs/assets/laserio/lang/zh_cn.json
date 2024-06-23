@@ -12,13 +12,13 @@
     "screen.laserio.alpha":"Alpha",
     "screen.laserio.and":"And",
     "screen.laserio.apply":"Apply",
-    "screen.laserio.blue":"Blue",
+    "screen.laserio.blue":"蓝色",
     "screen.laserio.channel":"Channel: ",
-    "screen.laserio.green":"Green",
+    "screen.laserio.green":"绿色",
     "screen.laserio.or":"Or",
-    "screen.laserio.red":"Red",
+    "screen.laserio.red":"红色",
     "screen.laserio.redstonechannel":"Redstone Channel: ",
     "screen.laserio.sensor":"Sensor",
-    "screen.laserio.settings":"Settings",
+    "screen.laserio.settings":"设置",
     "screen.laserio.wrench":"Wrench Alpha"
 }
