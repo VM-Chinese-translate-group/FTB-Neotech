@@ -11,14 +11,14 @@
   "sdrp.overworld": "主世界",
   "sdrp.void.in": "在科技虚空",
   "sdrp.void": "科技虚空",
-  "sdrp.undergarden.in": "在地下花园",
-  "sdrp.undergarden": "地下花园",
+  "sdrp.undergarden.in": "在深暗之园",
+  "sdrp.undergarden": "深暗之园",
   "sdrp.spatial_storage.in": "在模拟现实",
   "sdrp.spatial_storage": "模拟现实"
-  "item.ftbneotech.music_disc.desc": "A music disc containing main menu song",
+  "item.ftbneotech.music_disc.desc": "包含主菜单背景音乐的唱片",
 
-  "tooltip.forcecraft.force_shears": "Capable能够剪多数动物的毛！",
-  "tooltip.disabled_multiblock": "在本整合包禁用，不会形成",
+  "tooltip.forcecraft.force_shears": "能剪大多数动物的毛！",
+  "tooltip.disabled_multiblock": "在本整合包中禁用，不会形成",
 
   "tooltip.copper_amulets.iron_amulet": "佩戴时提供抗性提升 I",
   "tooltip.copper_amulets.gold_amulet": "佩戴时提供急迫 II，同时猪灵不会主动攻击你",
@@ -45,7 +45,7 @@
   
   "tooltip.mekanism.factory_upgrade": "使用工厂安装器获得工厂版本",
 
-  "tooltip.ore.highest_concentration": "highest concentration at ",
+  "tooltip.ore.highest_concentration": "最高密度位于",
 
   "info.pneumaticcraft.pcb_blueprint": "可从工程师处交易获得（在充能站工作）。",
   "info.javd.portal_block": "敌对生物：在光照等级7以下生成。\n被动生物：不生成\n天气效果：无\n昼夜循环：永日"
