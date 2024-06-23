@@ -1,7 +1,7 @@
 {
-    "block.playerplates.invisible_mossy_plate":"Mossy Cobble Pressure Plate (Invisible)",
-    "block.playerplates.invisible_obsidian_plate":"Obsidian Pressure Plate (Invisible)",
-    "block.playerplates.mossy_plate":"Mossy Cobble Pressure Plate",
-    "block.playerplates.obsidian_plate":"Obsidian Pressure Plate",
-    "itemGroup.playerplates.player_plates":"Player Plates"
+    "block.playerplates.invisible_mossy_plate":"苔石压力板（不可见）",
+    "block.playerplates.invisible_obsidian_plate":"黑曜石压力板（不可见）",
+    "block.playerplates.mossy_plate":"苔石压力板",
+    "block.playerplates.obsidian_plate":"黑曜石压力板",
+    "itemGroup.playerplates.player_plates":"更多压力板"
 }
