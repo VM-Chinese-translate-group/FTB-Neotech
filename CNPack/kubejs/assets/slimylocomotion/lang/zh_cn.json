@@ -1,0 +1,15 @@
+{
+  "itemGroup.slimylocomotion": "Slimy Locomotion",
+  "subtitles.slimylocomotion.slimy_bounce": "Slimy bouncing",
+  "subtitles.slimylocomotion.slime_sling": "Slime Sling bounces",
+  "subtitles.slimylocomotion.equip.slime": "Slime equips",
+
+  "item.slimylocomotion.earth_slime_sling": "Slime Sling",
+  "item.slimylocomotion.earth_slime_sling.tooltip": "Charge up, aim low, get flinging!\nUse the slime boots if you value your life!",
+  "item.slimylocomotion.sky_slime_sling": "Skyslime Sling",
+  "item.slimylocomotion.sky_slime_sling.tooltip": "Charge up, let go, get back in the air!\nUse the slime boots if you value your life!",
+  "item.slimylocomotion.ender_slime_sling": "Enderslime Sling",
+  "item.slimylocomotion.ender_slime_sling.tooltip": "Charge up, point it at a wall, come out the other side!",
+  "item.slimylocomotion.earth_slime_boots": "Slime Boots",
+  "item.slimylocomotion.earth_slime_boots.tooltip": "Makes you bounce when landing"
+}
