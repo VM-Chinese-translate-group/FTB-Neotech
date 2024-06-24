@@ -11,7 +11,7 @@
   ["copper_amulets:quartz_amulet", "tooltip.copper_amulets.quartz_amulet"],
   ["copper_amulets:diamond_amulet", "tooltip.copper_amulets.diamond_amulet"],
   ["copper_amulets:emerald_amulet", "tooltip.copper_amulets.emerald_amulet"],
-  ["copper_amulets:netherite_amulet", "tooltip.copper_amulets.netherite_amulet"],
+  ["copper_amulets:netherite_amulety", "tooltip.copper_amulets.netherite_amulet"],
   ["copper_amulets:end_amulet", "tooltip.copper_amulets.end_amulet"],
   ["copper_amulets:amethyst_amulet", "tooltip.copper_amulets.amethyst_amulet"],
   ["copper_amulets:echo_amulet", "tooltip.copper_amulets.echo_amulet"],
