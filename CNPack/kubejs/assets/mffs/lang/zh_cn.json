@@ -143,7 +143,7 @@
     "item.mffs.tube_mode":"Tube Mode",
     "item.mffs.warn_module":"Warn Module",
     "item.mffs.warn_module.description":"Sends a warning to intruders.",
-    "itemGroup.mffs.main":"MFFS",
+    "itemGroup.mffs.main":"模块化力场系统",
     "mffs.confiscation_mode.blacklist":"Banned",
     "mffs.confiscation_mode.whitelist":"Allowed",
     "mffs.projector_menu.down":"Down",
