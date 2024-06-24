@@ -23,7 +23,6 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
           pip install PyGithub
       - name: Json To Paratranz
@@ -38,4 +37,4 @@ jobs:
         uses: peter-evans/close-issue@v3
         with:
           comment: |
-            此模板仅由内部人员使用，已自动关闭。
+            同步完成，Issue已自动关闭。
