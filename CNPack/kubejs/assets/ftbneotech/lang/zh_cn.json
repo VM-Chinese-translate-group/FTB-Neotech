@@ -35,7 +35,7 @@
   "tooltip.copper_amulets.lucky_amulet": "佩戴时提供幸运 I",
   "tooltip.copper_amulets.obsidian_amulet": "佩戴时提供抗性提升 III，缓慢 I",
   "tooltip.copper_amulets.slime_amulet": "佩戴时提供跳跃提升 II",
-  "tooltip.copper_amulets.amulets_of_amulets": "佩戴时提供抗性提升 IV，再生 II，急迫 III，力量 V，幸运 III，速度 II，跳跃提升 III，缓降 II，水下呼吸 I，夜视 I，村庄英雄 III，火焰抗性 I",
+  "tooltip.copper_amulets.amulet_of_amulets": "佩戴时提供抗性提升 IV，再生 II，急迫 III，力量 V，幸运 III，速度 II，跳跃提升 III，缓降 II，水下呼吸 I，夜视 I，村庄英雄 III，火焰抗性 I",
 
   "tooltip.piglin_bartering": "可从猪灵处交易获得",
   "tooltip.no_hostile_spawn": "敌对生物：不生成",
