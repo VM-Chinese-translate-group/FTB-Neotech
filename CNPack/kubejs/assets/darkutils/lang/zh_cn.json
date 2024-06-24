@@ -2,7 +2,7 @@
     "block.darkutils.anchor_plate":"锚板",
     "block.darkutils.bane_plate":"祸根板",
     "block.darkutils.smite_plate":"强击板",
-    "tooltip.darkutils.anchor_plate":"让站在上面的生物强制朝向特定方向。",
-    "tooltip.darkutils.bane_plate":"让站在上面的节肢动物收到伤害。",
-    "tooltip.darkutils.smite_plate":"让站在上面的亡灵生物收到伤害。"
+    "tooltip.darkutils.anchor_plate":"让站在上面的生物强制朝向特定方向",
+    "tooltip.darkutils.bane_plate":"站在上面的节肢动物将受到伤害",
+    "tooltip.darkutils.smite_plate":"站在上面的亡灵生物将受到伤害"
 }

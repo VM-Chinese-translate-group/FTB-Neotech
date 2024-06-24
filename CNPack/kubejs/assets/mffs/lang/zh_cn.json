@@ -148,7 +148,7 @@
     "mffs.confiscation_mode.whitelist":"Allowed",
     "mffs.projector_menu.down":"Down",
     "mffs.projector_menu.east":"East",
-    "mffs.projector_menu.mode":"Mode",
+    "mffs.projector_menu.mode":"模式",
     "mffs.projector_menu.north":"North",
     "mffs.projector_menu.south":"South",
     "mffs.projector_menu.up":"Up",
@@ -177,7 +177,7 @@
     "screen.mffs.rights":"Rights",
     "screen.mffs.rights.tooltip":"Assign rights to the card to your left here.",
     "screen.mffs.transmission_rate":"Transmission rate: %s L/s",
-    "screen.mffs.upgrade":"Upgrade",
+    "screen.mffs.upgrade":"升级",
     "screen.mffs.warn_range":"Warning: %s",
     "sounds.mffs.field":"Field Sound"
 }
