@@ -48,5 +48,15 @@
   "tooltip.ore.highest_concentration": "最高密度位于",
 
   "info.pneumaticcraft.pcb_blueprint": "可从工程师处交易获得（在充能站工作）。",
-  "info.javd.portal_block": "敌对生物：在光照等级7以下生成。\n被动生物：不生成\n天气效果：无\n昼夜循环：永日"
+  "info.javd.portal_block": "敌对生物：在光照等级7以下生成。\n被动生物：不生成\n天气效果：无\n昼夜循环：永日",
+  
+  "item.ftbneotech.ender_apple": "末影苹果",
+  "item.ftbneotech.black_quartz_crushed_dust": "粉碎焦黑石英粉",
+  "item.ftbneotech.black_quartz_dust": "焦黑石英粉",
+  "item.ftbneotech.active_singularity": "不稳定奇点",
+  "item.ftbneotech.compressed_iron_curved_plate": "压缩弯曲铁板",
+  "item.ftbneotech.compressed_iron_plate": "压缩铁板",
+  "item.ftbneotech.ultimate_singularity": "终极奇点",
+  "fluid.ftbneotech.force_infused_diesel": "强力灌注柴油",
+  "item.ftbneotech.force_infused_diesel_bucket": "强力灌注柴油桶"
 }
