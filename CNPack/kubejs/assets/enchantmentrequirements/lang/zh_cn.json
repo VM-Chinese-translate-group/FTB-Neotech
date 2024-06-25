@@ -1,11 +1,11 @@
 {
-    "tooltip.enchantmentrequirements.cant_enchant":"Cannot be applied to this item",
-    "tooltip.enchantmentrequirements.cost":"Enchantment cost: %d - %d",
+    "tooltip.enchantmentrequirements.cant_enchant":"不能应用于该物品",
+    "tooltip.enchantmentrequirements.cost":"附魔消耗：%d - %d",
     "tooltip.enchantmentrequirements.cost_0":"T1: %d - %d",
     "tooltip.enchantmentrequirements.cost_1":"T2: %d - %d",
     "tooltip.enchantmentrequirements.cost_2":"T3: %d - %d",
-    "tooltip.enchantmentrequirements.power":"Enchantment power: %d",
-    "tooltip.enchantmentrequirements.table_power":"Current table power: %d",
-    "tooltip.enchantmentrequirements.true_cost":"True cost: %d - %d",
-    "tooltip.enchantmentrequirements.value":"Enchantment value: %d"
+    "tooltip.enchantmentrequirements.power":"附魔能力：%d",
+    "tooltip.enchantmentrequirements.table_power":"当前附魔台能力：%d",
+    "tooltip.enchantmentrequirements.true_cost":"真实消耗：%d - %d",
+    "tooltip.enchantmentrequirements.value":"附魔值：%d"
 }

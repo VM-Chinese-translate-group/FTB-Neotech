@@ -1,0 +1,14 @@
+{
+    "packAction.copyId.description":"按住%s复制资源包",
+    "packAction.copyId.success":"已复制资源包！",
+    "packAction.copyId.title":"复制资源包ID",
+    "packAction.reloadSettings.description":"按住%s重载资源包",
+    "packAction.reloadSettings.success":"已重载资源包！",
+    "packAction.reloadSettings.title":"重载设置",
+    "packAction.restoreDefaults.description":"按住%s恢复资源包",
+    "packAction.restoreDefaults.success":"已恢复资源包！",
+    "packAction.restoreDefaults.title":"恢复默认资源包",
+    "packAction.toggleDebug.description":"按住%s切换",
+    "packAction.toggleDebug.success":"已切换资源包！",
+    "packAction.toggleDebug.title":"切换资源包ID"
+}
