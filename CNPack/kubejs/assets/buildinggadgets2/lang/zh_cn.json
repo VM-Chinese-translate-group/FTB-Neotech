@@ -1,10 +1,10 @@
 {
-    "buildinggadgets2.messages.axistoolarge":"%s Axis too large! Max size is: %d. Size was: %d",
-    "buildinggadgets2.messages.copycoordsfailed":"Copying Coordinates Failed.",
-    "buildinggadgets2.messages.namealreadyexists":"This name is already in use, either delete it with commands or give a new name.",
-    "buildinggadgets2.messages.namerequired":"Name Required for Redprints. Please try again.",
-    "buildinggadgets2.messages.redprintremovefail":"Failed to delete redprint: %s",
-    "buildinggadgets2.messages.redprintremovesuccess":"Successfully deleted redprint: %s",
-    "buildinggadgets2.snap":"The SNAP!",
-    "item.buildinggadgets2.redprint":"Redprint"
+    "buildinggadgets2.messages.axistoolarge":"%s轴太大了！最大范围：%d。当前范围：%d",
+    "buildinggadgets2.messages.copycoordsfailed":"复制坐标失败。",
+    "buildinggadgets2.messages.namealreadyexists":"这个名字已经被使用了，使用命令将其删除或指定一个新名称。",
+    "buildinggadgets2.messages.namerequired":"红图需要一个名称。请再试一次。",
+    "buildinggadgets2.messages.redprintremovefail":"删除红图失败：%s",
+    "buildinggadgets2.messages.redprintremovesuccess":"删除红图成功：%s",
+    "buildinggadgets2.snap":"快照！",
+    "item.buildinggadgets2.redprint":"红图"
 }
