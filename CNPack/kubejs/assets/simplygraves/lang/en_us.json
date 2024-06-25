@@ -1,0 +1,23 @@
+{
+    "block.simplygraves.andesite_gravestone": "Andesite Gravestone",
+    "block.simplygraves.basselt_gravestone": "Basselt Gravestone",
+    "block.simplygraves.blackstone_gravestone": "Blackstone Gravestone",
+    "block.simplygraves.calcite_gravestone": "Calcite Gravestone",
+    "block.simplygraves.dark_prismarine_gravestone": "Dark Prismarine Gravestone",
+    "block.simplygraves.deepslate_gravestone": "Deepslate Gravestone",
+    "block.simplygraves.diorite_gravestone": "Diorite Gravestone",
+    "block.simplygraves.dripstone_gravestone": "Dripstone Gravestone",
+    "block.simplygraves.end_stone_gravestone": "End Stone Gravestone",
+    "block.simplygraves.granite_gravestone": "Granite Gravestone",
+    "block.simplygraves.gravestone_wood": "Gravestone Wood",
+    "block.simplygraves.stone_gravestone": "Stone Gravestone",
+    "simplygraves.cooldown": "Grave cooldown remaining: %s.",
+    "simplygraves.failed": "Sorry, your grave failed to place.",
+    "simplygraves.latest_grave": "Latest Grave",
+    "simplygraves.no_graves": "No graves found.",
+    "simplygraves.not_yours": "Sorry, this grave belongs to %s, please try again later...",
+    "simplygraves.server_choice": "Would you like to use graves in the future?",
+    "simplygraves.server_disabled": "The default for graves is currently disabled, and a grave has not been created for this death.",
+    "simplygraves.server_enabled": "The default for graves is currently enabled, and a grave has been created for this death.",
+    "simplygraves.success": "Your grave is located at: %s, in: %s, GraveID: %s"
+  }
