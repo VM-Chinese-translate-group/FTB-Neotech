@@ -26,7 +26,7 @@
     "gui.tempad.ready":"准备传送",
     "gui.tempad.search_field":"搜索……",
     "gui.tempad.teleport":"传送",
-    "gui.tempad.teleport_disabled":"你不能传送该坐标",
+    "gui.tempad.teleport_disabled":"你不能到传送该坐标",
     "gui.tempad.timedoor":"时间门",
     "gui.tempad.unfavorite":"取消收藏坐标",
     "gui.tempad.x":"X: %s",
