@@ -1,3 +1,4 @@
 {
-  "simplylight.redstone":"红石"
+  "itemGroup.simplylight": "简单的光源",
+  "simplylight.redstone":"红石"  
 }
