@@ -1,0 +1,11 @@
+{
+    "tooltip.enchantmentrequirements.cost": "Enchantment cost: %d - %d",
+    "tooltip.enchantmentrequirements.true_cost": "True cost: %d - %d",
+    "tooltip.enchantmentrequirements.power": "Enchantment power: %d",
+    "tooltip.enchantmentrequirements.table_power": "Current table power: %d",
+    "tooltip.enchantmentrequirements.value": "Enchantment value: %d",
+    "tooltip.enchantmentrequirements.cost_0": "T1: %d - %d",
+    "tooltip.enchantmentrequirements.cost_1": "T2: %d - %d",
+    "tooltip.enchantmentrequirements.cost_2": "T3: %d - %d",
+    "tooltip.enchantmentrequirements.cant_enchant": "Cannot be applied to this item"
+  }

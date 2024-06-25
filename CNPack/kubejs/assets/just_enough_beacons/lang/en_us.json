@@ -1,0 +1,8 @@
+{
+    "category.beacon_base_blocks": "Beacon Base Blocks",
+    "category.beacon_payments": "Beacon Payments",
+    "category.conduit_frame_blocks": "Conduit Frame Blocks",
+  
+    "jei.just_enough_beacons.payment_item.tooltip": "Extends beacon range by %s blocks when used to activate the beacon",
+    "jei.just_enough_beacons.base_blocks.tooltip": "Increases the amplifier of the primary effects to %s when used to construct the beacon"
+  }
