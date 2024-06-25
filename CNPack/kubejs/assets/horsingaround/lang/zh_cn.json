@@ -1,0 +1,9 @@
+{
+    "horsingaround.networking.summon.failed":"Failed to summon tamed entity %s",
+    "horsingaround.networking.sync.failed":"Failed to sync tamed entities %s",
+    "horsingaround.networking.unlink.failed":"Failed to unlink tamed entity %s",
+    "horsingaround.subtitle.call":"Calling companion",
+    "key.horsingaround.category":"Horsing Around",
+    "key.horsingaround.open_menu":"Open Call Menu",
+    "message.horsingaround.no_tamed_entities":"You don't have any tamed entities added to your list"
+}
