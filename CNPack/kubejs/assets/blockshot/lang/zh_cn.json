@@ -1,6 +1,6 @@
 {
     "chat.blockshot.fallback.failure":"[BlockShot] 上传失败，并且无法保存至本地：%s",
-    "chat.blockshot.fallback.success":"[BlockShot] 上传失败，录制本地另存为%s",
+    "chat.blockshot.fallback.success":"[BlockShot] 上传失败，录制在本地另存为%s",
     "chat.blockshot.prompt.blockshot":"[BlockShot]",
     "chat.blockshot.prompt.click_here":"点击这里",
     "chat.blockshot.prompt.upload_screenshot":"来上传这个截图到BlockShot",
@@ -19,7 +19,7 @@
     "gui.blockshot.history.anon_warning":"(匿名录制无法被显示)",
     "gui.blockshot.history.copy_url":"复制URL",
     "gui.blockshot.history.delete":"删除",
-    "gui.blockshot.history.download_error":"下载历史时发送了一个异常……",
+    "gui.blockshot.history.download_error":"下载历史时发生了一个异常",
     "gui.blockshot.history.how_to_record":"Ctrl + %s 来开始/结束录制",
     "gui.blockshot.history.how_to_screenshot":"%s 进行截图",
     "gui.blockshot.history.no_history":"没有发现录制",
@@ -49,10 +49,10 @@
     "gui.blockshot.settings.upload_mode.prompt":"提示",
     "gui.blockshot.title":"Block Shot",
     "key.blockshot.open_blockshot":"打开Block Shot GUI",
-    "overlay.blockshot.cancel":"按Shift + %s键以取消录制。",
+    "overlay.blockshot.cancel":"按住Shift + %s以取消录制。",
     "overlay.blockshot.encoding":"编码：剩余%s帧",
     "overlay.blockshot.encoding_frame_of":"Encoding frame %s of %s",
-    "overlay.blockshot.finish":"按Ctrl + %s键以结束录制。",
+    "overlay.blockshot.finish":"按住Ctrl + %s以结束录制。",
     "overlay.blockshot.recording":"使用BlockShot录制",
     "overlay.blockshot.uploading":"上传中"
 }
