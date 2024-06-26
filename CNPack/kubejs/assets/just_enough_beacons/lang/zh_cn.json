@@ -1,7 +1,7 @@
 {
-    "category.beacon_base_blocks":"Beacon Base Blocks",
-    "category.beacon_payments":"Beacon Payments",
-    "category.conduit_frame_blocks":"Conduit Frame Blocks",
-    "jei.just_enough_beacons.base_blocks.tooltip":"Increases the amplifier of the primary effects to %s when used to construct the beacon",
-    "jei.just_enough_beacons.payment_item.tooltip":"Extends beacon range by %s blocks when used to activate the beacon"
+    "category.beacon_base_blocks":"信标基础方块",
+    "category.beacon_payments":"信标消耗",
+    "category.conduit_frame_blocks":"潮涌核心框架方块",
+    "jei.just_enough_beacons.base_blocks.tooltip":"当用于搭建信标时，增加基础效果的强度",
+    "jei.just_enough_beacons.payment_item.tooltip":"当用于激活信标时，通过增加%s块来拓展信标范围"
 }

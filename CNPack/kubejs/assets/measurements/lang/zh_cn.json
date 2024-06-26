@@ -1,10 +1,10 @@
 {
-    "item.measurements.tape_measure":"Tape Measure",
-    "text.autoconfig.measurements.option.client":"Client",
-    "text.autoconfig.measurements.option.client.lineColor":"Line Color",
-    "text.autoconfig.measurements.option.client.lineWidth":"Line Width",
-    "text.autoconfig.measurements.option.client.lineWidthMax":"Line Width Max",
-    "text.autoconfig.measurements.option.client.textColor":"Text Color",
-    "text.autoconfig.measurements.option.client.textSize":"Text Size",
-    "text.autoconfig.measurements.title":"Measurements"
+    "item.measurements.tape_measure":"卷尺",
+    "text.autoconfig.measurements.option.client":"客户端",
+    "text.autoconfig.measurements.option.client.lineColor":"线条颜色",
+    "text.autoconfig.measurements.option.client.lineWidth":"线条宽度",
+    "text.autoconfig.measurements.option.client.lineWidthMax":"线条最大宽度",
+    "text.autoconfig.measurements.option.client.textColor":"文本颜色",
+    "text.autoconfig.measurements.option.client.textSize":"字号",
+    "text.autoconfig.measurements.title":"度量"
 }

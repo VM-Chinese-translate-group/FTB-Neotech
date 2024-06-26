@@ -1,15 +1,15 @@
 {
-    "energy_bar.polylib.capacity":"Capacity:",
-    "energy_bar.polylib.energy_storage":"Energy Storage",
+    "energy_bar.polylib.capacity":"容量：",
+    "energy_bar.polylib.energy_storage":"能量存储",
     "energy_bar.polylib.rf":"RF",
-    "energy_bar.polylib.stored":"Stored:",
-    "fluid_tank.polylib.capacity":"Capacity:",
-    "fluid_tank.polylib.contains":"Contains:",
-    "fluid_tank.polylib.fluid_storage":"Fluid Storage",
+    "energy_bar.polylib.stored":"已存储：",
+    "fluid_tank.polylib.capacity":"容量：",
+    "fluid_tank.polylib.contains":"包含：",
+    "fluid_tank.polylib.fluid_storage":"流体存储",
     "fluid_tank.polylib.mb":"mB",
-    "fluid_tank.polylib.stored":"Stored:",
-    "rs_mode.polylib.active_high":"Active with redstone signal",
-    "rs_mode.polylib.active_low":"Active without redstone signal",
-    "rs_mode.polylib.always_active":"Always active",
-    "rs_mode.polylib.never_active":"Never active"
+    "fluid_tank.polylib.stored":"已存储：",
+    "rs_mode.polylib.active_high":"有红石信号时激活",
+    "rs_mode.polylib.active_low":"无红石信号时激活",
+    "rs_mode.polylib.always_active":"始终激活",
+    "rs_mode.polylib.never_active":"从不激活"
 }

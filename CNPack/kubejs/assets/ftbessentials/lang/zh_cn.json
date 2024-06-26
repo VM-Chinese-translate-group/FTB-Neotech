@@ -1,10 +1,10 @@
 {
-    "ftbessentials.chat.status.start_record":"现在正在录制！",
-    "ftbessentials.chat.status.start_stream":"现在正在直播！",
+    "ftbessentials.chat.status.start_record":"正在录制！",
+    "ftbessentials.chat.status.start_stream":"正在直播！",
     "ftbessentials.chat.status.stop_record":"不再录制！",
     "ftbessentials.chat.status.stop_stream":"不再直播！",
     "ftbessentials.feedback.limit_radius":"将半径限制为%s",
     "ftbessentials.feedback.players_within":"%2$s米内有%1$s名玩家",
-    "ftbessentials.messages.kick_self":"你踢了你自己！",
+    "ftbessentials.messages.kick_self":"你踢了踢你自己！",
     "sidebar_button.ftbessentials.trash_can":"垃圾桶"
 }

@@ -4,13 +4,13 @@
     "block.hyperbox.hyperbox_preview":"Hyperbox",
     "block.hyperbox.hyperbox_wall":"Hyperbox Wall",
     "menu.hyperbox":"Create Hyperbox Dimension",
-    "menu.hyperbox.dimension_id_in_use":"Dimension ID is already in use",
-    "menu.hyperbox.edit_dimension":"Dimension ID",
+    "menu.hyperbox.dimension_id_in_use":"该纬度ID已被使用",
+    "menu.hyperbox.edit_dimension":"维度ID",
     "menu.hyperbox.edit_name":"Hyperbox Name",
     "menu.hyperbox.message.existing_id":"Failed to create hyperbox dimension: Dimension ID already exists: %s",
     "menu.hyperbox.message.invalid_id":"Failed to create hyperbox dimension: Non [a-z0-9/._-] character in path of location: %s",
     "menu.hyperbox.message.no_id":"Failed to create hyperbox dimension: Missing or empty dimension id",
-    "menu.hyperbox.save_and_enter":"Save & Enter",
-    "menu.hyperbox.save_and_exit":"Save & Exit",
-    "menu.hyperbox.use_default_name_checkbox":"Use Default Name"
+    "menu.hyperbox.save_and_enter":"保存 & 进入",
+    "menu.hyperbox.save_and_exit":"保存 & 退出",
+    "menu.hyperbox.use_default_name_checkbox":"使用默认名称"
 }

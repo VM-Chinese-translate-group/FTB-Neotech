@@ -1,9 +1,9 @@
 {
-    "horsingaround.networking.summon.failed":"Failed to summon tamed entity %s",
-    "horsingaround.networking.sync.failed":"Failed to sync tamed entities %s",
-    "horsingaround.networking.unlink.failed":"Failed to unlink tamed entity %s",
-    "horsingaround.subtitle.call":"Calling companion",
-    "key.horsingaround.category":"Horsing Around",
-    "key.horsingaround.open_menu":"Open Call Menu",
-    "message.horsingaround.no_tamed_entities":"You don't have any tamed entities added to your list"
+    "horsingaround.networking.summon.failed":"无法召唤被驯服的实体 %s",
+    "horsingaround.networking.sync.failed":"无法同步被驯服的实体 %s",
+    "horsingaround.networking.unlink.failed":"无法取消与被驯服的实体 %s 的连接",
+    "horsingaround.subtitle.call":"呼叫伙伴",
+    "key.horsingaround.category":"好伙伴",
+    "key.horsingaround.open_menu":"打开呼叫菜单",
+    "message.horsingaround.no_tamed_entities":"您的列表中没有添加任何被驯服的实体"
 }

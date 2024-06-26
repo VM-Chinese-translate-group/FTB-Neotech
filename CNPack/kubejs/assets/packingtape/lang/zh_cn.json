@@ -1,14 +1,14 @@
 {
-    "block.packingtape.packaged_block":"Packaged Block",
-    "item.packingtape.tape":"Packing Tape",
-    "text.packingtape.packaged.cant_place":"Can not unpack the contents here!",
-    "text.packingtape.packaged.contains":"Contains: %s",
-    "text.packingtape.packaged.missing_data":"Missing data: %s",
-    "text.packingtape.packaged.no_block":"No block info!",
-    "text.packingtape.packaged.no_item":"Can't find item for:",
-    "text.packingtape.packaged.no_nbt":"No nbt!",
-    "text.packingtape.packaged.no_tag":"No tag!",
-    "text.packingtape.packaged.unknown_block":"Unknown block:",
-    "text.packingtape.tape.requires_paper":"Requires paper to work!",
-    "text.packingtape.tape.too_big":"The targeted block contains too much data (%s bytes; limit is %s)"
+    "block.packingtape.packaged_block":"已被打包的方块",
+    "item.packingtape.tape":"打包胶带",
+    "text.packingtape.packaged.cant_place":"不能在此拆封货物！",
+    "text.packingtape.packaged.contains":"货物： %s",
+    "text.packingtape.packaged.missing_data":"丢失数据： %s",
+    "text.packingtape.packaged.no_block":"无方块信息！",
+    "text.packingtape.packaged.no_item":"找不到的物品：",
+    "text.packingtape.packaged.no_nbt":"无nbt数据！",
+    "text.packingtape.packaged.no_tag":"无tag！",
+    "text.packingtape.packaged.unknown_block":"未知方块：",
+    "text.packingtape.tape.requires_paper":"需要纸张以运作！",
+    "text.packingtape.tape.too_big":"目标方块包含太多数据（共%s字节；最大限制为%s字节）"
 }
