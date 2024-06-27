@@ -1,6 +1,6 @@
 {
-    "block.immeng.connector_me":"ME Connector",
-    "block.immeng.connector_me_relay":"ME Relay",
-    "item.immeng.wirecoil_me":"ME Wire Coil",
-    "item.immeng.wirecoil_me_dense":"Dense ME Wire Coil"
+    "block.immeng.connector_me":"ME接线器",
+    "block.immeng.connector_me_relay":"ME继电器",
+    "item.immeng.wirecoil_me":"ME线圈",
+    "item.immeng.wirecoil_me_dense":"致密ME线圈"
 }

@@ -1,7 +1,7 @@
 {
     "enchantment.betterarcheology.penetrating_strike.desc":"部分伤害无视保护附魔效果。",
     "enchantment.betterarcheology.seas_bounty.desc":"允许你捕获更多种类的宝藏。",
-    "enchantment.betterarcheology.soaring_winds.desc":"使用鞘翅时提供启动加速。",
+    "enchantment.betterarcheology.soaring_winds.desc":"使用鞘翅时提供一定的初速度",
     "enchantment.betterarcheology.tunneling.desc":"同时破坏被挖掘方块下面的方块。",
     "enchantment.deeperdarker.catalysis.desc":"击杀生物将会在其附近蔓延幽匿脉络。",
     "enchantment.deeperdarker.sculk_smite.desc":"对幽匿生物造成额外伤害。",
@@ -20,6 +20,6 @@
     "enchantment.shieldsplus.reinforced.desc":"提升盾牌格挡的伤害值。",
     "enchantment.shieldsplus.shield_bash.desc":"让盾牌能够进行盾击。",
     "enchantment.stalwart_dungeons.thunder_strike.desc":"赋予锤召唤闪电的能力。",
-    "enchdesc.activate.message":"按住shift以查看魔咒描述。",
+    "enchdesc.activate.message":"按住shift以查看描述",
     "enchdesc.jei.compatible_items.title":"兼容物品"
 }

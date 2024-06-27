@@ -61,7 +61,7 @@
     "ftbteams.not_officer":"%s不是%s的管理员!",
     "ftbteams.owner_cant_leave":"你必须在离开之前转移团队的拥有权！",
     "ftbteams.party_api_only":"在这个整合包你不能直接创建团队！",
-    "ftbteams.player_already_in_party":"'%s' 玩家已经在队伍里了！",
+    "ftbteams.player_already_in_party":"%s玩家已经在队伍里了！",
     "ftbteams.privacy_mode.allies":"盟友",
     "ftbteams.privacy_mode.private":"私有",
     "ftbteams.privacy_mode.public":"公开",
