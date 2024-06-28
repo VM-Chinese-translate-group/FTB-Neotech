@@ -29,6 +29,6 @@
     "item.justhammers.stone_reinforced_hammer":"石加固锤",
     "item.justhammers.stone_reinforced_impact_hammer":"石加固冲撞锤",
     "itemGroup.justhammers.justhammers_tab":"Just Hammers",
-    "justhammers.tooltip.durability_warning":"锤子耐久值接近0%！",
+    "justhammers.tooltip.durability_warning":"锤子耐久度接近0%！",
     "justhammers.tooltip.size":"挖掘%sx%sx%s区域"
 }
