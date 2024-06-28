@@ -1,0 +1,606 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "esoteric_enhancements"
+	group: "6D0ECA7A2CCEBAC8"
+	icon: "minecraft:enchanting_table"
+	id: "0237CB9284CFBC62"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B69241820241BA4"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests0.description}"]
+			icon: "minecraft:enchanting_table"
+			id: "7A42E72590E4F660"
+			rewards: [
+				{
+					id: "1470930770C93945"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C74A86B3D367149"
+					item: {
+						Count: 1
+						id: "forcecraft:experience_tome"
+						tag: {
+							Enchantments: [
+								{
+									id: "enderzoology:soulbound"
+									lvl: 2s
+								}
+							]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "793FE69E4948F7A1"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:enchanting_table)item(minecraft:anvil))"
+						}
+					}
+					title: "{ftbquests.chapter.esoteric_enhancements.quests0.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests0.title}"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A42E72590E4F660"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests1.description}"]
+			icon: "minecraft:chest"
+			id: "7689F4C15E666223"
+			rewards: [
+				{
+					id: "7CD2C2E269E12E8F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:storing"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "65CC35684A52650D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:exporting"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "6A0972B11756D98A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:speed"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "25B3446319A6D201"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "765C1A32829A9226"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "405A92C74F46BCE2"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "5B7A7C10CD18D0B3"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests1.title}"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests2.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "enchantableblocks:storing"
+							lvl: 2s
+						}
+					]
+				}
+			}
+			id: "6A580F500AAD9592"
+			optional: "true"
+			rewards: [
+				{
+					id: "5889C6E5BD5947A4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:storing"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					count: 4L
+					id: "3E2DBCF6C9EF7459"
+					item: {
+						Count: 4
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests2.title}"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests3.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "enchantableblocks:preservation"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "01AEB8BAA5C5A816"
+			optional: "true"
+			rewards: [
+				{
+					id: "17083042076BB347"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:preservation"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					id: "3BA52792F4CDDC31"
+					item: {
+						Count: 1
+						id: "packingtape:tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests3.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests4.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "enchantableblocks:exporting"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "3F666BBE79F04F28"
+			optional: "true"
+			rewards: [
+				{
+					id: "0164A69453C51673"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:exporting"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					count: 4L
+					id: "456FF4FC22503DD4"
+					item: {
+						Count: 4
+						id: "minecraft:dried_kelp"
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests4.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests5.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "enchantableblocks:speed"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "7F41C813F65A7483"
+			optional: "true"
+			rewards: [
+				{
+					id: "1E3BDB1D7A3DC559"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:speed"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					id: "17EF64539FCC6817"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests5.title}"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests6.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "enchantableblocks:solar_radiance"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "5D9841B839953A13"
+			optional: "true"
+			rewards: [
+				{
+					id: "669F4F96D855E038"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:solar_radiance"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					id: "0ACCE62FB2DC0849"
+					item: "stevescarts:component_advanced_solar_panel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests6.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests7.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "enchantableblocks:fuel_efficiency"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "534D9C1A7932B2AE"
+			optional: "true"
+			rewards: [
+				{
+					id: "38F2D05FC0EF567D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enchantableblocks:fuel_efficiency"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					id: "559B0EB346A41994"
+					item: "justdirethings:coal_t1"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests7.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A42E72590E4F660"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests8.description}"]
+			id: "4293988E5B80B666"
+			rewards: [
+				{
+					count: 2
+					id: "36610F7CBF3B421B"
+					item: "modern_industrialization:bronze_gear"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "4C4CD5DBFEA312F6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6D74EB02143300B7"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests8.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7689F4C15E666223"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests9.description}"]
+			hide_dependency_lines: "true"
+			icon: "forcecraft:soul_wafer"
+			id: "3A18BC92479CC171"
+			optional: "true"
+			rewards: [
+				{
+					id: "738C2EF0C39323A4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "enderzoology:soulbound"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "4A292D3B0DB04BB0"
+					points: "false"
+					type: "xp"
+					value: 10L
+				}
+				{
+					consume_items: "true"
+					id: "3EB446659C371706"
+					item: "forcecraft:soul_wafer"
+					type: "item"
+				}
+				{
+					consume_items: "true"
+					id: "6785C81A40A0F47A"
+					item: "equivalentexchange:covalence_dust_high"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests9.title}"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: "true"
+			dependencies: ["7A42E72590E4F660"]
+			description: ["{ftbquests.chapter.esoteric_enhancements.quests10.description}"]
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "6C381FDFCC5840F4"
+			optional: "true"
+			rewards: [
+				{
+					id: "74D175CD8D434D58"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: "true"
+					id: "26026C8A87241CEB"
+					item: "actuallyadditions:emeradic_crystal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.esoteric_enhancements.quests10.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.esoteric_enhancements.title}"
+}

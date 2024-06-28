@@ -1,0 +1,899 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "the_garden_beneath"
+	group: "085766035AF08426"
+	icon: "minecraft:end_portal_frame"
+	id: "22A8872BFDA3DB0A"
+	images: [
+		{
+			alpha: 100
+			height: 1.5d
+			image: "minecraft:block/nether_portal"
+			order: -2
+			rotation: 45.0d
+			width: 1.5d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/nether_star"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "sophisticatedstorage:block/gold_barrel_top"
+			rotation: 45.0d
+			width: 1.5d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 1.5d
+			image: "sophisticatedstorage:block/barrel_top_tintable_accent"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68C0BB1D128946B2"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests0.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests0.description2}"
+			]
+			icon: "undergarden:catalyst"
+			id: "7C8B7C3F2DBE9E03"
+			rewards: [
+				{
+					count: 14
+					id: "76F89E55394BA1BA"
+					item: "minecraft:stone_bricks"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "366C4025468543F8"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1137106A62029655"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: {
+							BiomeKey: "undergarden:smog_spires"
+							DisplayCoordinates: 1b
+							FoundX: 251
+							FoundZ: 910
+							Samples: 1481
+							SearchRadius: 2000
+							State: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_garden_beneath.quests0.subtitle}"
+			tasks: [
+				{
+					id: "29D40EAEF7F80304"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					id: "44C3E22780FE3B3E"
+					title: "{ftbquests.chapter.the_garden_beneath.quests0.tasks1.title}"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests0.title}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests1.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests1.description2}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests1.description4}"
+			]
+			icon: "undergarden:depthrock_diamond_ore"
+			id: "7CCE99E8C6A1B3CB"
+			rewards: [
+				{
+					id: "7FC341717F33D588"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "2B9A8B1E365489B6"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4F6A3E0857ED1BDD"
+					item: "minecraft:diamond"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "157AA748BDB92C8E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(undergarden:depthrock_diamond_ore)item(undergarden:shiverstone_diamond_ore))"
+						}
+					}
+					title: "{ftbquests.chapter.the_garden_beneath.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests2.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests2.description2}"
+			]
+			icon: "undergarden:blood_mushroom"
+			id: "6AF1534D272A12CE"
+			rewards: [
+				{
+					id: "52636891607392A2"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "undergarden:brittleness"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5204602C0A649490"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(undergarden:veil_mushroom)item(undergarden:ink_mushroom)item(undergarden:blood_mushroom))"
+						}
+					}
+					title: "{ftbquests.chapter.the_garden_beneath.quests2.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests2.title}"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests3.description}"]
+			icon: "undergarden:gloomgourd"
+			id: "2AF1ED5C4B7FEBF7"
+			rewards: [
+				{
+					id: "2E827F00794F0A5A"
+					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+				{
+					id: "271EE9AC0C66B4BB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "0C182143A7771FEC"
+					item: "undergarden:gloomgourd"
+					type: "item"
+				}
+				{
+					id: "5D1E0BB27D0F50E2"
+					item: "undergarden:underbeans"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests3.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF1ED5C4B7FEBF7"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests4.description}"]
+			id: "7ECADB519EF47A12"
+			optional: "true"
+			rewards: [
+				{
+					count: 4
+					id: "0A769B4B8DC5A741"
+					item: "minecraft:blaze_powder"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1B67301A52AECCB1"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EAC42EF2AADD79A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "75929891A4E40F39"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "undergarden:virulent_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests5.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests5.description2}"
+			]
+			id: "6F409D94EF057F1F"
+			rewards: [
+				{
+					count: 2
+					id: "615E6D36AB046E66"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+				{
+					id: "0EBF3CB864178125"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "43F1AC3F6B3A831F"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests6.description}"]
+			hide_dependency_lines: "true"
+			icon: "undergarden:depthrock_iron_ore"
+			id: "711D598FA64B1452"
+			rewards: [
+				{
+					id: "2CECACF5B286F663"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "77DEB7B51F7CAD7B"
+					item: "undergarden:smog_vent"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7C0B23AB2EC100C5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(undergarden:shiverstone_iron_ore)item(undergarden:shiverstone_coal_ore)item(undergarden:depthrock_coal_ore)item(undergarden:depthrock_gold_ore)item(undergarden:depthrock_iron_ore))"
+						}
+					}
+					title: "{ftbquests.chapter.the_garden_beneath.quests6.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests6.title}"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests7.description0}"
+				"{ftbquests.chapter.the_garden_beneath.quests7.description1}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests7.description3}"
+			]
+			hide_dependency_lines: "true"
+			id: "7A4A753C0F56BF53"
+			rewards: [
+				{
+					count: 6
+					id: "70F3627C94D1172E"
+					item: "undergarden:regalium_crystal"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "027F6F42A29B6706"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "75A18C4883EDC29B"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F409D94EF057F1F"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests8.description}"]
+			id: "48CE541EBC23D899"
+			rewards: [
+				{
+					exclude_from_claim_all: "true"
+					id: "7FED0EF475401C26"
+					table_id: 4836618028129668887L
+					type: "choice"
+				}
+				{
+					id: "09878EDE63E132DB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6D781A717CD6D393"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests8.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests9.description}"]
+			hide_dependency_lines: "true"
+			id: "0D8B19727941F7A2"
+			rewards: [
+				{
+					id: "66ACC0A924BC4FEB"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:soul_speed"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:depth_strider"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:swift_sneak"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+							RepairCost: 15
+							display: {
+								Name: "\"Ice Striders\""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27B2A144FB5E4226"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "669FAB9B1562AC74"
+					item: "undergarden:shiverstone_froststeel_ore"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests10.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests10.description2}"
+			]
+			hide_dependency_lines: "true"
+			icon: "undergarden:cloggrum_ingot"
+			id: "20CC6045A490A582"
+			rewards: [
+				{
+					id: "58437A937BC719E0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "627C03A3AE1021C1"
+					item: {
+						Count: 1
+						id: "copper_amulets:iron_amulet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "662E5C66E26B70E8"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+				{
+					id: "592BAC3758643B9B"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C8B7C3F2DBE9E03"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests11.description}"]
+			icon: "undergarden:depthrock_bricks"
+			id: "2F845BE5F541C0A3"
+			optional: "true"
+			rewards: [
+				{
+					id: "6F8D1EB557002859"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 32
+					id: "02CF3A0880ABAB14"
+					item: "undergarden:shard_torch"
+					type: "item"
+				}
+				{
+					id: "1438EB5C42B1A715"
+					item: {
+						Count: 1
+						id: "undergarden:slingshot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4497E53F3626AB5A"
+					item: "undergarden:depthrock_pebble"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "101AA5050B37DE76"
+					structure: "undergarden:catacombs"
+					title: "{ftbquests.chapter.the_garden_beneath.quests11.tasks0.title}"
+					type: "structure"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F845BE5F541C0A3"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests12.description}"]
+			id: "18D54BC3EE0B356B"
+			rewards: [
+				{
+					id: "2D3D6B7451F01AF1"
+					item: "undergarden:forgotten_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "7F9B0BB8CD208290"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 3
+					id: "6DA8F89BBD09A750"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "266B6E58A5AD1E68"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AF1ED5C4B7FEBF7"]
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests13.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests13.description2}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests13.description4}"
+			]
+			id: "7D2C553E73C9A50C"
+			rewards: [
+				{
+					id: "344013F8E96404D2"
+					item: {
+						Count: 1
+						id: "mekanism:ultimate_fluid_tank"
+						tag: {
+							"neoforge:attachments": {
+								"mekanism:bucket_mode": 1b
+								"mekanism:fluid_tanks": [
+									{
+										Tank: 0b
+										stored: {
+											Amount: 64000
+											FluidName: "undergarden:virulent_mix_source"
+										}
+									}
+								]
+							}
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "46382DAEEF206F33"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "10F0493177B328BE"
+					item: "undergarden:virulent_mix_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests14.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests14.description2}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests14.description4}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.the_garden_beneath.quests14.description7}"
+			]
+			id: "204449C6570D09CA"
+			min_width: 300
+			rewards: [
+				{
+					id: "153303A0493E6481"
+					item: "simpleteleporters:teleporter"
+					type: "item"
+				}
+				{
+					id: "40977C689D240492"
+					item: "simpleteleporters:ender_shard"
+					type: "item"
+				}
+				{
+					id: "6FCA0EDEE67463FA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DC6E21051D98827"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests14.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64C350B6E762F1CA"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests15.description}"]
+			id: "08F09A887BCCD6A3"
+			rewards: [
+				{
+					id: "2B4E4B6E5C1DDB14"
+					item: "darkutils:levitation_plate"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "7B1EA66139ECC735"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2041D19EF85AA6D6"
+					item: "javd:portal_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_garden_beneath.quests15.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.the_garden_beneath.quests16.description0}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests16.description2}"
+				""
+				"{ftbquests.chapter.the_garden_beneath.quests16.description4}"
+			]
+			icon: "minecraft:netherrack"
+			id: "03BD81F361C8748E"
+			min_width: 250
+			rewards: [
+				{
+					id: "3E6EB4C7DBD58F4F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "4DE3444C8CEDE33C"
+					title: "{ftbquests.chapter.the_garden_beneath.quests16.tasks0.title}"
+					type: "dimension"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03BD81F361C8748E"]
+			description: ["{ftbquests.chapter.the_garden_beneath.quests17.description}"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "471AEA8AC8318A52"
+			rewards: [
+				{
+					id: "6B73F70713347539"
+					item: "minecraft:wither_skeleton_skull"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "00B03E130486D0F1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "40B0931F1B639C73"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["471AEA8AC8318A52"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mob_grinding_utils:block/wither_muffler_boss_bar"
+				}
+			}
+			id: "39B6F641BD314FB9"
+			rewards: [
+				{
+					id: "5DFFD303EF7F1B4E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "mob_grinding_utils:block/wither_muffler"
+						}
+					}
+					id: "498BBC9EC5EA66C9"
+					title: "{ftbquests.chapter.the_garden_beneath.quests18.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "66B5A59BB23F91E9"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["204449C6570D09CA"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/end_crystal"
+				}
+			}
+			id: "181AE75390E43411"
+			rewards: [
+				{
+					id: "211A5107BA24B5F8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "2DB312EEEAED2880"
+					title: "{ftbquests.chapter.the_garden_beneath.quests19.tasks0.title}"
+					type: "dimension"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["181AE75390E43411"]
+			id: "4945EC315E31826E"
+			rewards: [
+				{
+					id: "67081BE85B67DDBD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "mob_grinding_utils:block/dragon_muffler"
+						}
+					}
+					id: "68E381E2B7F634A4"
+					title: "{ftbquests.chapter.the_garden_beneath.quests20.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+	]
+	title: "{ftbquests.chapter.the_garden_beneath.title}"
+}

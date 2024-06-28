@@ -1,0 +1,1621 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "the_final_challenge"
+	group: "3D9E759ACFEA2C5B"
+	icon: "ftbneotech:ultimate_singularity"
+	id: "599E1C506FAF40D6"
+	images: [
+		{
+			height: 1.0d
+			image: "ftbneotech:textures/quest/ftb.png"
+			rotation: 0.0d
+			width: 7.989010989010989d
+			x: -0.5d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41204853397E1E39"]
+			id: "340703A9E28A2948"
+			rewards: [
+				{
+					id: "0BA5E00C115E2109"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "apothic_attributes:long_flying"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48025392FD83F4F3"
+					max_input: 1000L
+					title: "{ftbquests.chapter.the_final_challenge.quests0.tasks0.title}"
+					type: "forge_energy"
+					value: 1500000L
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests0.title}"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "74DD256973F43192"
+			rewards: [
+				{
+					count: 32
+					id: "1025FB716F456881"
+					item: "modern_industrialization:steel_ingot"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "6F11CF1E114D0DA6"
+					item: "modern_industrialization:steel_plate"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"340703A9E28A2948"
+				"27BF152EB09B5FBB"
+				"74DD256973F43192"
+				"0EB6073CE022A64C"
+				"6D97C0200E3B0069"
+				"53331DBF55A15D3A"
+				"73744BC1790D5FB3"
+				"765E4C5563279A17"
+				"3F552A305359B117"
+				"0BAF29952DD8004F"
+				"75FB481285668080"
+			]
+			hide_dependency_lines: "true"
+			id: "19779217F2431ADD"
+			rewards: [
+				{
+					id: "25C0118E8E112332"
+					item: "stevescarts:upgrade_creative_mode"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60431799CB58656E"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 2400000L
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests2.title}"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "0EB6073CE022A64C"
+			rewards: [
+				{
+					count: 64
+					id: "7B880AF77F480303"
+					item: "modern_industrialization:copper_wire"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "09AC3A1E9C4E0613"
+					item: "immersiveengineering:electron_tube"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "7E9561429C810760"
+			rewards: [
+				{
+					count: 8
+					id: "71BD4284A88624EA"
+					item: "modern_industrialization:aluminum_rotor"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0950B4C04D8B2B8A"
+					item: "modern_industrialization:aluminum_gear"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "65A15905F9CAF942"
+					item: "modern_industrialization:aluminum_plate"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "7104C3E83D2338E0"
+			rewards: [
+				{
+					id: "3478ABB7DFBA5122"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "jlme:advanced_looting"
+									lvl: 2s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "779816D5D3575473"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "jlme:headless"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "6DD9172F8D98876D"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "73744BC1790D5FB3"
+			rewards: [
+				{
+					count: 8
+					id: "2C6E30302DD675F4"
+					item: "pneumaticcraft:security_upgrade"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65A77AA36EA32A5F"
+					item: "pneumaticcraft:module_expansion_card"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "39A8BEB68BAA0D42"
+					item: {
+						Count: 32
+						id: "pneumaticcraft:compressed_iron_block"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "75FB481285668080"
+			rewards: [
+				{
+					count: 16
+					id: "44E76BFD5799B1BF"
+					item: "actuallyadditions:palis_crystal"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "1D9BFDC3AC011ED8"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "43D6741DA4BC52AC"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "53331DBF55A15D3A"
+			rewards: [
+				{
+					count: 16
+					id: "201F424BB4CDE14F"
+					item: "equivalentexchange:aeternalis_fuel"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 1000000
+					FluidName: "immersiveengineering:creosote"
+					id: "217F9FBC436433B2"
+					type: "fluid"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			description: [
+				"{ftbquests.chapter.the_final_challenge.quests9.description0}"
+				""
+				"{ftbquests.chapter.the_final_challenge.quests9.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "modern_industrialization:creative_tank"
+				tag: {
+					BlockEntityTag: {
+						fluid: {
+							fk: {
+								fluid: "minecraft:lava"
+							}
+						}
+					}
+				}
+			}
+			id: "2E2429E06617F028"
+			rewards: [
+				{
+					id: "021BDDFDD8295243"
+					item: {
+						Count: 1
+						id: "modern_industrialization:creative_tank"
+						tag: {
+							BlockEntityTag: {
+								fluid: {
+									fk: {
+										fluid: "minecraft:lava"
+									}
+								}
+							}
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 10000000
+					FluidName: "minecraft:lava"
+					id: "1C52CBDE0143A5C3"
+					type: "fluid"
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests9.title}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "03950548E2EDFC8C"
+			rewards: [
+				{
+					count: 8
+					id: "077017D0548D9BD4"
+					item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "6D56ADB3D5DBD4AF"
+					item: "hyperbox:hyperbox"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "0AE7149BD2DC7813"
+					item: "actuallyadditions:diamatine_crystal"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "421D650AC2BA7B69"
+			rewards: [
+				{
+					count: 32
+					id: "2498ACF53289C2FB"
+					item: "modern_industrialization:transistor"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "023F2476983A176A"
+					item: "modern_industrialization:aluminum_plate"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "1CD744C7BD952245"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "0BAF29952DD8004F"
+			rewards: [
+				{
+					count: 32
+					id: "7F8D635842985BEB"
+					item: "modern_industrialization:capacitor"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B6A0DDE32277184"
+					item: "laserio:overclocker_node"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "33FFF60120D11640"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "765E4C5563279A17"
+			rewards: [
+				{
+					id: "46C6A0AEEB8221D1"
+					item: {
+						Count: 1
+						id: "modern_industrialization:rubber_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:respiration"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
+								}
+								{
+									id: "jlme:advanced_protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "enderzoology:soulbound"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "jlme:adept"
+									lvl: 3s
+								}
+							]
+							RepairCost: 127
+							display: {
+								Name: "\"Super Helmet\""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05C2BE56965B2C04"
+					item: {
+						Count: 1
+						id: "modern_industrialization:rubber_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:soul_speed"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 3s
+								}
+								{
+									id: "jlme:evasive"
+									lvl: 1s
+								}
+								{
+									id: "step:stepping"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:blast_protection"
+									lvl: 4s
+								}
+							]
+							RepairCost: 63
+							display: {
+								Name: "\"Super Steps\""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 1000000
+					FluidName: "modern_industrialization:synthetic_rubber"
+					id: "51C0B72C0D19B1B0"
+					type: "fluid"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "5476035E6800FCC7"
+			rewards: [
+				{
+					count: 64
+					id: "32B19E79D2A03A1E"
+					item: "pneumaticcraft:plastic"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "0F4A2AE4F11E4A13"
+					item: "forcecraft:speed_core"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 1000000
+					FluidName: "modern_industrialization:polyethylene"
+					id: "75667FC2BEF471E5"
+					type: "fluid"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "7A228CB97E6733B1"
+			tasks: [
+				{
+					id: "367CEBAD731CADDA"
+					item: {
+						Count: 1
+						id: "chickens:chicken_item"
+						tag: {
+							ChickenType: {
+								id: "chickens:clay_chicken"
+							}
+							stats: {
+								gain: 10
+								growth: 10
+								lifespan: 100
+								strength: 10
+							}
+						}
+					}
+					match_nbt: "true"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests15.title}"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "27BF152EB09B5FBB"
+			rewards: [
+				{
+					id: "5E9550EDA4669C87"
+					item: {
+						Count: 1
+						id: "easy_villagers:villager"
+						tag: {
+							display: {
+								Name: "\"Pedro the Drill Monger\""
+							}
+							villager: {
+								AbsorptionAmount: 0.0f
+								Age: 0
+								ArmorDropChances: [
+									0.085f
+									0.085f
+									0.085f
+									0.085f
+								]
+								ArmorItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								Attributes: [
+									{
+										Base: 0.5d
+										Name: "minecraft:generic.movement_speed"
+									}
+									{
+										Base: 0.0d
+										Name: "neoforge:step_height"
+									}
+									{
+										Base: 0.08d
+										Name: "neoforge:entity_gravity"
+									}
+								]
+								BaguData: { }
+								Brain: {
+									memories: {
+										"minecraft:job_site": {
+											value: {
+												dimension: "minecraft:overworld"
+												pos: [I;
+													1406
+													79
+													1302
+												]
+											}
+										}
+										"minecraft:last_worked_at_poi": {
+											value: 3272199L
+										}
+									}
+								}
+								CanPickUpLoot: 1b
+								DeathTime: 0s
+								FallFlying: 0b
+								FoodLevel: 0b
+								ForcedAge: 0
+								Gossips: [
+									{
+										Target: [I;
+											1322214020
+											-1310177861
+											-1296886500
+											-1782337265
+										]
+										Type: "trading"
+										Value: 16
+									}
+								]
+								HandDropChances: [
+									0.085f
+									0.085f
+								]
+								HandItems: [
+									{ }
+									{ }
+								]
+								Health: 20.0f
+								HurtByTimestamp: 0
+								HurtTime: 0s
+								Inventory: [ ]
+								LastGossipDecay: 3269789L
+								LastRestock: 3270403L
+								LeftHanded: 0b
+								Offers: {
+									Recipes: [
+										{
+											buy: {
+												Count: 2b
+												id: "minecraft:emerald"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 12
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 6b
+												id: "modern_industrialization:fire_clay_brick"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 2
+										}
+										{
+											buy: {
+												Count: 15b
+												id: "modern_industrialization:lignite_coal"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 16
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "minecraft:emerald"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 2
+										}
+										{
+											buy: {
+												Count: 4b
+												id: "modern_industrialization:sulfur_dust"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 16
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "minecraft:emerald"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 2
+										}
+										{
+											buy: {
+												Count: 4b
+												id: "minecraft:emerald"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 12
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "modern_industrialization:copper_gear"
+											}
+											specialPrice: 0
+											uses: 12
+											xp: 5
+										}
+										{
+											buy: {
+												Count: 4b
+												id: "minecraft:emerald"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 12
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "modern_industrialization:bronze_gear"
+											}
+											specialPrice: 0
+											uses: 12
+											xp: 5
+										}
+										{
+											buy: {
+												Count: 4b
+												id: "modern_industrialization:item_pipe"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 20
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "minecraft:emerald"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 10
+										}
+										{
+											buy: {
+												Count: 20b
+												id: "minecraft:emerald"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 12
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "modern_industrialization:steel_upgrade"
+											}
+											specialPrice: 0
+											uses: 8
+											xp: 20
+										}
+										{
+											buy: {
+												Count: 8b
+												id: "modern_industrialization:copper_cable"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 16
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "minecraft:emerald"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 5
+										}
+										{
+											buy: {
+												Count: 12b
+												id: "minecraft:emerald"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 12
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 1b
+												id: "modern_industrialization:analog_circuit"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 20
+										}
+										{
+											buy: {
+												Count: 18b
+												id: "minecraft:emerald"
+											}
+											buyB: {
+												Count: 0b
+												id: "minecraft:air"
+											}
+											demand: 0
+											maxUses: 12
+											priceMultiplier: 0.05f
+											rewardExp: 1b
+											sell: {
+												Count: 4b
+												id: "modern_industrialization:bronze_drill"
+											}
+											specialPrice: 0
+											uses: 0
+											xp: 20
+										}
+									]
+								}
+								PersistenceRequired: 0b
+								RestocksToday: 1
+								VillagerData: {
+									level: 5
+									profession: "modern_industrialization:industrialist"
+									type: "minecraft:plains"
+								}
+								Xp: 312
+							}
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "385B1F6C03FBB10D"
+					item: "modern_industrialization:bronze_gear"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "3F552A305359B117"
+			rewards: [
+				{
+					id: "07AAC2F24BE0B798"
+					item: "easy_piglins:piglin"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "724ADDA5C776F92B"
+					item: "pamhc2foodcore:epicbaconitem"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19779217F2431ADD"]
+			id: "2B4ED8A4F96F1F42"
+			rewards: [
+				{
+					count: 16
+					id: "625EE69E90120C15"
+					item: "minecraft:blaze_rod"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "4E03C6EE000BFB5C"
+					item: "stevescarts:module_firework_display"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "532498191706281C"
+					item: "justdirethings:blazegold_ingot"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340703A9E28A2948"]
+			id: "6D97C0200E3B0069"
+			rewards: [
+				{
+					count: 16
+					id: "35A16C60641ABC8D"
+					item: "undergarden:utheric_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "33417C960DD0C950"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "2E6DBA666BC8A9A0"
+			rewards: [
+				{
+					id: "33526FAF524368C3"
+					item: {
+						Count: 1
+						id: "modern_industrialization:creative_tank"
+						tag: {
+							BlockEntityTag: {
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:argon"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 1000000
+					FluidName: "modern_industrialization:boosted_diesel"
+					id: "58692B4D7F649063"
+					type: "fluid"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "4235CAE6BBC9D9F2"
+			rewards: [
+				{
+					id: "64C622EA298101FA"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "058E4CD64925F83A"
+					item: {
+						Count: 1
+						id: "ae2things:disk_drive_256k"
+						tag: { }
+					}
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "25C7918F578D7B49"
+					item: {
+						Count: 16
+						id: "ae2:cell_component_64k"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "5DC3F5A58957899A"
+			rewards: [
+				{
+					count: 8
+					id: "61E0E190805F1BDD"
+					item: "dimstorage:dim_core"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1BE1F42566CD22E7"
+					item: "modern_industrialization:not_gate"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "29F076ED3F569A2E"
+					item: "modern_industrialization:or_gate"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4F55D0C6659BA432"
+					item: "modern_industrialization:and_gate"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "0DF475253A5D32B0"
+					item: "modern_industrialization:digital_circuit"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "1C23EADC0C3AACC9"
+			rewards: [
+				{
+					id: "72AAC7C565416017"
+					item: {
+						Count: 1
+						id: "justdirethings:celestigem_paxel"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "veinmining:vein_mining"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+								{
+									id: "jlme:advanced_sharpness"
+									lvl: 4s
+								}
+								{
+									id: "jlme:advanced_looting"
+									lvl: 2s
+								}
+							]
+							RepairCost: 31
+							display: {
+								Name: "\"The Direwolf 2.0\""
+							}
+							"neoforge:attachments": {
+								"justdirethings:energystorage": 0
+							}
+						}
+					}
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					id: "7B6CA76A303C416B"
+					item: "forcecraft:time_torch"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "56C190CC0D48CE6D"
+					item: "actuallyadditions:empowered_emeradic_crystal"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "2CF132EB88912C47"
+			rewards: [
+				{
+					id: "68165D3518F5C6E2"
+					item: {
+						Count: 1
+						id: "modern_industrialization:creative_tank"
+						tag: {
+							BlockEntityTag: {
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:nitrogen"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 1000000
+					FluidName: "modern_industrialization:cryofluid"
+					id: "4702FBBCFE72C3FC"
+					type: "fluid"
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests24.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["038DE488F1636EF9"]
+			id: "04E11038DF3B9CB8"
+			rewards: [
+				{
+					count: 16
+					id: "06DFEBD7D6664961"
+					item: "modern_industrialization:stainless_steel_gear"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7B0A77E2CFE5FFA7"
+					item: "modern_industrialization:chromium_crushed_dust"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "43C1B37C8950D53F"
+					item: "modern_industrialization:stainless_steel_plate"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19779217F2431ADD"
+				"421D650AC2BA7B69"
+				"7E9561429C810760"
+				"2B4ED8A4F96F1F42"
+				"2E2429E06617F028"
+				"03950548E2EDFC8C"
+				"7A228CB97E6733B1"
+				"7104C3E83D2338E0"
+				"5476035E6800FCC7"
+			]
+			hide_dependency_lines: "true"
+			id: "038DE488F1636EF9"
+			rewards: [
+				{
+					id: "250C772F5F2139AF"
+					item: "pneumaticcraft:creative_compressed_iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A6C39F1E04EBDF0"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 10000000L
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests26.title}"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"038DE488F1636EF9"
+				"2E6DBA666BC8A9A0"
+				"4235CAE6BBC9D9F2"
+				"04E11038DF3B9CB8"
+				"5DC3F5A58957899A"
+				"2CF132EB88912C47"
+				"1C23EADC0C3AACC9"
+			]
+			hide_dependency_lines: "true"
+			id: "7CF11091522D66DE"
+			rewards: [
+				{
+					id: "6D688E239EB6459D"
+					item: {
+						Count: 1
+						id: "modern_industrialization:creative_tank"
+						tag: {
+							BlockEntityTag: {
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:shale_oil"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1BB40E5D8B4CEA77"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 100000000L
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests27.title}"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "556F811203BCBAA0"
+			rewards: [
+				{
+					count: 32
+					id: "12FA7C78D6D70850"
+					item: "modern_industrialization:titanium_drill"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "289D9C15425930D8"
+					item: "modern_industrialization:large_motor"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "77BCF581DF7C2D3E"
+					item: "modern_industrialization:large_pump"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "4A44331774072ADB"
+					item: "modern_industrialization:titanium_plate"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "33D10BAFEA2844EE"
+			rewards: [
+				{
+					id: "47691A86A43B5655"
+					item: "equivalentexchange:time_watch"
+					type: "item"
+				}
+				{
+					id: "3C840F99DB051F8F"
+					item: "equivalentexchange:dm_pedestal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "50E24452E84B4E28"
+					item: "equivalentexchange:dark_matter"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "32DF7662103830CE"
+			rewards: [
+				{
+					count: 32
+					id: "479BA1BE7EE69459"
+					item: "modern_industrialization:platinum_ingot"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "005869D7D977BB28"
+					item: "modern_industrialization:small_heat_exchanger"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "6562580D41BDC661"
+					item: {
+						Count: 64
+						id: "modern_industrialization:quantum_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF11091522D66DE"]
+			id: "6D6B4DF3E50C0F30"
+			rewards: [
+				{
+					id: "4620A62955E191A3"
+					item: {
+						Count: 1
+						id: "actuallyadditions:teleport_staff"
+						tag: {
+							Charged: 1b
+							"neoforge:attachments": {
+								"actuallyadditions:energy": 250000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "087FC594E07420E4"
+					item: {
+						Count: 1
+						id: "mekanism:portable_teleporter"
+						tag: {
+							"neoforge:attachments": {
+								"mekanism:energy_containers": [
+									{
+										Container: 0b
+										stored: "1000000"
+									}
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42F71F65C571C3AC"
+					item: "mekanism:teleporter"
+					team_reward: "true"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "588EFEAEC4B42366"
+					item: "mekanism:teleporter_frame"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 256L
+					id: "02515C4C2DCBDDD0"
+					item: "mekanism:teleportation_core"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CAA5DBE72DC0771"]
+			id: "593C8B81AC1DB4C5"
+			rewards: [
+				{
+					id: "3F8C41C21529C4E8"
+					item: {
+						Count: 1
+						id: "modern_industrialization:creative_tank"
+						tag: {
+							BlockEntityTag: {
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:helium"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					Amount: 1000000
+					FluidName: "modern_industrialization:helium_plasma"
+					id: "34987EFD6377B204"
+					type: "fluid"
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests32.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CAA5DBE72DC0771"]
+			id: "48055AA34B57522E"
+			rewards: [
+				{
+					count: 4
+					id: "4519FD587945ACB9"
+					item: "equivalentexchange:red_matter_collector"
+					team_reward: "true"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "52E0F75A57715E68"
+					item: "equivalentexchange:red_matter"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7CF11091522D66DE"
+				"556F811203BCBAA0"
+				"6D6B4DF3E50C0F30"
+				"33D10BAFEA2844EE"
+				"32DF7662103830CE"
+			]
+			hide_dependency_lines: "true"
+			id: "4CAA5DBE72DC0771"
+			rewards: [
+				{
+					id: "2156D52DDDE3B49E"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "697B06945CE1A777"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 1000000000L
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests34.title}"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4CAA5DBE72DC0771"
+				"593C8B81AC1DB4C5"
+				"48055AA34B57522E"
+			]
+			description: [
+				"{ftbquests.chapter.the_final_challenge.quests35.description0}"
+				""
+				"{ftbquests.chapter.the_final_challenge.quests35.description2}"
+				"{ftbquests.chapter.the_final_challenge.quests35.description3}"
+				""
+				"{ftbquests.chapter.the_final_challenge.quests35.description5}"
+			]
+			hide_dependency_lines: "true"
+			id: "5AFB1959CE6A331D"
+			rewards: [
+				{
+					count: 2
+					id: "20410996FBECA154"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					id: "05EF7B8CF13B745B"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+			]
+			tasks: [
+				{
+					id: "54F861382BF9B395"
+					item: "modern_industrialization:replicator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_final_challenge.quests35.title}"
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "{ftbquests.chapter.the_final_challenge.title}"
+}
