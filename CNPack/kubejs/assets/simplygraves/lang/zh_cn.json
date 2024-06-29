@@ -1,6 +1,6 @@
 {
     "block.simplygraves.andesite_gravestone":"安山岩墓碑",
-    "block.simplygraves.basselt_gravestone":"Basselt Gravestone",
+    "block.simplygraves.basselt_gravestone":"玄武岩墓碑",
     "block.simplygraves.blackstone_gravestone":"黑石墓碑",
     "block.simplygraves.calcite_gravestone":"方解石墓碑",
     "block.simplygraves.dark_prismarine_gravestone":"暗海晶石墓碑",
@@ -9,7 +9,7 @@
     "block.simplygraves.dripstone_gravestone":"滴水石墓碑",
     "block.simplygraves.end_stone_gravestone":"末地石墓碑",
     "block.simplygraves.granite_gravestone":"花岗岩墓碑",
-    "block.simplygraves.gravestone_wood":"Gravestone Wood",
+    "block.simplygraves.gravestone_wood":"木制墓碑",
     "block.simplygraves.stone_gravestone":"石头墓碑",
     "simplygraves.cooldown":"坟墓冷却剩余时间：%s。",
     "simplygraves.failed":"抱歉，你的墓碑放置失败。",
