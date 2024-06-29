@@ -77,7 +77,7 @@
     "gui.chickens.breeder.seed_slot":"放入种子！",
     "gui.chickens.cracker.fluid_slot":"输出液体",
     "gui.chickens.incubator.decrease_heat":"降低温度",
-    "gui.chickens.incubator.heat":"温度：",
+    "gui.chickens.incubator.heat":"热量：",
     "gui.chickens.incubator.hygrometer.dry":"太干燥了！水罐已经空了！",
     "gui.chickens.incubator.hygrometer.info":"孵化器湿度",
     "gui.chickens.incubator.hygrometer.value":" %s%%",
