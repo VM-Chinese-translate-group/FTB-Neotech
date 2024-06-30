@@ -1,0 +1,16 @@
+{
+  "mods": [
+    "chickens"
+  ],
+  "classes": [],
+  "apply_mods": [],
+  "debug_mode": {
+    "is_enable": false,
+    "output_format": "<source> -> <target>",
+    "output_mode": 0,
+    "export_class": false,
+    "use_cache": false,
+    "missing_warn": false
+  },
+  "class_patch": true
+}

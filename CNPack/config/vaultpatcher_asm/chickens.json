@@ -1,0 +1,37 @@
+[
+	{
+		"name":"chickens硬编码汉化",
+		"desc":"vp1.4.2+可启用，VPGS开源，1.20.4",
+		"mods":"chickens-neoforge-1.20.4-2.0.6",
+		"authors":"Litchiiiiiii",
+		"dynamic":false,
+		"i18n":true
+	},
+	{
+		"t":{
+			"name":"net.creeperhost.chickens.item.ItemChickenEgg"
+		},
+		"p":[
+			{
+				"k":"Registry name: ",
+				"v":"vp.chickens.tooltip.chicken_egg_1"
+			},
+			{
+				"k":"Item: ",
+				"v":"vp.chickens.tooltip.chicken_egg_2"
+			},
+			{
+				"k":"Fluid: ",
+				"v":"vp.chickens.tooltip.chicken_egg_3"
+			},
+			{
+				"k":"ChickenType: ",
+				"v":"vp.chickens.tooltip.chicken_egg_4"
+			},
+			{
+				"k":"Progress: ",
+				"v":"vp.chickens.tooltip.chicken_egg_5"
+			}
+		]
+	}
+]
