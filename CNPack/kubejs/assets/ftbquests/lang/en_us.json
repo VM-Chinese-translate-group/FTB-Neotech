@@ -1155,5 +1155,7 @@
     "ftbquests.reward_tables.aiot_or_hammer.title": "AIOT or HAMMER",
     "ftbquests.reward_tables.breakers_and_placers.title": "Breakers and Placers",
     "ftbquests.reward_tables.gear_enchant.title": "Gear Enchant",
-    "ftbquests.reward_tables.super_saplings.title": "Super Saplings"
+    "ftbquests.reward_tables.super_saplings.title": "Super Saplings",
+    "ftbquests.chapter.attack_of_the_drones.quests29.img0":"{image:ftbneotech:textures/quest/quest_drone_1.png width:120 height:100 align:center fit:true}",
+    "ftbquests.chapter.attack_of_the_drones.quests30.img0":"{image:ftbneotech:textures/quest/quest_drone_2.png width:120 height:100 align:center fit:true}"
    }
