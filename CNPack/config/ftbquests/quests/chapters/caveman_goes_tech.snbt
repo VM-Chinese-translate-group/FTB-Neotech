@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "caveman_goes_tech"
 	group: "71DBF4FB7368CC06"
@@ -109,12 +109,10 @@
 						id: "justhammers:diamond_hammer"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-							]
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
 							display: {
 								Name: "{\"text\":\"Discount Quarry\",\"obfuscated\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"color\":\"#FFFFFF\",\"bold\":false}"
 							}
@@ -166,7 +164,7 @@
 				""
 				"{ftbquests.chapter.caveman_goes_tech.quests1.description9}"
 				" "
-				"{ftbquests.chapter.caveman_goes_tech.quests1.description11}"
+				"{ \"translate\": \"ftbquests.chapter.caveman_goes_tech.quests1.description11\", \"color\": \"aqua\", \"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0237CB9284CFBC62\" } }"
 			]
 			id: "7B69241820241BA4"
 			min_width: 200
@@ -183,13 +181,11 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "1DA02BA33D91D8F0"
-					item: "modern_industrialization:forge_hammer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1DA02BA33D91D8F0"
+				item: "modern_industrialization:forge_hammer"
+				type: "item"
+			}]
 			x: -10.5d
 			y: 1.0d
 		}
@@ -206,7 +202,7 @@
 					count: 4
 					id: "220AF1889015F6B8"
 					item: "immersiveengineering:seed"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -220,34 +216,29 @@
 							}
 						}
 					}
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "5B196069674C2860"
 					item: "immersiveengineering:craftingtable"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "1B1B976AB8A4738E"
 					item: "modern_industrialization:iron_plate"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "77704B9BF5441225"
-					item: {
-						Count: 4
-						id: "modern_industrialization:iron_plate"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "77704B9BF5441225"
+				item: { Count: 4, id: "modern_industrialization:iron_plate" }
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests2.title}"
 			x: -8.5d
 			y: 1.0d
@@ -265,7 +256,7 @@
 					count: 32
 					id: "28EB92D108294CB0"
 					item: "minecraft:sand"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -275,13 +266,11 @@
 				}
 			]
 			shape: "square"
-			tasks: [
-				{
-					id: "60AF7C3BC5B649F6"
-					item: "immersiveengineering:alloybrick"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60AF7C3BC5B649F6"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 1.0d
 		}
@@ -294,7 +283,7 @@
 					count: 8
 					id: "24A1DFB884ACC7D0"
 					item: "modern_industrialization:bronze_ingot"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -308,13 +297,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "657ACDFA7BD7F6C8"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "657ACDFA7BD7F6C8"
+				item: "modern_industrialization:bronze_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 1.0d
 		}
@@ -333,7 +320,7 @@
 				{
 					id: "0EE80AFA985BD095"
 					item: "mekanism:basic_fluid_tank"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -349,13 +336,11 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [
-				{
-					id: "5AED8D7F95330597"
-					item: "modern_industrialization:bronze_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AED8D7F95330597"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 1.0d
 		}
@@ -376,7 +361,7 @@
 					count: 6
 					id: "7515DBD1756F373D"
 					item: "modern_industrialization:item_pipe"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -411,7 +396,6 @@
 			icon: "modern_industrialization:coke_oven"
 			id: "672486EB19E35C42"
 			min_width: 250
-			optional: "true"
 			rewards: [
 				{
 					id: "761DC2A962613CE2"
@@ -439,10 +423,7 @@
 				{
 					count: 21L
 					id: "6202A7BA7F4CBCD1"
-					item: {
-						Count: 21
-						id: "minecraft:bricks"
-					}
+					item: { Count: 21, id: "minecraft:bricks" }
 					type: "item"
 				}
 				{
@@ -472,20 +453,19 @@
 			]
 			id: "74F2C1A86CEC0B66"
 			min_width: 250
-			optional: "true"
 			rewards: [
 				{
 					count: 7
 					id: "5587A121B1888239"
 					item: "immersiveengineering:cokebrick"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 16
 					id: "3EF4D5DE33EF9920"
 					item: "minecraft:coal"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -501,14 +481,12 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					count: 20L
-					id: "25C1F20A509FBB36"
-					item: "immersiveengineering:cokebrick"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 20L
+				id: "25C1F20A509FBB36"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests8.title}"
 			x: -6.5d
 			y: 3.0d
@@ -526,7 +504,7 @@
 				{
 					id: "4138AB9418F5F763"
 					item: "minecraft:diamond"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -536,13 +514,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "231B1245BFD216B2"
-					item: "modern_industrialization:uncooked_steel_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "231B1245BFD216B2"
+				item: "modern_industrialization:uncooked_steel_dust"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 5.0d
 		}
@@ -554,7 +530,7 @@
 				{
 					id: "77E1502EEEA4B23A"
 					item: "immersiveengineering:blastbrick"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -563,13 +539,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "2D886528009CEEFF"
-					item: "minecraft:nether_bricks"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D886528009CEEFF"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests10.title}"
 			x: 0.0d
 			y: 6.0d
@@ -590,14 +564,14 @@
 					count: 9
 					id: "67AC4182A5FB1D7F"
 					item: "modern_industrialization:fire_clay_bricks"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "4C71DE30F7F63F31"
 					item: "modern_industrialization:uncooked_steel_dust"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -630,10 +604,7 @@
 				{
 					count: 20L
 					id: "00274A3D9EF1F99A"
-					item: {
-						Count: 20
-						id: "modern_industrialization:fire_clay_bricks"
-					}
+					item: { Count: 20, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 			]
@@ -653,7 +624,7 @@
 					count: 4
 					id: "7E3C1E40CEC1BFFE"
 					item: "immersiveengineering:component_steel"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -665,19 +636,17 @@
 					count: 64
 					id: "688D121D45A89CF0"
 					item: "modern_industrialization:steel_ingot"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "0C83365CBA880265"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0C83365CBA880265"
+				item: "modern_industrialization:steel_ingot"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 5.0d
 		}
@@ -694,7 +663,7 @@
 					count: 32
 					id: "1CEE13516C328EEC"
 					item: "modern_industrialization:copper_wire"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -704,13 +673,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "5D25BBF6C2E5497A"
-					item: "modern_industrialization:steel_wiremill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D25BBF6C2E5497A"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 7.0d
 		}
@@ -726,13 +693,13 @@
 				{
 					id: "32693A3AA5F9F077"
 					item: "modern_industrialization:rubber_sheet"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "0FE82A382707B6CD"
 					item: "modern_industrialization:bronze_machine_casing"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -747,13 +714,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "3EF9124AF6BB2D57"
-					item: "modern_industrialization:bronze_mixer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3EF9124AF6BB2D57"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 1.0d
 		}
@@ -762,7 +727,7 @@
 			description: [
 				"{ftbquests.chapter.caveman_goes_tech.quests15.description0}"
 				""
-				"{ftbquests.chapter.caveman_goes_tech.quests15.description2}"
+				"[ \"Head over to the \", { \"translate\": \"ftbquests.chapter.caveman_goes_tech.quests15.description2\", \"color\":\"aqua\",\"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C8B7C3F2DBE9E03\" } }, \" chapter to see what they are for!\" ]"
 			]
 			id: "68C0BB1D128946B2"
 			rewards: [
@@ -770,7 +735,7 @@
 					count: 2
 					id: "4751944CA02B100E"
 					item: "modern_industrialization:diamond_plate"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -780,13 +745,11 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "06E1C49BADC028E3"
-					item: "modern_industrialization:bronze_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "06E1C49BADC028E3"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 3.0d
 		}
@@ -799,25 +762,23 @@
 					count: 32
 					id: "4EA4BC01F0E6F121"
 					item: "forcecraft:golden_power_source"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "42BEDE662AC9569F"
 					item: "modern_industrialization:steel_tank"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [
-				{
-					id: "0311EB8743442373"
-					item: "modern_industrialization:steel_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0311EB8743442373"
+				item: "modern_industrialization:steel_boiler"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 7.0d
 		}
@@ -830,24 +791,22 @@
 					count: 4
 					id: "49208AABC6087840"
 					item: "modern_industrialization:steel_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "4CE65580945A1422"
 					item: "modern_industrialization:steel_plate"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6FDFF0A76ECA8B15"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FDFF0A76ECA8B15"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 4.0d
 		}
@@ -867,7 +826,7 @@
 				{
 					id: "436C6576E326D86D"
 					item: "pneumaticcraft:compressed_iron_block"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -881,13 +840,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "55F389C99FC0A868"
-					item: "pneumaticcraft:ingot_iron_compressed"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "55F389C99FC0A868"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 1.0d
 		}
@@ -897,7 +854,7 @@
 				"{ftbquests.chapter.caveman_goes_tech.quests19.description0}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.caveman_goes_tech.quests19.description3}"
+				"[ \"Ferricore Ingots can be used to create new machines and tools! Head over to the \", { \"translate\": \"ftbquests.chapter.caveman_goes_tech.quests19.description3\", \"underlined\": 1, \"color\":\"aqua\", clickEvent\": { \"action\": \"change_page\", \"value\": \"0296A983FFF18698\" } }, \" chapter to explore this fantastical new metal ore!\" ]"
 			]
 			id: "5AE394A70883FA85"
 			rewards: [
@@ -918,15 +875,13 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "veinmining:vein_mining"
-									lvl: 1s
-								}
-							]
+							StoredEnchantments: [{
+								id: "veinmining:vein_mining"
+								lvl: 1s
+							}]
 						}
 					}
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -935,13 +890,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2BFA94FBCC40C35F"
-					item: "justdirethings:ferricore_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BFA94FBCC40C35F"
+				item: "justdirethings:ferricore_ingot"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 1.0d
 		}
@@ -958,7 +911,7 @@
 				{
 					id: "7DAAA7579E63B864"
 					item: "minecraft:iron_block"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -968,13 +921,11 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "31DC88EE4CECFBC9"
-					item: "justdirethings:gooblock_tier1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31DC88EE4CECFBC9"
+				item: "justdirethings:gooblock_tier1"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 1.0d
 		}
@@ -991,23 +942,21 @@
 					count: 6
 					id: "46E6EC1086535006"
 					item: "modern_industrialization:fluid_pipe"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "26F42309A6B5A38C"
 					item: "minecraft:hopper"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4C92E0D6074C8FEA"
-					item: "modern_industrialization:bronze_water_pump"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4C92E0D6074C8FEA"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -1.0d
 		}
@@ -1027,7 +976,7 @@
 					count: 2
 					id: "25DF1E0CE131D557"
 					item: "modern_industrialization:steel_gear"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1036,13 +985,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "7BD2B8B9B70105F5"
-					item: "modern_industrialization:steel_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7BD2B8B9B70105F5"
+				item: "modern_industrialization:steel_compressor"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 3.0d
 		}
@@ -1063,32 +1010,32 @@
 					count: 8
 					id: "5088FF8E6DA7065A"
 					item: "modern_industrialization:bronze_drill"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "7E8B7B8B133CB4B6"
 					item: "modern_industrialization:steel_item_input_hatch"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "20BA3294DAE19C42"
 					item: "modern_industrialization:steel_item_output_hatch"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "009D593AC61E37AB"
 					item: "modern_industrialization:bronze_fluid_input_hatch"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 3
 					id: "2C8D06A87F3E998D"
 					item: "modern_industrialization:steel_machine_casing"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1108,10 +1055,7 @@
 				{
 					count: 10L
 					id: "6C4A7594DDF131E0"
-					item: {
-						Count: 16
-						id: "modern_industrialization:steel_machine_casing"
-					}
+					item: { Count: 16, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
@@ -1123,10 +1067,7 @@
 				{
 					count: 4L
 					id: "2048540E63A3A729"
-					item: {
-						Count: 4
-						id: "minecraft:chain"
-					}
+					item: { Count: 4, id: "minecraft:chain" }
 					type: "item"
 				}
 			]
@@ -1164,37 +1105,35 @@
 					count: 3
 					id: "36B59EAA074E0E04"
 					item: "modern_industrialization:fluid_pipe"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 3
 					id: "3B325B53B2667203"
 					item: "modern_industrialization:item_pipe"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 6
 					id: "6E7C30AEC73B4ABF"
 					item: "modern_industrialization:tin_cable"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "3E8FF733D8B6C029"
 					item: "modern_industrialization:config_card"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "6533918264AB51E2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6533918264AB51E2"
+				type: "checkmark"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests24.title}"
 			x: -4.0d
 			y: -1.0d
@@ -1213,7 +1152,7 @@
 					count: 16
 					id: "39E2D687C90917C1"
 					item: "minecraft:coal_ore"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1224,20 +1163,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "2178060E82DBD293"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(modern_industrialization:synthetic_oil_bucket)item(modern_industrialization:synthetic_rubber_bucket))"
-						}
+			tasks: [{
+				id: "2178060E82DBD293"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(modern_industrialization:synthetic_oil_bucket)item(modern_industrialization:synthetic_rubber_bucket))"
 					}
-					title: "{ftbquests.chapter.caveman_goes_tech.quests25.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.caveman_goes_tech.quests25.tasks0.title}"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 11.5d
 		}
@@ -1250,14 +1187,14 @@
 					count: 4
 					id: "795CFBF083DE31FE"
 					item: "modern_industrialization:copper_plate"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "08F76BA3EB1C6015"
 					item: "modern_industrialization:rubber_sheet"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1266,13 +1203,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "13428FF70911E09E"
-					item: "modern_industrialization:rubber_sheet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13428FF70911E09E"
+				item: "modern_industrialization:rubber_sheet"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 11.5d
 		}
@@ -1285,7 +1220,7 @@
 					count: 32
 					id: "7AF70E2AA3E7FC88"
 					item: "modern_industrialization:analog_circuit_board"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1294,13 +1229,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "1E122EA0788C19B0"
-					item: "modern_industrialization:analog_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E122EA0788C19B0"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests27.title}"
 			x: 6.5d
 			y: 11.5d
@@ -1322,14 +1255,14 @@
 					count: 8
 					id: "3F4C14F808C298CE"
 					item: "modern_industrialization:copper_cable"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "5854FABAB9579606"
 					item: "modern_industrialization:silver_cable"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1339,14 +1272,12 @@
 				}
 			]
 			shape: "square"
-			tasks: [
-				{
-					count: 8L
-					id: "2F4539ED740B4A9E"
-					item: "modern_industrialization:tin_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "2F4539ED740B4A9E"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 9.0d
 		}
@@ -1359,14 +1290,14 @@
 					count: 16
 					id: "5E869A0A9202F3D6"
 					item: "modern_industrialization:steel_rod"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 32
 					id: "0317B0A211C40E42"
 					item: "modern_industrialization:tin_rotor"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1420,13 +1351,12 @@
 			]
 			id: "614EF1FA7FD4F1D3"
 			min_width: 400
-			optional: "true"
 			rewards: [
 				{
 					count: 16
 					id: "39AA0780A278016D"
 					item: "minecraft:coal"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1438,17 +1368,15 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.caveman_goes_tech.quests30.subtitle}"
-			tasks: [
-				{
-					id: "08D7B9CE65461EBD"
-					item: {
-						Count: 1
-						id: "modern_industrialization:steam_mining_drill"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "08D7B9CE65461EBD"
+				item: {
+					Count: 1
+					id: "modern_industrialization:steam_mining_drill"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			x: -1.5d
 			y: -3.0d
 		}
@@ -1461,7 +1389,7 @@
 					count: 8
 					id: "7DA735DEA1B48B46"
 					item: "modern_industrialization:fluid_pipe"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1470,13 +1398,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "67365C2243307F9B"
-					item: "modern_industrialization:steel_water_pump"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "67365C2243307F9B"
+				item: "modern_industrialization:steel_water_pump"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -1.0d
 		}
@@ -1502,17 +1428,15 @@
 				{
 					id: "6F6EA73885D1D2B7"
 					item: "pneumaticcraft:small_tank"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3C914907656CEE6A"
-					item: "sfm:water_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3C914907656CEE6A"
+				item: "sfm:water_tank"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -1.0d
 		}
@@ -1521,7 +1445,7 @@
 			description: [
 				"{ftbquests.chapter.caveman_goes_tech.quests33.description0}"
 				""
-				"{ftbquests.chapter.caveman_goes_tech.quests33.description2}"
+				"[ \"Unlocks the Sophisticated Storage section of \", { \"translate\": \"ftbquests.chapter.caveman_goes_tech.quests33.description2\", \"color\": \"aqua\", \"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DA0C0B4C0BBDF59\" } }]"
 			]
 			icon: "minecraft:redstone"
 			id: "233F05EB1C0271B1"
@@ -1530,7 +1454,7 @@
 					count: 8
 					id: "02B0F1DB97DDAF98"
 					item: "minecraft:redstone"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1545,13 +1469,11 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "1154D053389DAA29"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1154D053389DAA29"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests33.title}"
 			x: -11.5d
 			y: 3.0d
@@ -1587,13 +1509,11 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.caveman_goes_tech.quests34.subtitle}"
-			tasks: [
-				{
-					id: "53A16D7EF448020A"
-					title: "{ftbquests.chapter.caveman_goes_tech.quests34.tasks0.title}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "53A16D7EF448020A"
+				title: "{ftbquests.chapter.caveman_goes_tech.quests34.tasks0.title}"
+				type: "checkmark"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests34.title}"
 			x: -14.035714285714285d
 			y: 3.8035714285714235d
@@ -1606,26 +1526,22 @@
 			description: [
 				"{ftbquests.chapter.caveman_goes_tech.quests35.description0}"
 				""
-				"{ftbquests.chapter.caveman_goes_tech.quests35.description2}"
+				"[ \"Head over to the \", { \"translate\": \"ftbquests.chapter.caveman_goes_tech.quests35.description2\", \"color\":\"aqua\",\"underlined\": 1, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"595F1E9BDF4FB832\" } }, \" if you are interested in setting up your first Tree Farm using Steve's Carts 2!\" ]"
 			]
 			id: "5E6B7B99E22305CF"
 			min_width: 300
-			rewards: [
-				{
-					count: 8
-					id: "4337C19A24B70646"
-					item: "forcecraft:golden_power_source"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "4337C19A24B70646"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
 			shape: "gear"
-			tasks: [
-				{
-					id: "052934D054786C4B"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "052934D054786C4B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests35.title}"
 			x: -9.5d
 			y: 3.0d
@@ -1640,7 +1556,7 @@
 				"{ftbquests.chapter.caveman_goes_tech.quests36.description0}"
 				""
 				"{ftbquests.chapter.caveman_goes_tech.quests36.description2}"
-				"{ftbquests.chapter.caveman_goes_tech.quests36.description3}"
+				"[ \"Head on over to the \", { \"translate\": \"ftbquests.chapter.caveman_goes_tech.quests36.description3\", \"underlined\": 1, \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4BA1DFC5EAD73A91\" } }, \" chapter to get started!\" ]"
 			]
 			id: "227F02D80AE758EF"
 			min_width: 250
@@ -1648,7 +1564,7 @@
 				{
 					id: "0A3DF864541CDB88"
 					item: "mekanism:advanced_fluid_tank"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1658,17 +1574,12 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					count: 8L
-					id: "726E317E91D15C56"
-					item: {
-						Count: 8
-						id: "immersiveengineering:treated_wood_horizontal"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "726E317E91D15C56"
+				item: { Count: 8, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests36.title}"
 			x: -5.0d
 			y: 3.0d
@@ -1685,7 +1596,7 @@
 				{
 					id: "1D201A31176BB891"
 					item: "modern_industrialization:lubricant_bucket"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1699,13 +1610,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "56158CC9617513D1"
-					item: "modern_industrialization:bronze_cutting_machine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56158CC9617513D1"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 2.0d
 		}
@@ -1764,21 +1673,17 @@
 				"{ftbquests.chapter.caveman_goes_tech.quests39.description2}"
 			]
 			id: "345D61FCFDE8005E"
-			rewards: [
-				{
-					id: "5486053D7CF23A48"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "5486053D7CF23A48"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "125265581B5D1E9E"
-					item: "easy_villagers:villager"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "125265581B5D1E9E"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests39.title}"
 			x: -11.5d
 			y: -0.5d
@@ -1793,20 +1698,16 @@
 				"{ftbquests.chapter.caveman_goes_tech.quests40.description4}"
 			]
 			id: "536E18886CA28BFB"
-			rewards: [
-				{
-					id: "7F418EEDE4A6A27E"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [
-				{
-					id: "399ADD8195C7F445"
-					item: "easy_villagers:breeder"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7F418EEDE4A6A27E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "399ADD8195C7F445"
+				item: "easy_villagers:breeder"
+				type: "item"
+			}]
 			x: -12.5d
 			y: -2.0d
 		}
@@ -1821,20 +1722,16 @@
 			]
 			id: "6F36B4982DDD51B0"
 			min_width: 300
-			rewards: [
-				{
-					id: "1EE4D41F183252F2"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [
-				{
-					id: "6E0F6CB2F65FA812"
-					item: "easy_villagers:trader"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1EE4D41F183252F2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E0F6CB2F65FA812"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.caveman_goes_tech.quests41.title}"
 			x: -10.5d
 			y: -2.0d

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "storage_wars"
 	group: "085766035AF08426"
@@ -49,16 +49,14 @@
 		}
 	]
 	order_index: 0
-	quest_links: [
-		{
-			id: "07EFBD7484EB6C86"
-			linked_quest: "5450778A20623EE7"
-			shape: "gear"
-			size: 2.0d
-			x: 3.5d
-			y: -5.5d
-		}
-	]
+	quest_links: [{
+		id: "07EFBD7484EB6C86"
+		linked_quest: "5450778A20623EE7"
+		shape: "gear"
+		size: 2.0d
+		x: 3.5d
+		y: -5.5d
+	}]
 	quests: [
 		{
 			description: ["{ftbquests.chapter.storage_wars.quests0.description}"]
@@ -70,15 +68,13 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "enchantableblocks:storing"
-									lvl: 3s
-								}
-							]
+							StoredEnchantments: [{
+								id: "enchantableblocks:storing"
+								lvl: 3s
+							}]
 						}
 					}
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -93,21 +89,19 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					icon: "minecraft:chest"
-					id: "14F355E5C5C199FE"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(forge:chests)"
-						}
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "14F355E5C5C199FE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(forge:chests)"
 					}
-					title: "{ftbquests.chapter.storage_wars.quests0.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.storage_wars.quests0.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests0.title}"
 			x: 6.0d
 			y: -4.0d
@@ -122,30 +116,26 @@
 				""
 				"{ftbquests.chapter.storage_wars.quests1.description2}"
 				""
-				"{ftbquests.chapter.storage_wars.quests1.description4}"
+				"[ \"Refer to the \", { \"translate\": \"ftbquests.chapter.storage_wars.quests1.description4\", \"underlined\": 1, color:\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"233F05EB1C0271B1\" } }, \" on how to process redstone before you've made machines.\" ]"
 			]
 			id: "0DA0C0B4C0BBDF59"
-			rewards: [
-				{
-					id: "478A49DC1C1940AC"
-					item: "sophisticatedstorage:compression_upgrade"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1F692CB3E2F3E651"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(sophisticatedstorage:base_tier_wooden_storage)"
-						}
+			rewards: [{
+				id: "478A49DC1C1940AC"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F692CB3E2F3E651"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(sophisticatedstorage:base_tier_wooden_storage)"
 					}
-					title: "{ftbquests.chapter.storage_wars.quests1.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.storage_wars.quests1.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests1.title}"
 			x: 6.0d
 			y: -2.0d
@@ -154,22 +144,18 @@
 			dependencies: ["2074774DB3A1A3F5"]
 			description: ["{ftbquests.chapter.storage_wars.quests2.description}"]
 			id: "38AE60B1B0AC4B7D"
-			rewards: [
-				{
-					id: "757881E8C23E85DC"
-					item: "sophisticatedbackpacks:void_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "757881E8C23E85DC"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "6D901BF815771D3B"
-					item: "sophisticatedbackpacks:backpack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D901BF815771D3B"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests2.title}"
 			x: 1.0d
 			y: -4.0d
@@ -187,7 +173,7 @@
 					count: 4
 					id: "25325A90F808C3A4"
 					item: "ae2:flawless_budding_quartz"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -226,7 +212,7 @@
 					count: 16
 					id: "32458538B41DFF4F"
 					item: "ae2:fluix_glass_cable"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -235,13 +221,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "4D43C3D35E69DEA4"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D43C3D35E69DEA4"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -0.5d
 		}
@@ -252,29 +236,25 @@
 			]
 			description: ["{ftbquests.chapter.storage_wars.quests5.description}"]
 			id: "7051D46F69250034"
-			rewards: [
-				{
-					id: "221324B4A933620B"
-					type: "xp"
-					xp: 5
-				}
-			]
+			rewards: [{
+				id: "221324B4A933620B"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "0908788670AB8987"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(ae2:logic_processor)item(ae2:calculation_processor)item(ae2:engineering_processor))"
-						}
+			tasks: [{
+				id: "0908788670AB8987"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ae2:logic_processor)item(ae2:calculation_processor)item(ae2:engineering_processor))"
 					}
-					title: "{ftbquests.chapter.storage_wars.quests5.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.storage_wars.quests5.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests5.title}"
 			x: 3.5d
 			y: 1.0d
@@ -283,22 +263,18 @@
 			dependencies: ["7051D46F69250034"]
 			description: ["{ftbquests.chapter.storage_wars.quests6.description}"]
 			id: "0B5F134C5B11532E"
-			rewards: [
-				{
-					count: 16
-					id: "680D720070B21128"
-					item: "ae2:cable_anchor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "680D720070B21128"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "2B093226004FCA67"
-					item: "ae2:crafting_terminal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B093226004FCA67"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.0d
 		}
@@ -310,7 +286,7 @@
 				{
 					id: "6841DE81F7E64632"
 					item: "ae2:conversion_monitor"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -319,13 +295,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "759829F98FDD9C38"
-					item: "ae2:drive"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "759829F98FDD9C38"
+				item: "ae2:drive"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 3.0d
 		}
@@ -349,7 +323,7 @@
 					count: 2
 					id: "3317CEF19D1BA2EB"
 					item: "ae2:cell_component_1k"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -358,13 +332,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "1C7A5D4995762635"
-					item: "ae2:cell_component_1k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C7A5D4995762635"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -392,13 +364,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7C3DE34C43183CD6"
-					item: "ae2:interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C3DE34C43183CD6"
+				item: "ae2:interface"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
@@ -414,7 +384,7 @@
 						id: "megacells:bulk_item_cell"
 						tag: { }
 					}
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -423,13 +393,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7D8E85525ACB7BDC"
-					item: "ae2:storage_bus"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D8E85525ACB7BDC"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -437,13 +405,12 @@
 			dependencies: ["2E0609890471DABF"]
 			description: ["{ftbquests.chapter.storage_wars.quests11.description}"]
 			id: "59E36FF9B02570FA"
-			optional: "true"
 			rewards: [
 				{
 					count: 16
 					id: "465E895844F56F4B"
 					item: "ae2:certus_quartz_crystal"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -453,13 +420,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "166D5DDE5DCA78F5"
-					item: "ae2:crystal_resonance_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "166D5DDE5DCA78F5"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -0.5d
 		}
@@ -476,21 +441,21 @@
 					count: 4
 					id: "2A980316181035D0"
 					item: "ae2:basic_card"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 4
 					id: "0BE254EEDABD350E"
 					item: "ae2:advanced_card"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 4
 					id: "1C53CE16DFA2E3FB"
 					item: "ae2:level_emitter"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -500,20 +465,18 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "43139EB108FF39F6"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
-						}
+			tasks: [{
+				id: "43139EB108FF39F6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
 					}
-					title: "{ftbquests.chapter.storage_wars.quests12.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.storage_wars.quests12.tasks0.title}"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -529,23 +492,21 @@
 				{
 					id: "7ADDF487BE57C759"
 					item: "ae2:crafting_accelerator"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "032507E31F27ADA6"
 					item: "ae2:crafting_monitor"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "05A8130D111B208D"
-					item: "ae2:crafting_unit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05A8130D111B208D"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 4.0d
 		}
@@ -562,7 +523,7 @@
 					count: 4
 					id: "6B37F92CC3302C30"
 					item: "ae2:molecular_assembler"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -571,13 +532,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "400B85FB6F547416"
-					item: "ae2:pattern_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "400B85FB6F547416"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 6.0d
 		}
@@ -591,13 +550,13 @@
 					count: 16
 					id: "34AE6FFACB5F48BD"
 					item: "ae2:sky_dust"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "53F185B97FB95200"
 					item: "ae2:chest"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -630,7 +589,7 @@
 				{
 					id: "573DF66C68A48D9C"
 					item: "megacells:mega_pattern_provider"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -640,13 +599,11 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "3AA09D27883F01A8"
-					item: "megacells:accumulation_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3AA09D27883F01A8"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests16.title}"
 			x: 3.5d
 			y: 7.0d
@@ -654,13 +611,11 @@
 		{
 			description: ["{ftbquests.chapter.storage_wars.quests17.description}"]
 			id: "49702704A3D6EF3F"
-			rewards: [
-				{
-					id: "28B456310ED9E005"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "28B456310ED9E005"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -691,7 +646,7 @@
 					count: 2
 					id: "1DAB1E1F6BF57C67"
 					item: "ae2:storage_bus"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -702,13 +657,11 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "6109C8F90682ED56"
-					item: "ae2:controller"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6109C8F90682ED56"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests18.title}"
 			x: 5.0d
 			y: 2.0d
@@ -716,7 +669,6 @@
 		{
 			dependencies: ["5450778A20623EE7"]
 			description: ["{ftbquests.chapter.storage_wars.quests19.description}"]
-			disable_toast: "true"
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -725,20 +677,16 @@
 				}
 			}
 			id: "21A11C91269B4DB6"
-			rewards: [
-				{
-					id: "1D4C5F46F9E25CA4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			rewards: [{
+				id: "1D4C5F46F9E25CA4"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "heart"
-			tasks: [
-				{
-					id: "72D724F135C4C17C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "72D724F135C4C17C"
+				type: "checkmark"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests19.title}"
 			x: 3.5d
 			y: -3.5d
@@ -751,20 +699,16 @@
 				"{ftbquests.chapter.storage_wars.quests20.description2}"
 			]
 			id: "50F42C867B87C99C"
-			rewards: [
-				{
-					id: "2CC1880AB65420B8"
-					type: "xp"
-					xp: 5
-				}
-			]
-			tasks: [
-				{
-					id: "23A57F9557238088"
-					item: "sophisticatedbackpacks:upgrade_base"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2CC1880AB65420B8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "23A57F9557238088"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.storage_wars.quests20.title}"
 			x: 1.0d
 			y: -2.0d

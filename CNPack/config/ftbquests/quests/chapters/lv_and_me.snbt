@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lv_and_me"
 	group: "71DBF4FB7368CC06"
@@ -42,7 +42,7 @@
 					count: 2
 					id: "0FD09C1BC5BEF17A"
 					item: "modern_industrialization:redstone_battery"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -57,13 +57,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "46EE1CB3F3BA50DA"
-					item: "modern_industrialization:lv_steam_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "46EE1CB3F3BA50DA"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
 			x: -17.0d
 			y: -1.5d
 		}
@@ -80,7 +78,7 @@
 					count: 2
 					id: "548816D028804409"
 					item: "modern_industrialization:analog_circuit"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -92,17 +90,15 @@
 					count: 16
 					id: "52E53ACD1C794372"
 					item: "modern_industrialization:robot_arm"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "19D8A770D1317128"
-					item: "modern_industrialization:assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "19D8A770D1317128"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests1.title}"
 			x: -17.0d
 			y: -4.0d
@@ -135,21 +131,19 @@
 			]
 			shape: "square"
 			size: 1.25d
-			tasks: [
-				{
-					id: "4927686BF87AB809"
-					item: {
-						Count: 1
-						id: "actuallyadditions:drill_light_blue"
-						tag: {
-							"neoforge:attachments": {
-								"actuallyadditions:energy": 0
-							}
+			tasks: [{
+				id: "4927686BF87AB809"
+				item: {
+					Count: 1
+					id: "actuallyadditions:drill_light_blue"
+					tag: {
+						"neoforge:attachments": {
+							"actuallyadditions:energy": 0
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests2.title}"
 			x: -17.42142857142857d
 			y: -7.349999999999998d
@@ -169,25 +163,23 @@
 					count: 4
 					id: "4B6967F888D516E8"
 					item: "modern_industrialization:pump"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 4
 					id: "79226DC36A80B4C2"
 					item: "modern_industrialization:basic_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests3.subtitle}"
-			tasks: [
-				{
-					id: "1B05BF16854BE61B"
-					item: "modern_industrialization:chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B05BF16854BE61B"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests3.title}"
 			x: -7.0d
 			y: -3.0d
@@ -211,17 +203,15 @@
 				{
 					id: "3BB6A15BEEFB974B"
 					item: "modern_industrialization:basic_machine_hull"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "11BFE98F36CB53CB"
-					item: "modern_industrialization:polarizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "11BFE98F36CB53CB"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
 			x: -14.0d
 			y: -1.5d
 		}
@@ -242,14 +232,14 @@
 					count: 10
 					id: "2AE76C8AFE28DE66"
 					item: "modern_industrialization:heatproof_machine_casing"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "0938D117FC405905"
 					item: "modern_industrialization:cupronickel_coil"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -274,10 +264,7 @@
 				{
 					count: 5L
 					id: "01F94C6BCF77BEDB"
-					item: {
-						Count: 15
-						id: "modern_industrialization:heatproof_machine_casing"
-					}
+					item: { Count: 15, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
@@ -308,7 +295,7 @@
 					count: 16
 					id: "5648A58C5182B873"
 					item: "modern_industrialization:aluminum_ingot"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -317,13 +304,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "699163AA2F0B57D2"
-					item: "modern_industrialization:aluminum_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "699163AA2F0B57D2"
+				item: "modern_industrialization:aluminum_ingot"
+				type: "item"
+			}]
 			x: -9.5d
 			y: -1.5d
 		}
@@ -335,22 +320,18 @@
 				"{ftbquests.chapter.lv_and_me.quests7.description2}"
 			]
 			id: "69AC60052F0D4707"
-			rewards: [
-				{
-					count: 16
-					id: "57AC596DFB2FD195"
-					item: "modern_industrialization:silicon_dust"
-					team_reward: "true"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "10070BA26E747C40"
-					item: "modern_industrialization:silicon_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "57AC596DFB2FD195"
+				item: "modern_industrialization:silicon_dust"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "10070BA26E747C40"
+				item: "modern_industrialization:silicon_ingot"
+				type: "item"
+			}]
 			x: -11.5d
 			y: -4.0d
 		}
@@ -366,14 +347,14 @@
 					count: 8
 					id: "1DEC977A9044B41B"
 					item: "modern_industrialization:silicon_n_doped_plate"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "6D5A3B9CA59BEB37"
 					item: "modern_industrialization:silicon_p_doped_plate"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -397,10 +378,10 @@
 			description: [
 				"{ftbquests.chapter.lv_and_me.quests9.description0}"
 				""
-				"{ftbquests.chapter.lv_and_me.quests9.description2}"
+				"[ \"Opens up the \", { \"translate\": \"ftbquests.chapter.lv_and_me.quests9.description2\", \"underlined\": 1, \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"648C4207E8219B27\" } }, \" questline. Head over there to continue delving deeper into Mekanism machines and processing.\" ]"
 				""
 				""
-				"{ftbquests.chapter.lv_and_me.quests9.description5}"
+				"[ \"Also opens up \", { \"translate\": \"ftbquests.chapter.lv_and_me.quests9.description5\", \"underlined\": 1,\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D7053E25B02DB4B\" } }, \" for further progress into the MV Technology tier.\" ]"
 			]
 			id: "0FD3CA713EDF2729"
 			rewards: [
@@ -408,7 +389,7 @@
 					count: 8
 					id: "349970BCA63EC202"
 					item: "modern_industrialization:electronic_circuit"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -419,13 +400,11 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "683EE393DA2363A2"
-					item: "modern_industrialization:electronic_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "683EE393DA2363A2"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
 			x: -5.5d
 			y: -1.5d
 		}
@@ -439,7 +418,7 @@
 					count: 8
 					id: "65B06DAA0FBC328B"
 					item: "modern_industrialization:electronic_circuit_board"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -449,13 +428,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests10.subtitle}"
-			tasks: [
-				{
-					id: "71CF9F813741A40C"
-					item: "modern_industrialization:electronic_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71CF9F813741A40C"
+				item: "modern_industrialization:electronic_circuit_board"
+				type: "item"
+			}]
 			x: -8.0d
 			y: -1.5d
 		}
@@ -473,17 +450,15 @@
 					count: 2
 					id: "5FDB63C1BB55C9C8"
 					item: "actuallyadditions:laser_relay_fluids"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "498838C6F13005D7"
-					item: "modern_industrialization:advanced_large_steam_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "498838C6F13005D7"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -3.0d
 		}
@@ -497,25 +472,23 @@
 					count: 4
 					id: "203F60B28023930B"
 					item: "modern_industrialization:basic_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 2
 					id: "4B58EDF0739D6B86"
 					item: "actuallyadditions:laser_relay_fluids"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests12.subtitle}"
-			tasks: [
-				{
-					id: "194C056896753D3C"
-					item: "modern_industrialization:distillery"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "194C056896753D3C"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests12.title}"
 			x: -5.5d
 			y: -3.5d
@@ -525,21 +498,18 @@
 			description: [
 				"{ftbquests.chapter.lv_and_me.quests13.description0}"
 				""
-				"{ftbquests.chapter.lv_and_me.quests13.description2}"
+				"[ \"It is ideal to use a \", { \"translate\": \"ftbquests.chapter.lv_and_me.quests13.description2\", \"underlined\": 1, \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"595F1E9BDF4FB832\" } }, \" Tree farm to provide burnble fuel for it.\"] "
 				""
 				"{ftbquests.chapter.lv_and_me.quests13.description4}"
 			]
 			icon: "modern_industrialization:large_steam_boiler"
 			id: "777928E4F16C7C96"
-			optional: "true"
-			rewards: [
-				{
-					count: 12
-					id: "200AF6A53EEE2C24"
-					item: "modern_industrialization:bronze_plated_bricks"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 12
+				id: "200AF6A53EEE2C24"
+				item: "modern_industrialization:bronze_plated_bricks"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [
@@ -566,28 +536,19 @@
 				{
 					count: 6L
 					id: "2B669C6714620BAB"
-					item: {
-						Count: 6
-						id: "modern_industrialization:heatproof_machine_casing"
-					}
+					item: { Count: 6, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4E4E709053F9BA58"
-					item: {
-						Count: 2
-						id: "modern_industrialization:bronze_machine_casing_pipe"
-					}
+					item: { Count: 2, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 13L
 					id: "3ED206003AC447D8"
-					item: {
-						Count: 25
-						id: "modern_industrialization:bronze_plated_bricks"
-					}
+					item: { Count: 25, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 			]
@@ -608,14 +569,14 @@
 					count: 16
 					id: "4E0A2187413F5F51"
 					item: "modern_industrialization:battery_alloy_ingot"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 16
 					id: "3392289DC179B620"
 					item: "minecraft:redstone"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -627,13 +588,11 @@
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.lv_and_me.quests14.subtitle}"
-			tasks: [
-				{
-					id: "3A115F345CFCBE27"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A115F345CFCBE27"
+				item: "modern_industrialization:basic_machine_hull"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests14.title}"
 			x: -19.0d
 			y: -1.5d
@@ -659,24 +618,19 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			tasks: [
-				{
-					icon: {
-						Count: 2
-						id: "modern_industrialization:steel_boiler"
+			tasks: [{
+				icon: { Count: 2, id: "modern_industrialization:steel_boiler" }
+				id: "2F7A67A5B8C50648"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(and(item(modern_industrialization:steel_boiler)stack_size(>1))and(item(modern_industrialization:bronze_boiler)stack_size(>3)))"
 					}
-					id: "2F7A67A5B8C50648"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(and(item(modern_industrialization:steel_boiler)stack_size(>1))and(item(modern_industrialization:bronze_boiler)stack_size(>3)))"
-						}
-					}
-					title: "{ftbquests.chapter.lv_and_me.quests15.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.lv_and_me.quests15.tasks0.title}"
+				type: "item"
+			}]
 			x: -19.0d
 			y: 1.0d
 		}
@@ -688,23 +642,19 @@
 				"{ftbquests.chapter.lv_and_me.quests16.description2}"
 			]
 			id: "3EDA94315DFEE01F"
-			rewards: [
-				{
-					count: 4
-					id: "0B09B44A97ED353E"
-					item: "modern_industrialization:basic_upgrade"
-					team_reward: "true"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "0B09B44A97ED353E"
+				item: "modern_industrialization:basic_upgrade"
+				team_reward: false
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests16.subtitle}"
-			tasks: [
-				{
-					id: "640366DBFE8884EF"
-					item: "modern_industrialization:electric_packer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "640366DBFE8884EF"
+				item: "modern_industrialization:electric_packer"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests16.title}"
 			x: -15.5d
 			y: -4.0d
@@ -722,7 +672,7 @@
 					count: 6
 					id: "3F354AB64E63AA75"
 					item: "modern_industrialization:heatproof_machine_casing"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -732,13 +682,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests17.subtitle}"
-			tasks: [
-				{
-					id: "48F063DDC9AEFB27"
-					item: "modern_industrialization:heatproof_machine_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "48F063DDC9AEFB27"
+				item: "modern_industrialization:heatproof_machine_casing"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests17.title}"
 			x: -11.5d
 			y: 1.0d
@@ -751,23 +699,19 @@
 				"{ftbquests.chapter.lv_and_me.quests18.description2}"
 			]
 			id: "2E1CD296614F757A"
-			rewards: [
-				{
-					count: 3
-					id: "2CD234AE08EE8B86"
-					item: "modern_industrialization:motor"
-					team_reward: "true"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "2CD234AE08EE8B86"
+				item: "modern_industrialization:motor"
+				team_reward: false
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests18.subtitle}"
-			tasks: [
-				{
-					id: "26FA1B2EA78B76A1"
-					item: "modern_industrialization:electric_mixer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "26FA1B2EA78B76A1"
+				item: "modern_industrialization:electric_mixer"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests18.title}"
 			x: -13.5d
 			y: -4.0d
@@ -786,21 +730,21 @@
 					count: 8
 					id: "59E5AEF075221973"
 					item: "ae2:printed_calculation_processor"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "11FEB17F9C83CA90"
 					item: "ae2:printed_logic_processor"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "5ED823EA7B8EA1FE"
 					item: "ae2:printed_engineering_processor"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -837,23 +781,19 @@
 				"{ftbquests.chapter.lv_and_me.quests20.description2}"
 			]
 			id: "48BDC8DF4C8952FE"
-			rewards: [
-				{
-					count: 8
-					id: "0680E805848582F1"
-					item: "ae2:printed_silicon"
-					team_reward: "true"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "0680E805848582F1"
+				item: "ae2:printed_silicon"
+				team_reward: false
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.lv_and_me.quests20.subtitle}"
-			tasks: [
-				{
-					id: "46BEC7F1D953CCB7"
-					item: "ae2:printed_silicon"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "46BEC7F1D953CCB7"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests20.title}"
 			x: -11.5d
 			y: -6.0d
@@ -870,14 +810,14 @@
 					count: 16
 					id: "04B31201ABD94ED2"
 					item: "minecraft:redstone"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 16
 					id: "29062DCC242B5BB9"
 					item: "modern_industrialization:quartz_dust"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -888,13 +828,11 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "071122DB885C74E4"
-					item: "ae2:energy_acceptor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "071122DB885C74E4"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests21.title}"
 			x: -13.5d
 			y: -8.25d
@@ -903,7 +841,6 @@
 			dependencies: ["74BC32AACDEE0B2E"]
 			description: ["{ftbquests.chapter.lv_and_me.quests22.description}"]
 			id: "2E26BC0DE9984E83"
-			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -934,10 +871,7 @@
 				{
 					count: 15L
 					id: "0FCC36E9137A962C"
-					item: {
-						Count: 20
-						id: "modern_industrialization:steel_machine_casing"
-					}
+					item: { Count: 20, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 			]
@@ -953,7 +887,7 @@
 			description: [
 				"{ftbquests.chapter.lv_and_me.quests23.description0}"
 				""
-				"{ftbquests.chapter.lv_and_me.quests23.description2}"
+				"[ \"This quest will open up the chapter on \", { \"translate\": \"ftbquests.chapter.lv_and_me.quests23.description2\", \"underlined\": 1,\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38F8175C616B1985\" } }, \", allowing you to procure power ore and force gems.\" ]"
 			]
 			id: "64C350B6E762F1CA"
 			rewards: [
@@ -978,13 +912,11 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "67C48C460367E80A"
-					item: "actuallyadditions:atomic_reconstructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "67C48C460367E80A"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.lv_and_me.quests23.title}"
 			x: -17.5d
 			y: -5.5d
@@ -997,23 +929,21 @@
 				{
 					id: "546A69F35C25BFFA"
 					item: "wirelessredstone:redstone_transmitter"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "727DA7157AE64CE3"
 					item: "wirelessredstone:redstone_receiver"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3BF72BD2F77CEB1E"
-					item: "modern_industrialization:molten_redstone_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3BF72BD2F77CEB1E"
+				item: "modern_industrialization:molten_redstone_bucket"
+				type: "item"
+			}]
 			x: -18.0d
 			y: -4.0d
 		}
@@ -1022,7 +952,7 @@
 			description: [
 				"{ftbquests.chapter.lv_and_me.quests25.description0}"
 				""
-				"{ftbquests.chapter.lv_and_me.quests25.description2}"
+				"[ \"This quest opens up the chapter \", { \"translate\": \"ftbquests.chapter.lv_and_me.quests25.description2\", \"underlined\": 1, \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68DB318D885398CB\" } }, \", head over there to continue progressing with Equivalent Exchange!\" ]"
 			]
 			id: "45859AB81C22F034"
 			rewards: [
@@ -1030,7 +960,7 @@
 					count: 4
 					id: "0E65AF15CA87B892"
 					item: "actuallyadditions:display_stand"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1041,13 +971,11 @@
 			]
 			shape: "gear"
 			size: 1.25d
-			tasks: [
-				{
-					id: "257629046D81D598"
-					item: "actuallyadditions:empowerer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "257629046D81D598"
+				item: "actuallyadditions:empowerer"
+				type: "item"
+			}]
 			x: -9.5d
 			y: 0.0d
 		}
@@ -1060,24 +988,22 @@
 					count: 32
 					id: "1C9D82C10506FCE3"
 					item: "modern_industrialization:steel_drill"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 32
 					id: "2A27A0F59BEF7536"
 					item: "modern_industrialization:gold_drill"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "60F74BF64D338526"
-					item: "modern_industrialization:electric_quarry"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60F74BF64D338526"
+				item: "modern_industrialization:electric_quarry"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -1.5d
 		}
@@ -1085,20 +1011,16 @@
 			dependencies: ["5477727AA298B556"]
 			description: ["{ftbquests.chapter.lv_and_me.quests27.description}"]
 			id: "20011204769833BE"
-			rewards: [
-				{
-					id: "30FC34316C91DDAA"
-					item: "modern_industrialization:lv_storage_unit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "15FBB94ECD940082"
-					item: "modern_industrialization:lv_storage_unit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "30FC34316C91DDAA"
+				item: "modern_industrialization:lv_storage_unit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15FBB94ECD940082"
+				item: "modern_industrialization:lv_storage_unit"
+				type: "item"
+			}]
 			x: -17.0d
 			y: 0.0d
 		}

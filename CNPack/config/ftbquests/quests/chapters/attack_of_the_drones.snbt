@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "attack_of_the_drones"
 	group: "2A82D89E6FF141B7"
@@ -13,17 +13,15 @@
 		}
 	}
 	id: "347012AF86B901CE"
-	images: [
-		{
-			alpha: 200
-			height: 2.0d
-			image: "ftbfiltersystem:textures/gui/sprites/background.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -1.5d
-			y: -1.5d
-		}
-	]
+	images: [{
+		alpha: 200
+		height: 2.0d
+		image: "ftbfiltersystem:textures/gui/sprites/background.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -1.5d
+		y: -1.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -47,13 +45,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "55C0915A00C2D11F"
-					item: "ftbneotech:ender_apple"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "55C0915A00C2D11F"
+				item: "ftbneotech:ender_apple"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests0.title}"
 			x: 3.0d
 			y: 0.5d
@@ -73,19 +69,19 @@
 					count: 2
 					id: "1FD20A23E780E826"
 					item: "pneumaticcraft:pressure_chamber_interface"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "02568887D893E58D"
 					item: "pneumaticcraft:pressure_chamber_valve"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "103312B165C6A4A8"
 					item: "pneumaticcraft:pressure_chamber_glass"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -114,17 +110,12 @@
 				}
 			]
 			size: 1.5d
-			tasks: [
-				{
-					count: 22L
-					id: "2C00E3DDD3624B2E"
-					item: {
-						Count: 22
-						id: "pneumaticcraft:pressure_chamber_wall"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 22L
+				id: "2C00E3DDD3624B2E"
+				item: { Count: 22, id: "pneumaticcraft:pressure_chamber_wall" }
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests1.title}"
 			x: 0.5d
 			y: 2.5d
@@ -138,7 +129,7 @@
 					count: 4
 					id: "0A1AC7A99E0FED30"
 					item: "pneumaticcraft:crop_support"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -147,13 +138,11 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "7DCECD25EE4CE529"
-					item: "pneumaticcraft:crop_support"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7DCECD25EE4CE529"
+				item: "pneumaticcraft:crop_support"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests2.title}"
 			x: -1.5d
 			y: -3.5d
@@ -167,7 +156,7 @@
 					count: 4
 					id: "1ADB069763BAD4D2"
 					item: "minecraft:emerald"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -176,30 +165,28 @@
 					xp: 5
 				}
 			]
-			tasks: [
-				{
-					id: "29E21D58410E150E"
-					item: {
-						Count: 1
-						id: "pneumaticcraft:amadron_tablet"
-						tag: {
-							itemPos: {
-								dimension: "minecraft:overworld"
-								pos: [I;
-									-5283
-									62
-									10642
-								]
-							}
-							"neoforge:attachments": {
-								"pneumaticcraft:air": 27218
-							}
-							shoppingCart: { }
+			tasks: [{
+				id: "29E21D58410E150E"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:amadron_tablet"
+					tag: {
+						itemPos: {
+							dimension: "minecraft:overworld"
+							pos: [I;
+								-5283
+								62
+								10642
+							]
 						}
+						"neoforge:attachments": {
+							"pneumaticcraft:air": 27218
+						}
+						shoppingCart: { }
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests3.title}"
 			x: 0.5d
 			y: 4.0d
@@ -209,13 +196,11 @@
 			description: ["{ftbquests.chapter.attack_of_the_drones.quests4.description}"]
 			id: "18C8FF073435FB10"
 			min_width: 320
-			rewards: [
-				{
-					id: "5B9A777E698EA7EA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			rewards: [{
+				id: "5B9A777E698EA7EA"
+				type: "xp"
+				xp: 5
+			}]
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests4.subtitle}"
 			tasks: [
 				{
@@ -245,20 +230,16 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests5.description6}"
 			]
 			id: "35FFAC447F36F05C"
-			rewards: [
-				{
-					id: "1DBC12779076538D"
-					type: "xp"
-					xp: 5
-				}
-			]
-			tasks: [
-				{
-					id: "0660C86F1E4C81E7"
-					item: "pneumaticcraft:etching_tank"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1DBC12779076538D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0660C86F1E4C81E7"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 5.5d
 		}
@@ -266,22 +247,18 @@
 			dependencies: ["35FFAC447F36F05C"]
 			description: ["{ftbquests.chapter.attack_of_the_drones.quests6.description}"]
 			id: "7C2617969808F086"
-			rewards: [
-				{
-					count: 4
-					id: "44B5600FC668F73D"
-					item: "pneumaticcraft:printed_circuit_board"
-					team_reward: "true"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "338C2758640ED390"
-					item: "pneumaticcraft:printed_circuit_board"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "44B5600FC668F73D"
+				item: "pneumaticcraft:printed_circuit_board"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "338C2758640ED390"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 3.5d
 		}
@@ -297,13 +274,11 @@
 			icon: "pneumaticcraft:module_expansion_card"
 			id: "633FA983B63A65DD"
 			min_width: 300
-			rewards: [
-				{
-					id: "3FF2D1BC75569920"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3FF2D1BC75569920"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests7.subtitle}"
 			tasks: [
 				{
@@ -335,14 +310,14 @@
 					count: 2
 					id: "462C7A1DD2A4E0A9"
 					item: "pneumaticcraft:volume_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 2
 					id: "6C6E8BF4E8935722"
 					item: "pneumaticcraft:speed_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -389,20 +364,16 @@
 			]
 			description: ["{ftbquests.chapter.attack_of_the_drones.quests9.description}"]
 			id: "0EC122E853F2083C"
-			rewards: [
-				{
-					id: "1EE21DED41192860"
-					item: "pneumaticcraft:regulator_tube_module"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3C96189CE1B5BDDC"
-					item: "pneumaticcraft:advanced_pressure_tube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1EE21DED41192860"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C96189CE1B5BDDC"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests9.title}"
 			x: 5.5d
 			y: 6.5d
@@ -421,7 +392,7 @@
 				{
 					id: "7E74B67AB5478F1A"
 					item: "dimstorage:dimensional_chest"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -430,13 +401,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "4F3AC86614B7D154"
-					item: "pneumaticcraft:aerial_interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F3AC86614B7D154"
+				item: "pneumaticcraft:aerial_interface"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 3.5d
 		}
@@ -448,13 +417,11 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests11.description2}"
 			]
 			id: "3A5A665B1F76BE26"
-			rewards: [
-				{
-					id: "42D8314171399B21"
-					item: "pneumaticcraft:jet_boots_upgrade_1"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "42D8314171399B21"
+				item: "pneumaticcraft:jet_boots_upgrade_1"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2ADC78820BCCA82F"
@@ -519,7 +486,7 @@
 				{
 					id: "09A7A9263B26A810"
 					item: "pneumaticcraft:security_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -528,25 +495,21 @@
 						Count: 1
 						id: "minecraft:magma_block"
 						tag: {
-							Enchantments: [
-								{
-									id: "enchantableblocks:boiling"
-									lvl: 3s
-								}
-							]
+							Enchantments: [{
+								id: "enchantableblocks:boiling"
+								lvl: 3s
+							}]
 							RepairCost: 1
 						}
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "17485231CED3D0BE"
-					item: "pneumaticcraft:thermopneumatic_processing_plant"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17485231CED3D0BE"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 2.5d
 		}
@@ -554,23 +517,18 @@
 			dependencies: ["6CD6367FB419EA35"]
 			description: ["{ftbquests.chapter.attack_of_the_drones.quests13.description}"]
 			id: "6252AF176FC134E9"
-			optional: "true"
-			rewards: [
-				{
-					count: 4
-					id: "565E27C0242863CD"
-					item: "pneumaticcraft:speed_upgrade"
-					team_reward: "true"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0218505A510FDE6F"
-					item: "pneumaticcraft:speed_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "565E27C0242863CD"
+				item: "pneumaticcraft:speed_upgrade"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "0218505A510FDE6F"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 4.0d
 		}
@@ -609,13 +567,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0C7ABCA95FF00709"
-					item: "pneumaticcraft:charging_station"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0C7ABCA95FF00709"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -1.5d
 		}
@@ -627,23 +583,18 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests15.description2}"
 			]
 			id: "34169D76520A5D85"
-			optional: "true"
-			rewards: [
-				{
-					count: 4
-					id: "441E123E98D94BC9"
-					item: "pneumaticcraft:aphorism_tile"
-					team_reward: "true"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2117BB00435BE17A"
-					item: "pneumaticcraft:charging_module"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "441E123E98D94BC9"
+				item: "pneumaticcraft:aphorism_tile"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "2117BB00435BE17A"
+				item: "pneumaticcraft:charging_module"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.5d
 		}
@@ -657,34 +608,29 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests16.description4}"
 			]
 			id: "73E91712D4D9A762"
-			optional: "true"
-			rewards: [
-				{
-					id: "04DA19295B558A4F"
-					item: {
-						Count: 1
-						id: "pneumaticcraft:gun_ammo"
-						tag: {
-							Damage: 0
-							potion: {
-								Count: 1b
-								id: "minecraft:potion"
-								tag: {
-									Potion: "minecraft:strong_harming"
-								}
+			rewards: [{
+				id: "04DA19295B558A4F"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:gun_ammo"
+					tag: {
+						Damage: 0
+						potion: {
+							Count: 1b
+							id: "minecraft:potion"
+							tag: {
+								Potion: "minecraft:strong_harming"
 							}
 						}
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "61D2D36076B28267"
-					item: "pneumaticcraft:minigun"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D2D36076B28267"
+				item: "pneumaticcraft:minigun"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -1.5d
 		}
@@ -696,7 +642,6 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests17.description2}"
 			]
 			id: "3CAA89E621ED5B6E"
-			optional: "true"
 			rewards: [
 				{
 					id: "7063739F3EFFADEE"
@@ -709,13 +654,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "14491BCA763B7F9B"
-					item: "pneumaticcraft:camo_applicator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "14491BCA763B7F9B"
+				item: "pneumaticcraft:camo_applicator"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -0.5d
 		}
@@ -736,21 +679,17 @@
 			]
 			icon: "pneumaticcraft:pressure_gauge"
 			id: "670A52F1036507BB"
-			rewards: [
-				{
-					id: "3C327348BEA491B2"
-					item: "pneumaticcraft:security_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3C327348BEA491B2"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "3D09A59994D73C21"
-					title: "{ftbquests.chapter.attack_of_the_drones.quests18.tasks0.title}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "3D09A59994D73C21"
+				title: "{ftbquests.chapter.attack_of_the_drones.quests18.tasks0.title}"
+				type: "checkmark"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests18.title}"
 			x: -3.8d
 			y: -1.0d
@@ -766,29 +705,25 @@
 			]
 			id: "3FB51F0568B0896C"
 			min_width: 350
-			rewards: [
-				{
-					id: "16A464A64C0707C2"
-					item: {
-						Count: 1
-						id: "pneumaticcraft:pneumatic_wrench"
-						tag: {
-							"pneumaticcraft:air": 30000
-						}
+			rewards: [{
+				id: "16A464A64C0707C2"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:pneumatic_wrench"
+					tag: {
+						"pneumaticcraft:air": 30000
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					count: 8L
-					id: "0890961C71FF720C"
-					item: "pneumaticcraft:pressure_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "0890961C71FF720C"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests19.title}"
 			x: -6.0d
 			y: -1.5d
@@ -818,26 +753,24 @@
 					count: 2
 					id: "08677698FDC5790D"
 					item: "pneumaticcraft:dispenser_upgrade"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					count: 8
 					id: "134B05F9CBBC8FD2"
 					item: "pneumaticcraft:heat_pipe"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					count: 6L
-					id: "3D6556543AFE3118"
-					item: "pneumaticcraft:thermal_lagging"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "3D6556543AFE3118"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests20.title}"
 			x: -6.0d
 			y: 0.5d
@@ -850,21 +783,17 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests21.description2}"
 			]
 			id: "40B00524384110B9"
-			rewards: [
-				{
-					id: "77C1665861D6F3BE"
-					item: "pneumaticcraft:heat_frame"
-					team_reward: "true"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2DF34B3D6F884191"
-					item: "pneumaticcraft:vortex_tube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "77C1665861D6F3BE"
+				item: "pneumaticcraft:heat_frame"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF34B3D6F884191"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 2.0d
 		}
@@ -876,7 +805,7 @@
 				{
 					id: "753D28324DE68118"
 					item: "pneumaticcraft:air_grate_module"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -885,13 +814,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "08861EA4BA83BEA5"
-					item: "pneumaticcraft:heat_sink"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "08861EA4BA83BEA5"
+				item: "pneumaticcraft:heat_sink"
+				type: "item"
+			}]
 			x: -5.0d
 			y: 2.0d
 		}
@@ -902,21 +829,17 @@
 				"{ftbquests.chapter.attack_of_the_drones.quests23.description2}"
 			]
 			id: "15F655AA668D6541"
-			rewards: [
-				{
-					count: 4
-					id: "7DAF90E29F7D9743"
-					item: "pneumaticcraft:bandage"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0D585DA17B8A0CE1"
-					item: "pneumaticcraft:fluid_mixer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "7DAF90E29F7D9743"
+				item: "pneumaticcraft:bandage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D585DA17B8A0CE1"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 3.0d
 		}
@@ -945,13 +868,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests24.subtitle}"
-			tasks: [
-				{
-					id: "3992254FD65DB66A"
-					item: "pneumaticcraft:pneumatic_dynamo"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3992254FD65DB66A"
+				item: "pneumaticcraft:pneumatic_dynamo"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests24.title}"
 			x: 5.5d
 			y: 8.0d
@@ -980,13 +901,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests25.subtitle}"
-			tasks: [
-				{
-					id: "31AA4A46CBF50FD8"
-					item: "pneumaticcraft:solar_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31AA4A46CBF50FD8"
+				item: "pneumaticcraft:solar_compressor"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests25.title}"
 			x: 6.5d
 			y: 8.0d
@@ -1014,13 +933,11 @@
 			]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests26.subtitle}"
-			tasks: [
-				{
-					id: "6FB8979BC0D6F0B4"
-					item: "pneumaticcraft:flux_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FB8979BC0D6F0B4"
+				item: "pneumaticcraft:flux_compressor"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 6.5d
 		}
@@ -1038,21 +955,17 @@
 			]
 			id: "1E39AB995B86D47A"
 			min_width: 300
-			rewards: [
-				{
-					id: "5640D831A4A12B3D"
-					item: "pneumaticcraft:regulator_tube_module"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5640D831A4A12B3D"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests27.subtitle}"
-			tasks: [
-				{
-					id: "3B79ADB53D03EF26"
-					item: "pneumaticcraft:reinforced_pressure_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B79ADB53D03EF26"
+				item: "pneumaticcraft:reinforced_pressure_tube"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests27.title}"
 			x: -1.5d
 			y: 6.5d
@@ -1095,10 +1008,7 @@
 				{
 					count: 16L
 					id: "3F2CDAC10ACE2059"
-					item: {
-						Count: 16
-						id: "pneumaticcraft:programming_puzzle"
-					}
+					item: { Count: 16, id: "pneumaticcraft:programming_puzzle" }
 					type: "item"
 				}
 			]
@@ -1115,7 +1025,7 @@
 				""
 				"{ftbquests.chapter.attack_of_the_drones.quests29.description4}"
 				""
-				"{ftbquests.chapter.attack_of_the_drones.quests29.description6}"
+				"[\"\",{\"translate\":\"ftbquests.chapter.attack_of_the_drones.quests29.description6\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gist.github.com/ArtpokeBr/e8c83e912c92e28b9d428a07b5fe7fbc\"}}]"
 				""
 				"{ftbquests.chapter.attack_of_the_drones.quests29.img0}"
 				""
@@ -1159,21 +1069,19 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests29.subtitle}"
-			tasks: [
-				{
-					id: "1F81DC042DC60CBF"
-					item: {
-						Count: 1
-						id: "pneumaticcraft:drone"
-						tag: {
-							"neoforge:attachments": {
-								"pneumaticcraft:air": 0
-							}
+			tasks: [{
+				id: "1F81DC042DC60CBF"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:drone"
+					tag: {
+						"neoforge:attachments": {
+							"pneumaticcraft:air": 0
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests29.title}"
 			x: 5.5d
 			y: 0.5d
@@ -1187,7 +1095,7 @@
 				""
 				"{ftbquests.chapter.attack_of_the_drones.quests30.description4}"
 				""
-				"{ftbquests.chapter.attack_of_the_drones.quests30.description6}"
+				"[\"\",{\"translate\":\"ftbquests.chapter.attack_of_the_drones.quests30.description6\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gist.github.com/ArtpokeBr/df8f8e046f85e0e97daf16f2976891e2\"}}]"
 				""
 				"{ftbquests.chapter.attack_of_the_drones.quests30.img0}"
 				""
@@ -1224,21 +1132,19 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.attack_of_the_drones.quests30.subtitle}"
-			tasks: [
-				{
-					id: "6794BE49A6552607"
-					item: {
-						Count: 1
-						id: "pneumaticcraft:drone"
-						tag: {
-							"neoforge:attachments": {
-								"pneumaticcraft:air": 0
-							}
+			tasks: [{
+				id: "6794BE49A6552607"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:drone"
+					tag: {
+						"neoforge:attachments": {
+							"pneumaticcraft:air": 0
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests30.title}"
 			x: 5.5d
 			y: -1.0d
@@ -1257,7 +1163,7 @@
 					count: 8
 					id: "3D4B37823EEC2FF5"
 					item: "pneumaticcraft:reinforced_stone"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1267,13 +1173,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "3CADF093A287E8CE"
-					item: "pneumaticcraft:reinforced_stone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3CADF093A287E8CE"
+				item: "pneumaticcraft:reinforced_stone"
+				type: "item"
+			}]
 			x: -3.8d
 			y: -2.0d
 		}
@@ -1294,13 +1198,13 @@
 					count: 8
 					id: "2557BB6C096F07D3"
 					item: "pneumaticcraft:pressure_tube"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "76665234010662BA"
 					item: "pneumaticcraft:safety_tube_module"
-					team_reward: "true"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1317,13 +1221,11 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "41BA3D07C2548D36"
-					item: "pneumaticcraft:air_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41BA3D07C2548D36"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.attack_of_the_drones.quests32.title}"
 			x: -1.5d
 			y: -1.5d
