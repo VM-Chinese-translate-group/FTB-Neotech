@@ -27,7 +27,7 @@ jobs:
           pip install PyGithub
       - name: Json To Paratranz
         run: |
-          python upload.py
+          python .github/workflows/upload.py
   close-issue:
     name: Close Issue
     needs: check-issue-and-upload
