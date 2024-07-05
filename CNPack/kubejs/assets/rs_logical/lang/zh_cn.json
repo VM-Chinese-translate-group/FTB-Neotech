@@ -1,11 +1,11 @@
 {
-    "block.rs_electronics.and":"和",
+    "block.rs_electronics.and":"与",
     "block.rs_electronics.binary_block":"二进制方块",
     "block.rs_electronics.not":"非",
     "block.rs_electronics.or":"或",
     "block.rs_electronics.tester":"测试器",
     "block.rs_electronics.xor":"异或",
-    "block.rs_logical.and":"和",
+    "block.rs_logical.and":"与",
     "block.rs_logical.binary_block":"二进制方块",
     "block.rs_logical.memory_binary_block":"二进制存储方块",
     "block.rs_logical.memory_controller":"存储控制器",
