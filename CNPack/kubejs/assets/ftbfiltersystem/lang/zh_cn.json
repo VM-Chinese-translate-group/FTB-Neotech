@@ -1,5 +1,5 @@
 {
-    "filter.ftbfiltersystem.and.name":"完全",
+    "filter.ftbfiltersystem.and.name":"所有",
     "filter.ftbfiltersystem.and.tooltip":"复合过滤器：此过滤器匹配条件是其所有子过滤器均需匹配。",
     "filter.ftbfiltersystem.block.name":"是方块",
     "filter.ftbfiltersystem.block.tooltip":"如果这是可放置方块，那么可以与简单过滤器匹配。",
@@ -25,9 +25,9 @@
     "filter.ftbfiltersystem.nbt.tooltip":"基于物品的NBT进行匹配。\n需要精确匹配。\n如果你有管理员权限，就可以点击你的物品栏中带有NBT的物品，将其当前NBT标签复制到文本编辑器中。",
     "filter.ftbfiltersystem.not.name":"否定",
     "filter.ftbfiltersystem.not.tooltip":"复合过滤器：此过滤器匹配的条件是其子过滤器不匹配。最多只能添加一个子过滤器。",
-    "filter.ftbfiltersystem.only_one.name":"仅一",
+    "filter.ftbfiltersystem.only_one.name":"仅有",
     "filter.ftbfiltersystem.only_one.tooltip":"复合过滤器：此过滤器匹配的条件是恰好只有一个子过滤器匹配。",
-    "filter.ftbfiltersystem.or.name":"任一",
+    "filter.ftbfiltersystem.or.name":"任意",
     "filter.ftbfiltersystem.or.tooltip":"复合过滤器：此过滤器匹配只需要其任意一个子过滤器匹配即可。",
     "filter.ftbfiltersystem.root.name":"完全（根源上）",
     "filter.ftbfiltersystem.stack_size.name":"堆叠尺寸",
