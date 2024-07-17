@@ -372,7 +372,7 @@
     "misc.actuallyadditions.power_name_short":"CF",
     "misc.actuallyadditions.power_single":"%s 水晶通量",
     "misc.actuallyadditions.power_single_short":"%s CF",
-    "tooltip.actuallyadditions.factory.working":"该熔岩工厂结构成型，可以产生岩浆！",
+    "tooltip.actuallyadditions.factory.working":"该熔岩工厂结构完整，可以产生熔岩！",
     "tooltip.actuallyadditions.item_filling_wand.selected_block":"选中方块：%s",
     "tooltip.actuallyadditions.item_filling_wand.selected_block.none":"无",
     "tooltip.actuallyadditions.item_tag.no_tag":"使用铁砧来设置标签"
