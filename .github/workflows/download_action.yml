@@ -4,6 +4,8 @@ on:
     types: [opened]
   schedule:
     - cron: "0 16,4 * * *"
+  workflow_dispatch:
+
 jobs:
   check-issue:
     if: contains(github.event.issue.labels.*.name, '自动化:paratranz→Github') && github.event_name != 'schedule'
@@ -70,11 +72,6 @@ jobs:
             git branch -D develop
             git push origin --delete develop
           fi
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: CNPack
-          path: ${{ github.workspace }}/CNPack
 
   close-issue:
     name: Close Issue
@@ -86,3 +83,39 @@ jobs:
         with:
           comment: |
             同步完成，Issue已自动关闭。
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Create ZIP file
+      run: |
+        cd CNPack
+        zip -r ../release.zip ./*
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.run_id }}
+        release_name: 自动构建汉化补丁 $(date +'%Y-%m-%d %H:%M')
+        draft: false
+        prerelease: false
+
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./release.zip
+        asset_name: release.zip
+        asset_content_type: application/zip
