@@ -18,7 +18,7 @@
     "filter.ftbfiltersystem.item_tag.name":"物品标签",
     "filter.ftbfiltersystem.item_tag.tooltip":"基于特定物品标签进行匹配；在标签中的物品将会被匹配到。\n使用对话框以过滤显示的物品标签。",
     "filter.ftbfiltersystem.max_stack_size.name":"最大堆叠尺寸",
-    "filter.ftbfiltersystem.max_stack_size.tooltip":"基于物品最大堆叠尺寸进行匹配。\n不可堆叠的物品最大堆叠尺寸被视为1。",
+    "filter.ftbfiltersystem.max_stack_size.tooltip":"基于物品最大堆叠尺寸进行匹配。\n不可堆叠的物品最大堆叠尺寸将被视为1。",
     "filter.ftbfiltersystem.mod.name":"模组",
     "filter.ftbfiltersystem.mod.tooltip":"基于有添加物品的模组进行匹配。\n原版物品在Minecraft“mod”中。",
     "filter.ftbfiltersystem.nbt.name":"NBT",
