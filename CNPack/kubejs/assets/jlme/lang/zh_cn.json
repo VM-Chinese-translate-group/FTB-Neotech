@@ -24,7 +24,7 @@
     "enchantment.jlme.evasive":"闪避",
     "enchantment.jlme.evasive.desc":"有25%的概率闪避攻击并做出闪避动作。",
     "enchantment.jlme.headless":"无头",
-    "enchantment.jlme.headless.desc":"击杀怪物必定掉落头颅（如果可能的话）。",
+    "enchantment.jlme.headless.desc":"如果可能，击杀怪物时必定掉落其头颅。",
     "enchantment.jlme.heavy_weight":"沉重",
     "enchantment.jlme.heavy_weight.desc":"减慢攻速。",
     "enchantment.jlme.lethal_cadence":"致命节奏",
