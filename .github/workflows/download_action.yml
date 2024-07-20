@@ -85,37 +85,46 @@ jobs:
             同步完成，Issue已自动关闭。
   release:
     runs-on: ubuntu-latest
-
+    name: Build and Release
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-    - name: Create ZIP file
-      run: |
-        cd CNPack
-        zip -r ../release.zip ./*
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: ${{ github.run_id }}
-        release_name: 自动构建汉化补丁 $(date +'%Y-%m-%d %H:%M')
-        draft: false
-        prerelease: false
+      - name: Create ZIP file
+        id: create_zip
+        run: |
+          cd CNPack
+          zip -r ../release.zip ./*
+  
+      - name: Rename ZIP file with build time
+        id: rename_zip
+        run: |
+          TIMESTAMP=$(date +'%Y-%m-%d_%H-%M')
+          mv ../release.zip ../快照-$TIMESTAMP.zip
+        shell: bash
 
-    - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./release.zip
-        asset_name: release.zip
-        asset_content_type: application/zip
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.run_id }}
+          release_name: 自动构建 ${TIMESTAMP}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ../快照-${{ steps.rename_zip.outputs.TIMESTAMP }}.zip
+          asset_name: 快照-${{ steps.rename_zip.outputs.TIMESTAMP }}.zip
+          asset_content_type: application/zip
