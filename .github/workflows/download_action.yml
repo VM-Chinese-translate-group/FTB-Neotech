@@ -57,8 +57,12 @@ jobs:
           if [[ -n $(git status -s) ]]; then
             echo '译文更改'
             git commit -m 'paratranz上传'
-            git pull origin develop --allow-unrelated-histories
-            git push origin develop --force
+            git pull origin develop --allow-unrelated-histories || true
+            git push origin develop --force || {
+              echo '解决冲突并继续'
+              git merge --abort
+              exit 1
+            }
             gh pr create --title 'paratranz上传' --body '自动PR'
             sleep 1
             gh pr merge develop --merge
@@ -100,7 +104,8 @@ jobs:
         id: create_zip
         run: |
           cd CNPack
-          zip -r ../release.zip ./*
+          zip -r release.zip ./*
+          mv release.zip ../release.zip
   
       - name: Rename ZIP file with build time
         id: rename_zip
