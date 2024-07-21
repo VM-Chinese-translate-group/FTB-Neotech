@@ -4,7 +4,7 @@
     "config.inventoryessentials.forceClientImplementation":"强制客户端执行（仅限开发人员）",
     "config.inventoryessentials.forceClientImplementation.tooltip":"即使服务器安装该模组，也使用客户端进行操作（仅限开发人员）",
     "config.inventoryessentials.title":"Inventory Essentials",
-    "config.inventoryessentials.whereDidTheConfigsGo":"启用按键绑定",
+    "config.inventoryessentials.whereDidTheConfigsGo":"配置按键绑定",
     "config.inventoryessentials.whereDidTheConfigsGo.tooltip":"现在你可以在控制-按键绑定内调整Inventory Essentials的绑定按键！",
     "key.categories.inventoryessentials":"Inventory Essentials",
     "key.inventoryessentials.bulk_drop":"批量丢弃",

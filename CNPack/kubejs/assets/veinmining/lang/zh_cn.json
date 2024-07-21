@@ -59,6 +59,6 @@
     "gui.veinmining.config.requiredDestroySpeed.name":"所需的破坏速度",
     "gui.veinmining.config.toolDamageMultiplier.description":"连锁挖矿计算每个方块挖掘对工具的损耗的倍数。",
     "gui.veinmining.config.toolDamageMultiplier.name":"连锁挖矿工具损耗倍数",
-    "key.veinmining.activate.error":"(通过配置关闭)",
+    "key.veinmining.activate.error":"（通过配置关闭）",
     "veinmining.networking.failed":"连锁挖矿网络失效"
 }
