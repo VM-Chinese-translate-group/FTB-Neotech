@@ -46,10 +46,8 @@ jobs:
         run: |
           git init
           git fetch origin
-          git branch develop
-          git push -u origin develop
-          git checkout develop
-          git reset --hard main
+          git checkout -b develop origin/develop || git checkout develop
+          git reset --hard origin/main
       - name: Paratranz To zh_cn
         run: |
           python .github/workflows/translation2github.py
@@ -60,7 +58,7 @@ jobs:
             echo '译文更改'
             git commit -m 'paratranz上传'
             git pull origin develop --allow-unrelated-histories
-            git push origin develop
+            git push origin develop --force
             gh pr create --title 'paratranz上传' --body '自动PR'
             sleep 1
             gh pr merge develop --merge
@@ -72,7 +70,7 @@ jobs:
             git checkout main
             git branch -D develop
             git push origin --delete develop
-          fi # 添加这行以关闭 if 语句
+          fi
 
   close-issue:
     name: Close Issue
