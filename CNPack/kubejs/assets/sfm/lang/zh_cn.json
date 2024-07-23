@@ -73,7 +73,7 @@
     "item.sfm.network_tool.tooltip.3":"§7别忘了你可以按下§b%s§7来查看容器槽位编号。",
     "item.sfm.xp_goop":"经验凝胶",
     "item.sfm.xp_shard":"经验碎片",
-    "item_group.sfm.main":"Super Factory Manager",
+    "item_group.sfm.main":"超级工厂管理器",
     "key.categories.sfm":"Super Factory Manager",
     "key.sfm.container_inspector.activation_key":"启用容器槽位编号查看",
     "key.sfm.more_info":"显示物品详情",
