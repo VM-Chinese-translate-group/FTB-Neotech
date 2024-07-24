@@ -4,7 +4,6 @@ on:
     types: [opened]
   schedule:
     - cron: "0 16,4 * * *"
-  workflow_dispatch:
 
 jobs:
   check-issue:
@@ -46,7 +45,11 @@ jobs:
         run: |
           git init
           git fetch origin
-          git checkout -b develop origin/develop || git checkout develop
+          if git rev-parse --verify origin/develop; then
+            git checkout -b develop origin/develop
+          else
+            git checkout -b develop
+          fi
           git reset --hard origin/main
       - name: Paratranz To zh_cn
         run: |
