@@ -71,12 +71,16 @@ jobs:
             gh pr merge develop --merge
             git checkout main
             git branch -D develop
-            git push origin --delete develop
+            if git show-ref --verify --quiet refs/remotes/origin/develop; then
+              git push origin --delete develop
+            fi
           else
             echo '译文未更改'
             git checkout main
             git branch -D develop
-            git push origin --delete develop
+            if git show-ref --verify --quiet refs/remotes/origin/develop; then
+              git push origin --delete develop
+            fi
           fi
 
   close-issue:
