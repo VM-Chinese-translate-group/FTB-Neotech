@@ -6,7 +6,7 @@
 
 FTB官网|加载器|整合包版本|状态
 :-|:-|:-|:-
-[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.3.0|*翻译中*|
+[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.5.0|*翻译中*|
 
 ---
 
@@ -20,7 +20,7 @@ FTB官网|加载器|整合包版本|状态
 
 译者：[查看贡献者排行榜](https://paratranz.cn/projects/10719/leaderboard)
 
-**注意：请使用HMCL等支持Neoforge的启动器安装游戏！PCL2不支持安装**
+**注意：如果使用PCL2启动器，请更新启动器版本。旧版不支持安装**
 
 ---
 进入一个以科技为主宰的世界，体验精心设计的FTB Neotech整合包。无论你是经验丰富的工程师、足智多谋的冒险者，还是富有创意的建筑师，FTB Neotech都能为你带来数小时的模组娱乐时光。
