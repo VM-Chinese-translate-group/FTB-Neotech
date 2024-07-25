@@ -4,7 +4,6 @@ on:
     types: [opened]
   schedule:
     - cron: "0 16,4 * * *"
-
 jobs:
   check-issue:
     if: contains(github.event.issue.labels.*.name, '自动化:paratranz→Github') && github.event_name != 'schedule'
@@ -15,7 +14,6 @@ jobs:
       - name: Issue Check
         run: |
           echo "检测成功：${{ github.event.issue.labels.*.name }}"
-
   Translation-To-GitHub:
     name: Translation To GitHub
     runs-on: ubuntu-latest
@@ -45,12 +43,10 @@ jobs:
         run: |
           git init
           git fetch origin
-          if git rev-parse --verify origin/develop; then
-            git checkout -b develop origin/develop
-          else
-            git checkout -b develop
-          fi
-          git reset --hard origin/main
+          git branch develop
+          git push -u origin develop
+          git checkout develop
+          git reset --hard main
       - name: Paratranz To zh_cn
         run: |
           python .github/workflows/translation2github.py
@@ -60,28 +56,25 @@ jobs:
           if [[ -n $(git status -s) ]]; then
             echo '译文更改'
             git commit -m 'paratranz上传'
-            git pull origin develop --allow-unrelated-histories || true
-            git push origin develop --force || {
-              echo '解决冲突并继续'
-              git merge --abort
-              exit 1
-            }
+            git pull origin develop --allow-unrelated-histories
+            git push origin develop
             gh pr create --title 'paratranz上传' --body '自动PR'
             sleep 1
             gh pr merge develop --merge
             git checkout main
             git branch -D develop
-            if git show-ref --verify --quiet refs/remotes/origin/develop; then
-              git push origin --delete develop
-            fi
+            git push origin --delete develop
           else
             echo '译文未更改'
             git checkout main
             git branch -D develop
-            if git show-ref --verify --quiet refs/remotes/origin/develop; then
-              git push origin --delete develop
-            fi
+            git push origin --delete develop
           fi
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CNPack
+          path: ${{ github.workspace }}/CNPack
 
   close-issue:
     name: Close Issue
@@ -92,57 +85,4 @@ jobs:
         uses: peter-evans/close-issue@v3
         with:
           comment: |
-            同步完成，Issue已自动关闭。
-
-  release:
-    runs-on: ubuntu-latest
-    needs: Translation-To-GitHub
-    name: Build and Release
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Create ZIP file
-        id: create_zip
-        run: |
-          cd CNPack
-          zip -r release.zip ./*
-          mv release.zip ../release.zip
-  
-      - name: List files for debugging
-        run: |
-          ls -la
-          ls -la ..
-
-      - name: Rename ZIP file with build time
-        id: rename_zip
-        run: |
-          TIMESTAMP=$(date +'%Y-%m-%d_%H-%M')
-          mv ../release.zip ../快照-$TIMESTAMP.zip
-        shell: bash
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.run_id }}
-          release_name: 自动构建 ${TIMESTAMP}
-          draft: false
-          prerelease: false
-
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ../快照-${{ steps.rename_zip.outputs.TIMESTAMP }}.zip
-          asset_name: 快照-${{ steps.rename_zip.outputs.TIMESTAMP }}.zip
-          asset_content_type: application/zip
+            同步完成，Issue已自动关闭
