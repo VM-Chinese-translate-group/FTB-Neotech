@@ -1,0 +1,16 @@
+{
+	icon: "pamhc2trees:orange_sapling"
+	id: "0DFBDF774DDB8343"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "pamhc2trees:apple_sapling" }
+		{ item: "pamhc2trees:avocado_sapling" }
+		{ item: "pamhc2trees:lemon_sapling" }
+		{ item: "pamhc2trees:cherry_sapling" }
+		{ item: "pamhc2trees:orange_sapling" }
+		{ item: "pamhc2trees:spiderweb_sapling" }
+		{ item: "pamhc2trees:olive_sapling" }
+	]
+	title: "{ftbquests.reward_tables.super_saplings.title}"
+}

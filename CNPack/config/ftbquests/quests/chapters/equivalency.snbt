@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "equivalency"
+	group: "6D0ECA7A2CCEBAC8"
+	icon: "equivalentexchange:transmutation_tablet"
+	id: "62E234110D36B54C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45859AB81C22F034"]
+			id: "68DB318D885398CB"
+			rewards: [
+				{
+					count: 16
+					id: "5797406FE4C006C5"
+					item: "equivalentexchange:covalence_dust_low"
+					type: "item"
+				}
+				{
+					id: "078629C1793868EF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "4EC4583F0F853D87"
+				item: {
+					Count: 1
+					id: "equivalentexchange:philosophers_stone"
+					tag: {
+						charge: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"68DB318D885398CB"
+				"1CD7FD65B66752AF"
+				"5B4F54ADAB882200"
+			]
+			id: "328D24F4C2B17AB1"
+			tasks: [{
+				id: "6C3BE5869343681B"
+				item: "equivalentexchange:transmutation_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68DB318D885398CB"]
+			id: "6026D4B00CB7003C"
+			tasks: [{
+				id: "725451B2EBF67BEC"
+				item: "equivalentexchange:alchemical_coal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6026D4B00CB7003C"]
+			id: "18ACD963D40236EC"
+			tasks: [{
+				id: "70ACFB9DCAB78A43"
+				item: "equivalentexchange:mobius_fuel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18ACD963D40236EC"]
+			id: "16B3989766C0E9D9"
+			tasks: [{
+				id: "30D3B9873A80AF6D"
+				item: "equivalentexchange:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16B3989766C0E9D9"]
+			id: "0BB8987F94C8A458"
+			tasks: [{
+				id: "0923F18B9428FABE"
+				item: "equivalentexchange:dark_matter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0BB8987F94C8A458"
+				"7FC30FA90FADB3CA"
+			]
+			id: "2CE01B44DA52B06F"
+			tasks: [{
+				id: "62D4F6C4F5E2605C"
+				item: "equivalentexchange:red_matter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68DB318D885398CB"]
+			id: "4F72B364E86239B0"
+			tasks: [{
+				id: "3AF4788B300D973F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(equivalentexchange:covalence_dust_low)item(equivalentexchange:covalence_dust_medium)item(equivalentexchange:covalence_dust_high))"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.equivalency.quests7.title}"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68DB318D885398CB"]
+			id: "53B42B53DA3E3091"
+			subtitle: "{ftbquests.chapter.equivalency.quests8.subtitle}"
+			tasks: [{
+				id: "04B87C9B187018F6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(equivalentexchange:klein_star_ein)item(equivalentexchange:klein_star_zwei)item(equivalentexchange:klein_star_drei)item(equivalentexchange:klein_star_vier)item(equivalentexchange:klein_star_sphere)item(equivalentexchange:klein_star_omega))"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.equivalency.quests8.title}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68DB318D885398CB"]
+			id: "27E6AEE895BB1483"
+			tasks: [{
+				id: "42890BD08F04D9C3"
+				item: "equivalentexchange:repair_talisman"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BB8987F94C8A458"]
+			id: "67702E5050592679"
+			tasks: [{
+				id: "44D25CB99B2ACDB5"
+				item: "equivalentexchange:transmutation_tablet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18ACD963D40236EC"]
+			id: "270F81EC537EE2AB"
+			tasks: [{
+				id: "0B6AF611304B2B02"
+				item: {
+					Count: 1
+					id: "equivalentexchange:destruction_catalyst"
+					tag: {
+						charge: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CE01B44DA52B06F"]
+			id: "057C825E161DF9AF"
+			tasks: [{
+				id: "733BCAF00CBC733A"
+				item: {
+					Count: 1
+					id: "equivalentexchange:body_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"057C825E161DF9AF"
+				"221CE75A504517B0"
+			]
+			id: "34FD54D74593FAC9"
+			tasks: [{
+				id: "394EE0703EEF175C"
+				item: {
+					Count: 1
+					id: "equivalentexchange:life_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2CE01B44DA52B06F"]
+			id: "221CE75A504517B0"
+			tasks: [{
+				id: "5AD8C4072E853FDC"
+				item: {
+					Count: 1
+					id: "equivalentexchange:soul_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "7FC30FA90FADB3CA"
+			tasks: [{
+				id: "14267EF1768E72DE"
+				item: {
+					Count: 1
+					id: "equivalentexchange:mind_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+	]
+	title: "{ftbquests.chapter.equivalency.title}"
+}

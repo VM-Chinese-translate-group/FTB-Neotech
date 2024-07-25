@@ -1,0 +1,57 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "jlme:parry"
+				lvl: 1s
+			}]
+		}
+	}
+	id: "431F1E7898EB4F17"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "jlme:parry"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Parry"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "jlme:evasive"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Evasive"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Sharpness"
+		}
+	]
+	title: "{ftbquests.reward_tables.gear_enchant.title}"
+}

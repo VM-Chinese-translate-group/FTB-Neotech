@@ -1,0 +1,1378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "what_the_cluck"
+	group: "085766035AF08426"
+	icon: {
+		Count: 1
+		id: "chickens:chicken_item"
+		tag: {
+			ChickenType: {
+				id: "chickens:diamond_chicken"
+			}
+			stats: {
+				gain: 10
+				growth: 10
+				lifespan: 100
+				strength: 10
+			}
+		}
+	}
+	id: "79691DB43A691082"
+	images: [
+		{
+			height: 2.0d
+			image: "chickens:block/hay_floor"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			alpha: 100
+			height: 0.5d
+			image: "pamhc2foodcore:item/friedchickenitem"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			height: 0.5d
+			image: "pamhc2foodcore:item/friedchickenitem"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: 3.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["227F02D80AE758EF"]
+			description: [
+				"{ftbquests.chapter.what_the_cluck.quests0.description0}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests0.description2}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests0.description4}"
+			]
+			id: "4BA1DFC5EAD73A91"
+			min_width: 300
+			rewards: [
+				{
+					id: "633414A2783E90F1"
+					item: "minecraft:phantom_membrane"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "27B9976D7DBC3422"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enchantableblocks:well_rested"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5195DFE4B5A8C2A6"
+				item: "chickens:catcher"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7108C3C215B808E6"]
+			description: [
+				"{ftbquests.chapter.what_the_cluck.quests1.description0}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests1.description2}"
+			]
+			id: "17DB11DAD4DB1CD2"
+			min_width: 300
+			rewards: [
+				{
+					count: 16
+					id: "64D34F8A8DF9C284"
+					item: "minecraft:egg"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2E17FBBDCE61338A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "24A794B2EB6FA130"
+				item: "chickens:breeder"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.what_the_cluck.quests1.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17DB11DAD4DB1CD2"]
+			description: [
+				"{ftbquests.chapter.what_the_cluck.quests2.description0}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests2.description2}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests2.description4}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests2.description6}"
+			]
+			id: "2CDCC8384EA36472"
+			min_width: 350
+			rewards: [
+				{
+					id: "5484F365980F5D1A"
+					item: {
+						Count: 1
+						id: "chickens:chicken_item"
+						tag: {
+							ChickenType: {
+								id: "chickens:lava_chicken"
+							}
+							stats: {
+								gain: 5
+								growth: 5
+								lifespan: 100
+								strength: 5
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "63DE0E553A1AE605"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4A788D883BF02E0D"
+					item: "pamhc2foodcore:scrambledeggitem"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20FCC2198F16EB0D"
+				item: "chickens:incubator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.what_the_cluck.quests2.title}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DB11DAD4DB1CD2"]
+			description: [
+				"{ftbquests.chapter.what_the_cluck.quests3.description0}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests3.description2}"
+			]
+			id: "3FBD4CF532B34AA1"
+			min_width: 250
+			rewards: [
+				{
+					id: "6C89BAFAFBEF68F0"
+					item: "immersiveengineering:thermoelectric_generator"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E415B36F9D4F5F0"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07A321AC17A44F49"
+					item: "immersiveengineering:connector_lv"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "336BE9051ED590DB"
+					item: "immersiveengineering:connector_lv_relay"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0BE64D57624977BD"
+				item: "chickens:egg_cracker"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.what_the_cluck.quests3.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BA1DFC5EAD73A91"]
+			description: [
+				"{ftbquests.chapter.what_the_cluck.quests4.description0}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests4.description2}"
+			]
+			id: "7108C3C215B808E6"
+			min_width: 300
+			rewards: [
+				{
+					count: 32
+					id: "12143359857B184D"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "4445D2FA51251F42"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "485661B1F41C7E4A"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:smart_chicken"
+						}
+						baby: 0b
+						love: 0
+						stats: {
+							gain: 1
+							growth: 1
+							lifespan: 100
+							strength: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.what_the_cluck.quests4.title}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7108C3C215B808E6"]
+			description: [
+				"{ftbquests.chapter.what_the_cluck.quests5.description0}"
+				""
+				"{ftbquests.chapter.what_the_cluck.quests5.description2}"
+			]
+			icon: "modern_industrialization:ultradense_metal_ball"
+			id: "6A0AD754B79F4D97"
+			rewards: [
+				{
+					id: "18F121AB441C7F96"
+					item: "modern_industrialization:motor"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "25478FCA215F95C5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7B2C4F06C89A133F"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:log_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.what_the_cluck.quests5.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A0AD754B79F4D97"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests6.description}"]
+			id: "0CD2085987DACB33"
+			rewards: [
+				{
+					id: "5F114AFE64C24EB9"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "25B211ED87F884B3"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C34198ECADFAD30"
+					item: "minecraft:quartz"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0941466122F1AA8C"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:quartz_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A0AD754B79F4D97"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests7.description}"]
+			id: "5E6BA15B604AE5DE"
+			rewards: [
+				{
+					count: 16
+					id: "5C74DA97E4B10CAB"
+					item: "minecraft:sand"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 8
+					id: "141FD539B19C6969"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "171EF1D609DE6009"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "6926DD57B1EBAF65"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{ChickenType:{id:\"chickens:sand_chicken\"}})item(chickens:chicken_item)"
+					}
+				}
+				title: "{ftbquests.chapter.what_the_cluck.quests7.tasks0.title}"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A0AD754B79F4D97"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests8.description}"]
+			id: "5CF144BCB72E349B"
+			rewards: [
+				{
+					id: "0B80F4B5BC3C8ADB"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "3106D503B78CD66B"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "736704C06E4EA0B5"
+					item: "forcecraft:soul_wafer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E644AE18B1A2698"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:soulsand_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A0AD754B79F4D97"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests9.description}"]
+			id: "4714BE375C25A80E"
+			rewards: [
+				{
+					count: 8
+					id: "4CB51E530D0F9584"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0784D787BF263227"
+					item: "minecraft:flint"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "5CB4D7E8DF158A58"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "66DDF821E3225428"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:flint_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0CD2085987DACB33"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests10.description}"]
+			id: "33F9E2E08B10898F"
+			rewards: [
+				{
+					count: 8
+					id: "39F49AB70AB30B72"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "464EA597FD141667"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "212D52C440930E28"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:glass_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0CD2085987DACB33"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests11.description}"]
+			id: "06CD8EF6C0AF2A15"
+			rewards: [
+				{
+					id: "6331549E0CEDE9D0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "1077A07183E64968"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34F039B0DA5897FF"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:glowstone_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5E6BA15B604AE5DE"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests12.description}"]
+			id: "20AC24F9F382F8FD"
+			rewards: [
+				{
+					count: 8
+					id: "5408165E545B39BC"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3354A341A9930A69"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "3D3C7B46C2A061D8"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:redstone_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5E6BA15B604AE5DE"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests13.description}"]
+			id: "7C2398EE5CAB27D0"
+			rewards: [
+				{
+					count: 8
+					id: "754910F1BBDF8566"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "053127FAE7958590"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "4104FAC1B005F943"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:clay_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5E6BA15B604AE5DE"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests14.description}"]
+			id: "71988DA551CBEDB3"
+			rewards: [
+				{
+					count: 8
+					id: "1E21C68BF63617A6"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "56EAC969AF70671D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "618174FFF403D1F8"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:gunpowder_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6A0AD754B79F4D97"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests15.description}"]
+			id: "47AE478BC41BFFDD"
+			rewards: [
+				{
+					count: 8
+					id: "408F835F999DF5F8"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69214CB8238F7BEE"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "510E832AA168A630"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "3A492155B2EF1042"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:string_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6A0AD754B79F4D97"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests16.description}"]
+			id: "2FEED136C5CE299C"
+			rewards: [
+				{
+					count: 16
+					id: "10E1F8641AFD1E3D"
+					item: "minecraft:coal"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "458B39B5900321CE"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "17F3EA0E1A05AD86"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "272756672D04F9E7"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:coal_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6A0AD754B79F4D97"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests17.description}"]
+			id: "16B45AEFBB0F4494"
+			rewards: [
+				{
+					id: "002105F9289A26E9"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "1124CD34ED154884"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F78A04AEC254AFB"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:snowball_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4714BE375C25A80E"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests18.description}"]
+			id: "22FA19A319FD0FEE"
+			rewards: [
+				{
+					count: 8
+					id: "105E274DF1BB7812"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3A1588F448B91CB3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "3E55EEA433C818BB"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:iron_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22FA19A319FD0FEE"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests19.description}"]
+			id: "23768545F29E15D5"
+			rewards: [
+				{
+					count: 8
+					id: "71BF59C9BF07DF61"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3321082DB1D578E7"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "414B819A6DAC7936"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "74DB9981D28CF64E"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:gold_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["23768545F29E15D5"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests20.description}"]
+			id: "7BC382DF2A28C768"
+			rewards: [
+				{
+					id: "2EEEDFCF4A239B47"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 8
+					id: "56BD6270DEC88425"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37473C446B458417"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:blaze_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["23768545F29E15D5"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests21.description}"]
+			id: "2D47AA2B202CEABF"
+			rewards: [
+				{
+					id: "31CE26D2DC5FF499"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 8
+					id: "3CBD83CA46825059"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06A7A33CCE5978EB"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:diamond_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2D47AA2B202CEABF"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests22.description}"]
+			id: "3D342719DF3ABB9E"
+			rewards: [
+				{
+					count: 8
+					id: "49CA7D4867E88D6A"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7CBBFE59F8AF77F8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "2BF821BA838022F6"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:emerald_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2D47AA2B202CEABF"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests23.description}"]
+			id: "5E62868EA7BEBEE5"
+			rewards: [
+				{
+					id: "02E372E0DD5BDED2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "6272BEE483CA8FD7"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3523CDE9C9D42E4B"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:ender_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BC382DF2A28C768"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests24.description}"]
+			id: "3C32C2483B901CED"
+			rewards: [
+				{
+					id: "5243ED47F2CB5CA7"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "3E8ABEB87BD2260F"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48949A2506BB1ADD"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:ghast_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D342719DF3ABB9E"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests25.description}"]
+			id: "1D435FF89B206BBD"
+			rewards: [
+				{
+					id: "38F292AD83B4B0BA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "222C01624833762E"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32F389553326CA60"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:pcrystal_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47AE478BC41BFFDD"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests26.description}"]
+			id: "74F466D0BF8831FE"
+			rewards: [
+				{
+					count: 8
+					id: "4F166C5D175483EE"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2FEECDF75E2E6333"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "650177FEB6E12CED"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:leather_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16B45AEFBB0F4494"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests27.description}"]
+			id: "5925EE280E4EDCE1"
+			rewards: [
+				{
+					id: "16932E116E5CBF41"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "158FB03C4B6F78BD"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "579334CF851844BE"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:water_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2FEED136C5CE299C"
+				"2CDCC8384EA36472"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests28.description}"]
+			id: "5654213E650565FF"
+			rewards: [
+				{
+					count: 8
+					id: "43A5247E77A0DCCF"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "6AB0128777BE7232"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "2A2EF437F58AA38C"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:lava_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5654213E650565FF"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests29.description}"]
+			id: "7D0DCA7AA199F7AB"
+			rewards: [
+				{
+					count: 8
+					id: "3FA721E2BD259BF3"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1982CBDC4911A5FC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "3AE43EF064148AB3"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:obsidian_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06CD8EF6C0AF2A15"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests30.description}"]
+			id: "3A4569A6D917434B"
+			rewards: [
+				{
+					id: "68299A29FBBD01E6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "5A4D1A5AB4428F70"
+					item: "minecraft:wheat_seeds"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FA5D7F57F732AA1"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:netherwart_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C2398EE5CAB27D0"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests31.description}"]
+			id: "4F1A7841BD1CA725"
+			rewards: [
+				{
+					id: "72AB4BA6406617EF"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 8
+					id: "2D8B943FCE1A25F2"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03F7DAA9659ACD82"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:slime_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5925EE280E4EDCE1"]
+			description: ["{ftbquests.chapter.what_the_cluck.quests32.description}"]
+			id: "4FF35F45468C630F"
+			rewards: [
+				{
+					id: "36BEF55E0AB9A29B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "7D5E928A01552D1D"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0736F56250728234"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:pshard_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4F1A7841BD1CA725"
+				"7BC382DF2A28C768"
+			]
+			description: ["{ftbquests.chapter.what_the_cluck.quests33.description}"]
+			id: "6445C01E44DF9E43"
+			rewards: [
+				{
+					id: "52DB9EE6A3DD8888"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "140A2EE4A8E141FF"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "350C30DA026B1467"
+				item: {
+					Count: 1
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:magma_chicken"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+	]
+	title: "{ftbquests.chapter.what_the_cluck.title}"
+}
