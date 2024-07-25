@@ -3,5 +3,6 @@
 	"vp.chickens.tooltip.chicken_egg_2":"Item: ",
 	"vp.chickens.tooltip.chicken_egg_3":"Fluid: ",
 	"vp.chickens.tooltip.chicken_egg_4":"ChickenType: ",
-	"vp.chickens.tooltip.chicken_egg_5":"Progress: "
+	"vp.chickens.tooltip.chicken_egg_5":"Progress: ",
+	"vp.stevescarts.tooltip.module_type":"Module Type: "
 }

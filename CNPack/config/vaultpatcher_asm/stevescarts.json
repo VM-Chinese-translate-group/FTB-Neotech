@@ -1,0 +1,21 @@
+[
+	{
+		"name":"stevescarts硬编码汉化",
+		"desc":"vp1.4.2+可启用，VPGS开源，1.20.4",
+		"mods":"stevescarts-1.20.4-1.2.6-neoforge",
+		"authors":"Litchiiiiiii",
+		"dynamic":false,
+		"i18n":true
+	},
+	{
+		"t":{
+			"name":"vswe.stevescarts.api.modules.data.ModuleData"
+		},
+		"p":[
+			{
+				"k":"Module Type: ",
+				"v":"vp.stevescarts.tooltip.module_type"
+			}
+		]
+	}
+]
