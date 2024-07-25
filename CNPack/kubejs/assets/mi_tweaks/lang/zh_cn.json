@@ -1,0 +1,19 @@
+{
+    "item.mi_tweaks.machine_blueprint":"Machine Blueprint",
+    "item.mi_tweaks.machine_blueprint.blank":"Blank Machine Blueprint",
+    "itemGroup.mi_tweaks.mi_tweaks":"MI Tweaks",
+    "text.mi_tweaks.blueprint_learn":"Press %s to learn this blueprint",
+    "text.mi_tweaks.blueprint_learned":"You have learned the blueprints for %s",
+    "text.mi_tweaks.blueprint_machine":"%s",
+    "text.mi_tweaks.blueprint_missing_inventory":"You do not have the blueprints for this machine",
+    "text.mi_tweaks.blueprint_missing_learn":"You have not learned the blueprints for this machine",
+    "text.mi_tweaks.energy_bar_current_consumption":"Current consumption : %d EU/t",
+    "text.mi_tweaks.learning_disabled_but_requiring_learning":"WARNING: Your config is set to require learning for some machine blueprint requirement options but you do not have learning enabled. Be sure to enable learning or else you may be unable to use machines.",
+    "text.mi_tweaks.machine_menu_voltage_prefix":"(%s) ",
+    "text.mi_tweaks.machine_voltage_recipes":"Allows machines to run %s recipes",
+    "text.mi_tweaks.machine_voltage_runs_at":"Runs recipes at %s",
+    "text.mi_tweaks.recipe_requires_coil":"Requires coil: %s",
+    "text.mi_tweaks.recipe_requires_voltage":"Requires voltage: %s",
+    "text.mi_tweaks.water_pump_environment_1":"Invalid Pump Environment",
+    "text.mi_tweaks.water_pump_environment_2":"Must be in Ocean or River biome."
+}
