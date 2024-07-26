@@ -1,9 +1,9 @@
 {
-    "block.redstonepen.basic_button":"Basic Button",
+    "block.redstonepen.basic_button":"基础按钮",
     "block.redstonepen.basic_button.help":"Basically fits everywhere - hopefully.",
-    "block.redstonepen.basic_lever":"Basic Lever",
+    "block.redstonepen.basic_lever":"基础拉杆",
     "block.redstonepen.basic_lever.help":"Basically fits everywhere - hopefully.",
-    "block.redstonepen.basic_pulse_button":"Basic Pulse Button",
+    "block.redstonepen.basic_pulse_button":"基础脉冲按钮",
     "block.redstonepen.basic_pulse_button.help":"Emits a Redstone signal for one tick.",
-    "block.redstonepen.control_box.error.parse_error":"Parse error"
+    "block.redstonepen.control_box.error.parse_error":"解析错误"
 }
