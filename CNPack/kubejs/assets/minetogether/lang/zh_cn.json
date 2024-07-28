@@ -139,7 +139,7 @@
     "minetogether:gui.order.region.na-east":"北美洲东部",
     "minetogether:gui.order.region.na-south":"北美洲南部",
     "minetogether:gui.order.region.na-west":"北美洲西部",
-    "minetogether:gui.order.region.pinging":"尝试确定该区域的延迟...",
+    "minetogether:gui.order.region.pinging":"尝试确定该区域的延迟……",
     "minetogether:gui.order.region.pinging_fail":"未能确定到此区域的距离或延迟。",
     "minetogether:gui.order.region.signal":"通过从我们的服务器到您的 IP 进行反向跟踪的Ping值可能不准确。",
     "minetogether:gui.order.region.south-america":"南美洲",
