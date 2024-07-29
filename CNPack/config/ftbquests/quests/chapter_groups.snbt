@@ -1,9 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "71DBF4FB7368CC06", title: "{ftbquests.chapter_groups.chapter_groups.title0}" }
-		{ id: "2A82D89E6FF141B7", title: "{ftbquests.chapter_groups.chapter_groups.title1}" }
-		{ id: "085766035AF08426", title: "{ftbquests.chapter_groups.chapter_groups.title2}" }
-		{ id: "6D0ECA7A2CCEBAC8", title: "{ftbquests.chapter_groups.chapter_groups.title3}" }
-		{ id: "3D9E759ACFEA2C5B", title: "{ftbquests.chapter_groups.chapter_groups.title4}" }
-	]
-}
