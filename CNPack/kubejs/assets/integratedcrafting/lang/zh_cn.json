@@ -27,7 +27,7 @@
     "aspect.integratedcrafting.write.itemstack.craft.info":"合成指定物品",
     "aspect.integratedcrafting.write.recipe.craft":"合成配方",
     "aspect.integratedcrafting.write.recipe.craft.info":"合成指定配方",
-    "general.integratedcrafting.description":"用于在动态联合网络中合成东西。",
+    "general.integratedcrafting.description":"用于在动态联合网络中合成物品。",
     "gui.integratedcrafting.partinterface.slot.message.invalid":"该目标的配方无效。",
     "gui.integratedcrafting.partinterface.slot.message.norecipe":"该变量卡不含有配方。",
     "gui.integratedcrafting.partinterface.slot.message.valid":"该目标的配方有效。",

@@ -7,7 +7,7 @@
     "filter.ftbfiltersystem.custom.tooltip":"为模组开发者和整合包作者设计的高级过滤器。\n当尝试进行匹配时，会触发一个自定义过滤事件；设置事件结果以指示匹配成功或失败。\n使用对话框提供自由格式的文本数据，这些数据会作为“data”参数传递给事件。",
     "filter.ftbfiltersystem.durability.name":"耐久值",
     "filter.ftbfiltersystem.durability.tooltip":"基于物品剩余耐久值进行匹配。\n不可损坏的物品被视为0耐久值。",
-    "filter.ftbfiltersystem.expression.name":"表达",
+    "filter.ftbfiltersystem.expression.name":"表达式",
     "filter.ftbfiltersystem.expression.tooltip":"允许输入或从你物品栏中的过滤器物品加载一个字面的过滤表达。\n为了清晰起见，可以选择（但强烈推荐！）分配一个自定义名称。",
     "filter.ftbfiltersystem.food_value.name":"食物营养值",
     "filter.ftbfiltersystem.food_value.tooltip":"基于食物的营养值（饥饿值里的每半个鸡腿）进行匹配。\n非食物的物品被视为0营养值。",
