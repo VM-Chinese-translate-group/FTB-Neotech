@@ -9,7 +9,7 @@
     "gui.veinmining.config.addToolDamage.name":"连锁挖矿工具损耗",
     "gui.veinmining.config.blocks.description":"基于预制选项或配置确定连锁挖矿可以挖掘的方块。",
     "gui.veinmining.config.blocks.name":"可连锁挖矿方块",
-    "gui.veinmining.config.blocksList.description":"添加到连锁挖矿\"CONFIG_LIST\"的方块或方块标签。",
+    "gui.veinmining.config.blocksList.description":"添加到连锁挖矿“CONFIG_LIST”的方块或方块标签。",
     "gui.veinmining.config.blocksList.name":"可连锁挖矿方块列表",
     "gui.veinmining.config.blocksListType.description":"确定方块列表所列出的属于允许连锁的方块还是禁止连锁的方块",
     "gui.veinmining.config.blocksListType.name":"可连锁挖矿方块列表类别",

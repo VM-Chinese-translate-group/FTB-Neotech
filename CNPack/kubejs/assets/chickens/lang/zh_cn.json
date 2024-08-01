@@ -89,7 +89,7 @@
     "gui.chickens.incubator.water_slot":"向储罐中加水。",
     "gui.chickens.ovoscope.non_viable":"不可孵化",
     "gui.chickens.ovoscope.viable":"可孵化",
-    "gui.drops":"鸡死亡掉落,",
+    "gui.drops":"鸡死亡掉落，",
     "gui.laying":"产蛋",
     "gui.laying.time":"%1$s-%2$smin。",
     "gui.throws":"扔彩蛋",
