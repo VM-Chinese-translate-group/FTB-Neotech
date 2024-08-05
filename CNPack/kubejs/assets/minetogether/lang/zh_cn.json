@@ -89,7 +89,7 @@
     "minetogether:gui.friends.update_friend":"好友已更新！",
     "minetogether:gui.friends.user_offline":"用户处于离线状态",
     "minetogether:gui.join.button.accept":"加入 %s 在线用户！",
-    "minetogether:gui.join.button.reject":"不要再问我了。",
+    "minetogether:gui.join.button.reject":"不再提醒。",
     "minetogether:gui.order.account_creating":"请等待。账户创建中",
     "minetogether:gui.order.account_error":"注册账户时出现错误：%s \n请返回上一级以修复错误",
     "minetogether:gui.order.account_exists":"该邮箱已被注册。请尝试登录或者更换邮箱。",
