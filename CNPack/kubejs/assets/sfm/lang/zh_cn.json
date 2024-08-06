@@ -80,7 +80,7 @@
     "mod.name":"超级工厂管理器",
     "program.sfm.error.compile_failed":"编译失败",
     "program.sfm.error.literal":"%s",
-    "program.sfm.error.malformed_resource_type":"程序含有未知资源类型：“%s”。\n注意：资源类型比如使用全匹配，不可使用通配符。",
+    "program.sfm.error.malformed_resource_type":"程序含有未知资源类型：“%s”。\n注意：资源类型必须使用全匹配，不可使用通配符。",
     "program.sfm.warnings.adjacent_but_disconnected_label":"标签“%s”已绑定至位置“%s”并未接入线缆，但其未能被识别未有效容器。",
     "program.sfm.warnings.disconnected_label":"标签“%s”已绑定至位置“%s”但并未接入线缆。",
     "program.sfm.warnings.each_without_pattern":"EACH需搭配模板使用，语句：%s",

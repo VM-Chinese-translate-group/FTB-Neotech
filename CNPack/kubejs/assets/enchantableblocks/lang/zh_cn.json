@@ -37,7 +37,7 @@
     "enchantment.enchantableblocks.concealed":"屏蔽",
     "enchantment.enchantableblocks.concealed.desc":"屏蔽由方块产生的视觉特效",
     "enchantment.enchantableblocks.exporting":"自动输出",
-    "enchantment.enchantableblocks.exporting.desc":"自动输出方块的结果",
+    "enchantment.enchantableblocks.exporting.desc":"自动输出方块的产出",
     "enchantment.enchantableblocks.fuel_efficiency":"燃料效率",
     "enchantment.enchantableblocks.fuel_efficiency.desc":"增加燃料持续时间",
     "enchantment.enchantableblocks.glintless":"暗淡",
@@ -51,11 +51,11 @@
     "enchantment.enchantableblocks.solar_radiance":"太阳辐射",
     "enchantment.enchantableblocks.solar_radiance.desc":"利用太阳的能量",
     "enchantment.enchantableblocks.speed":"速度",
-    "enchantment.enchantableblocks.speed.desc":"增加功能的执行速度",
+    "enchantment.enchantableblocks.speed.desc":"加快执行相关功能的速度",
     "enchantment.enchantableblocks.storing":"储存",
     "enchantment.enchantableblocks.storing.desc":"增加方块的储存容量",
     "enchantment.enchantableblocks.well_rested":"充分休息",
     "enchantment.enchantableblocks.well_rested.desc":"给乖乖上床睡觉的玩家一个奖励",
     "enchantment.enchantableblocks.yield":"增益",
-    "enchantment.enchantableblocks.yield.desc":"有机会能额外产生结果"
+    "enchantment.enchantableblocks.yield.desc":"有机会额外产出"
 }
