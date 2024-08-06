@@ -55,7 +55,7 @@
     "gui.veinmining.config.relocateDrops.name":"重新定位连锁挖矿掉落物位置",
     "gui.veinmining.config.requireCorrectTool.description":"如果启用，对于无法使用当前工具进行资源采集的方块将不会使用连锁挖矿。",
     "gui.veinmining.config.requireCorrectTool.name":"缺少正确的工具",
-    "gui.veinmining.config.requiredDestroySpeed.description":"进行连锁挖矿所需工具对方块最小破坏速度。",
+    "gui.veinmining.config.requiredDestroySpeed.description":"进行连锁挖矿的工具需要的最低方块破坏速度。",
     "gui.veinmining.config.requiredDestroySpeed.name":"所需的破坏速度",
     "gui.veinmining.config.toolDamageMultiplier.description":"连锁挖矿计算每个方块挖掘对工具的损耗的倍数。",
     "gui.veinmining.config.toolDamageMultiplier.name":"连锁挖矿工具损耗倍数",
