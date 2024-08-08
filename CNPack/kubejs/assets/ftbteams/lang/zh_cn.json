@@ -53,7 +53,7 @@
     "ftbteams.message.remove_ally":"%s不再是你团队的盟友！",
     "ftbteams.message.team_disbanded":"强制解散了团队“%s”（%s）！",
     "ftbteams.message.transfer_owner":"队长换为了%s！",
-    "ftbteams.missing_data":"团队还没有被服务器接受！\\nFTB不会正常的执行函数。\\n请检查服务器日志，确保你的服务器是在线模式。",
+    "ftbteams.missing_data":"团队还没有被服务器接受！\nFTB不会正常的执行函数。\n请检查服务器日志，确保你的服务器是在线模式。",
     "ftbteams.name_too_short":"团队名称太短！（必须 >=3 字）",
     "ftbteams.not_in_party":"你还没有创建或加入一个队伍！",
     "ftbteams.not_invited":"你未被邀请加入%s！",

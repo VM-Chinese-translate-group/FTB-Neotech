@@ -4,7 +4,7 @@
     "death.attack.pnc_plastic_block":"%1$s踩在了过分刺痛的东西上！",
     "death.attack.pnc_pressure":"%1$s被压缩成了一个奇点！",
     "death.attack.pnc_security_station":"%1$s未能成功入侵安全站，并承受了带来的后果！",
-    "gui.tooltip.item.pneumaticcraft.thermostat_module":"§b此模块可依据面向方块的温度，向相互连接的管道上的红石管道模块传输红石信号。手持染料右击以设置频道。\\n\\n使用模块扩展卡升级以进行更多信号处理操作。",
+    "gui.tooltip.item.pneumaticcraft.thermostat_module":"§b此模块可依据面向方块的温度，向相互连接的管道上的红石管道模块传输红石信号。手持染料右击以设置频道。\n\n使用模块扩展卡升级以进行更多信号处理操作。",
     "item.pneumaticcraft.chunkloader_upgrade":"区块载入升级",
     "item.pneumaticcraft.copper_nugget":"铜粒",
     "item.pneumaticcraft.thermostat_module":"温控模块",
