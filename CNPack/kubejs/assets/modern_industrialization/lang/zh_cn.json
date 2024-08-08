@@ -4,7 +4,7 @@
     "advancements.modern_industrialization.mv_diesel_generator":"速度与激情",
     "advancements.modern_industrialization.mv_diesel_generator.description":"制作一台MV柴油发电机",
     "advancements.modern_industrialization.used_steel_upgrade":"像Boss一样升级",
-    "advancements.modern_industrialization.used_steel_upgrade.description":"对青铜机器右键使用钢制升级。",
+    "advancements.modern_industrialization.used_steel_upgrade.description":"对青铜机器右击使用钢制升级。",
     "block.modern_industrialization.hv_diesel_generator":"HV柴油发电机",
     "block.modern_industrialization.lv_diesel_generator":"LV柴油发电机",
     "block.modern_industrialization.mv_diesel_generator":"MV柴油发电机",
