@@ -27,7 +27,7 @@
     "pneumaticcraft.gui.progWidget.standby.allowPickup":"允许无人机拾取",
     "pneumaticcraft.gui.progWidget.standby.allowPickup.tooltip":"开启时，无人机可在待机模式下被其他实体（如船只/矿车）拾取",
     "pneumaticcraft.gui.tab.info.item.armor.generic.airConditioningUpgrade":"§0空调升级会以一个中等的速度消耗压缩空气来维持身体的温度。每一个盔甲部件都会制冷或制热来保持你身体的舒适的温度。当每一个盔甲部件都安装空调升级后它的工作效率会提升到最大，但是无论如何，每一个空调升级都可以单独工作。",
-    "pneumaticcraft.gui.tab.info.item.drone.chunkloaderUpgrade":"§0 插入一个 \"区块加载器升级 \"后，无人机会一直加载它所在的区块。 如果有两个，无人机就会装载5个区块，呈十字形分布在各个方位。 如果是三个，无人机会在一个3x3的区域内载入9个区块。${br}注意，这不允许无人机传送到任何未载入的区块。 如果需要，请参阅设置中的 \"allow_navigate_to_unloaded_chunks（允许导航至未加载的区块）\"。",
+    "pneumaticcraft.gui.tab.info.item.drone.chunkloaderUpgrade":"§0 插入一个“区块加载器升级”后，无人机会一直加载它所在的区块。 如果有两个，无人机就会装载5个区块，呈十字形分布在各个方位。 如果是三个，无人机会在一个3x3的区域内载入9个区块。${br}注意，这不允许无人机传送到任何未载入的区块。 如果需要，请参阅设置中的“allow_navigate_to_unloaded_chunks（允许导航至未加载的区块）”。",
     "pneumaticcraft.gui.tab.info.item.drone.creativeUpgrade":"§0创造补给升级可抵消所有使用的空气，如果安装了机枪升级，还可抵消所有使用的弹药（注意：无人机仍必须携带弹药箱）。",
     "pneumaticcraft.gui.tab.info.item.drone.item_lifeUpgrade":"§0安装物品寿命升级后，无人机将可以修复自身，在过程中消耗少量空气。安装的升级越多，修复速度越快，空气耗率越大。",
     "pneumaticcraft.gui.tab.info.item.minigun.creativeUpgrade":"§0A 创造补给升级可为迷你枪提供无限弹药，并防止它使用空气。",
