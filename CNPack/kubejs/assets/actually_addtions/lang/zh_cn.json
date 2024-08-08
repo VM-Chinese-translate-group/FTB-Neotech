@@ -161,7 +161,7 @@
     "booklet.actuallyadditions.chapter.bookSplitting.text.1":"<item>原子再构机<r>可以将带有多个附魔的书拆分成更多的书，但每本只带有一个附魔。这需要花费 <imp>155000 CF<r>，因此你一次只能拆分一本书。注意不要在重构机的发射路径上留下多本书，否则它可能会击中只有一个附魔的书，这样会<imp>浪费 155000 CF<r>！作为副作用，这个过程还能凭空生成附魔书，以实现其目的。 神奇吧？",
     "booklet.actuallyadditions.chapter.book_tutorial":"索引到手册",
     "booklet.actuallyadditions.chapter.book_tutorial.text.1":"<item>实用拓展手册<r>，也就是你现在看到的这本书，包含了有关<imp>所有物品的有用信息<r>。<n>一旦你掌握了窍门，操作起来就非常简单。 下面是简要介绍：<n><n>当你在<item>章节<r>（如本章）中时，可以使用<imp>底部的白色按钮<r>向前或向后翻页。 这也可以通过<imp>使用滚轮<r>来实现。<n>然而，章节并不是这本书的唯一内容。",
-    "booklet.actuallyadditions.chapter.book_tutorial.text.2":"如果你通过<imp>左上角的按钮<r>或通过<imp>右键单击<r><imp>返回<r>上一级，你将发现自己处于<item>条目<r>中。条目包含与<imp>特定主题<r>相关的所有章节。在这里，你还可以<imp>翻页<r>并点击页面上的物品。<n><n>如果你要<imp>返回另一级<r>（同样，通过左上角的按钮或右键单击），你会发现自己在手册的<item>主页<r>上。<n><n><i>现在就通过右下角的按钮翻页。",
+    "booklet.actuallyadditions.chapter.book_tutorial.text.2":"如果你通过<imp>左上角的按钮<r>或通过<imp>右击<r><imp>返回<r>上一级，你将发现自己处于<item>条目<r>中。条目包含与<imp>特定主题<r>相关的所有章节。在这里，你还可以<imp>翻页<r>并点击页面上的物品。<n><n>如果你要<imp>返回另一级<r>（同样，通过左上角的按钮或右击），你会发现自己在手册的<item>主页<r>上。<n><n><i>现在就通过右下角的按钮翻页。",
     "booklet.actuallyadditions.chapter.book_tutorial.text.3":"在<item>主页<r>上，你可以看到（并点击！）<imp>所有条目<r>的列表。<n><n><item>书签<r>位于<imp>小册子的底部<r> 。在<imp>章节<r>中，你可以<imp>在当前页面上<imp>添加书签<r>，以便稍后查看<r>。<n><n>不过，这本小册子还有<imp>很多其他功能<r>。在GUI中查看、探索所有这些功能！<n><n><i>现在按左上角的返回按钮或右键离开本章。",
     "booklet.actuallyadditions.chapter.engineer_house":"拜访工程师们",
     "booklet.actuallyadditions.chapter.engineer_house.text.1":"如果你想知道如何开始，可以查看<imp>工程师们<r>的交易。<n>他们是两个友好的<imp>村民<r>，会向你出售各种商品：一个是<item>晶化学家<r>，他将与你交换<imp>绿宝石和水晶<r>；另一个是<item>工程师<r>，他将与你交换<imp>各种机器<r>！<n>在下一页，你可以看到他们居住的<imp>房子<r>--这也值得一看！但是要小心，<imp>房子里的机器<r>比较<imp>脆弱<r>，也就是说，一旦你试图挖走它们，它们就会损坏。",
