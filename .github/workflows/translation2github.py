@@ -75,10 +75,8 @@ def main() -> None:
         if "ftbquest" in path:
             for value in values:
                 value.replace(" ","\u00A0")
-                print("other:"+value)
                 if "image" in value:
-                    value.replace("\u00A0"," ")
-                    print("image:"+value)
+                    re.sub(r'\u00A0',' ',value)
         zh_cn_list.append(zh_cn_dict)
         save_translation(zh_cn_dict, path)
         print(f"上传完成：{re.sub('en_us.json','zh_cn.json',path)}")
