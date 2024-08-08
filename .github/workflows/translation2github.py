@@ -73,7 +73,8 @@ def main() -> None:
         keys, values = translate(file_id)
         zh_cn_dict = {key: re.sub(r'\\n', '\n', value) for key, value in zip(keys, values)}
         if "ftbquest" in path:
-            zh_cn_dict = {key: re.sub(r' ','\u00A0',value) for key, value in zip(keys,values)}
+            for value in values:
+                value.replace(" ","\u00A0")
         zh_cn_list.append(zh_cn_dict)
         save_translation(zh_cn_dict, path)
         print(f"上传完成：{re.sub('en_us.json','zh_cn.json',path)}")
