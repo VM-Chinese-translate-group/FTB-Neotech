@@ -41,7 +41,7 @@
     "gui.blockshot.settings.open.info":"打开BlockShot设置界面",
     "gui.blockshot.settings.upload.anonymous":"匿名",
     "gui.blockshot.settings.upload.history":"查看BlockShot历史",
-    "gui.blockshot.settings.upload.info":"选择是否要上传你的匿名录制，\\n或者将它们绑定到你的Minecraft帐户。\\n匿名录制不会显示在你的历史记录！",
+    "gui.blockshot.settings.upload.info":"选择是否要上传你的匿名录制，\n或者将它们绑定到你的Minecraft帐户。\n匿名录制不会显示在你的历史记录！",
     "gui.blockshot.settings.upload.owner":"BlockShot作者",
     "gui.blockshot.settings.upload_mode":"BlockShot上传",
     "gui.blockshot.settings.upload_mode.auto":"自动",
