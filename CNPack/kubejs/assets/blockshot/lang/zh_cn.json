@@ -16,7 +16,7 @@
     "chat.blockshot.upload.uploading":"[BlockShot] 正在上传至BlockShot…",
     "gui.blockshot.blockshot_button":"打开BlockShot",
     "gui.blockshot.close":"关闭",
-    "gui.blockshot.history.anon_warning":"(匿名录制无法被显示)",
+    "gui.blockshot.history.anon_warning":"（匿名录制无法被显示）",
     "gui.blockshot.history.copy_url":"复制URL",
     "gui.blockshot.history.delete":"删除",
     "gui.blockshot.history.download_error":"下载历史时发生了一个异常",

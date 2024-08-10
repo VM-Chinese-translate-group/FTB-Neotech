@@ -21,7 +21,7 @@
     "gui.tempad.no_locations.first_line":"点击[+]以",
     "gui.tempad.no_locations.second_line":"添加坐标",
     "gui.tempad.no_selection.first_line":"搜索坐标",
-    "gui.tempad.no_selection.second_line":"以获取更多信息",
+    "gui.tempad.no_selection.second_line":"获取更多信息",
     "gui.tempad.not_ready":"还没准备好传送",
     "gui.tempad.ready":"准备传送",
     "gui.tempad.search_field":"搜索……",
