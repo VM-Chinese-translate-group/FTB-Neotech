@@ -50,7 +50,7 @@
     "info.mffs.handbook.landing_text":"欢迎来到游戏内MFFS用户指南，该指南旨在帮助你探索力场技术的复杂世界。其中包括了对力场、高科技机械和防御措施的介绍。让我们开始吧！",
     "info.mffs.handbook.title":"力场手册",
     "info.mffs.identity":"身份：%s",
-    "info.mffs.identity_cleared":"身份清除",
+    "info.mffs.identity_cleared":"身份已清除",
     "info.mffs.identity_set":"身份设置为：%s",
     "info.mffs.interdiction_matrix.confiscation_plural":"[%s]你的%s件物品已被收缴。",
     "info.mffs.interdiction_matrix.confiscation_singular":"[%s]你的%s件物品已被收缴。",
