@@ -60,7 +60,7 @@
     "info.mffs.interdiction_matrix.warning":"[%s]警告！你已接近扫描范围！",
     "info.mffs.key.shift":"Shift",
     "info.mffs.link":"连接到%s，位于%s",
-    "info.mffs.show_details":"按住%查看详细信息",
+    "info.mffs.show_details":"按住%s查看详细信息",
     "info.mffs.stored_energy":"存储能量：%s / %s FE",
     "item.mffs.anti_friendly_module":"反友好模块",
     "item.mffs.anti_friendly_module.description":"使结界矩阵杀死所有友好生物。",
