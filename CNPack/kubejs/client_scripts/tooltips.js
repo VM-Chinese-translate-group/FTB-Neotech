@@ -96,7 +96,7 @@ Object.entries(oreMap).forEach(([ore, coords]) => {
     item: ore,
     summary: [
       [
-        Text.of("Y层").darkGray(),
+        Text.of("生成高度").darkGray(),
         Text.of(coords[0].toFixed(0)).gold(),
         Text.of(" - ").darkGray(),
         Text.of(coords[1].toFixed(0)).gold(),

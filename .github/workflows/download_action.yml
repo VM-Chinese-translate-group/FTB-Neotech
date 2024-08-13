@@ -33,7 +33,7 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: |
-          pip install PyGithub requests
+          pip install requests
       - name: Configure Git
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -83,6 +83,3 @@ jobs:
     steps:
       - name: Close Issue
         uses: peter-evans/close-issue@v3
-        with:
-          comment: |
-            同步完成，Issue已自动关闭

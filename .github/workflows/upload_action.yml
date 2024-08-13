@@ -24,7 +24,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
-          pip install PyGithub
       - name: Json To Paratranz
         run: |
           python .github/workflows/upload.py
@@ -35,6 +34,3 @@ jobs:
     steps:
       - name: Close Issue
         uses: peter-evans/close-issue@v3
-        with:
-          comment: |
-            同步完成，Issue已自动关闭。

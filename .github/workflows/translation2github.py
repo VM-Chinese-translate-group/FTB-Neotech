@@ -4,7 +4,6 @@ import re
 from typing import List, Dict, Tuple
 
 import requests
-from github import Github, Auth
 
 # 从环境变量中获取必要的Token和项目ID
 token = os.environ["API_TOKEN"]
