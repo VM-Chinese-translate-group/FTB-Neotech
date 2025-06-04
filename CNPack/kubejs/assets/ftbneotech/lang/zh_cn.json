@@ -45,7 +45,7 @@
     "tooltip.copper_amulets.obsidian_amulet": "佩戴时提供抗性提升 III，缓慢 I",
     "tooltip.copper_amulets.slime_amulet": "佩戴时提供跳跃提升 II",
     "tooltip.copper_amulets.amulet_of_amulets": "佩戴时提供抗性提升 IV，生命恢复 II，急迫 III，力量 V，幸运 III，迅捷 II，缓降 II，水下呼吸 I，夜视 I，村庄英雄 III，抗火 I",
-    
+
     "tooltip.piglin_bartering": "可从猪灵处交易获得",
     "tooltip.no_hostile_spawn": "敌对生物：不生成",
     "tooltip.no_passive_spawn": "被动生物：不生成",
@@ -53,9 +53,13 @@
     "tooltip.always_day": "昼夜循环：永日",
     "tooltip.hemp_seeds": "有10%的几率可以从破坏草丛中获得",
     "tooltip.sophisticated_chest_upgrades": "使用箱子升级，而不是直接制作升级后的箱子。",
-  
+
+    "tooltip.pneumaticcraft.spawner_core": "只能使用刷怪塔实用设备的液态经验制作",
+    "tooltip.immersiveengineering.disabled_multiblocks": "ⓘ 挤压机已禁用",
+    "tooltip.undergarden.virulent_mix_bucket": "⚠ 必须在世界中收集才能被视为流体",
+
     "tooltip.mekanism.factory_upgrade": "使用工厂安装器获得工厂版本",
-    
+
     "tooltip.ore.highest_concentration": "密度最大高度为 ",
 
     "info.pneumaticcraft.pcb_blueprint": "可从工程师处交易获得（在充能站工作）。",
