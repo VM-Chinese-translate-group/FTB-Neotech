@@ -1,8 +1,0 @@
-{
-"block.darkutils.smite_plate":"Smite Plate",
-"block.darkutils.bane_plate":"Bane Plate",
-"block.darkutils.anchor_plate":"Anchor Plate",
-"tooltip.darkutils.smite_plate":"Significantly damages undead mobs that step on it.",
-"tooltip.darkutils.bane_plate":"Significantly damages arthropods that step on it.",
-"tooltip.darkutils.anchor_plate":"Traps a mob and forces them to look in the specified direction."
-}

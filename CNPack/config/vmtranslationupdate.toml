@@ -1,7 +1,14 @@
-testMode = false
+[misc]
+devMode = false
 autoSwitchLanguage = false
+checkModPackTranslationUpdate = true
+[resourcePack]
 autoDownloadVMTranslationPack = false
-translationPackSource = "GITEE"
-checkModPackTranslationUpdate = false
-i18nUpdateModCheck = true
-vaultPatcherCheck = true
+autoLoadExtraTranslationPack = false
+resourcePackIndex = "DEFAULT"
+extraPackName = ""
+extraPackCustomIndex = 0
+[modInstallCheck]
+i18nUpdateMod = true
+vaultPatcher = true
+textureLocaleRedirector = false

@@ -4,4 +4,4 @@
 show_on_join_message=true
 
 # The custom message to show to players
-join_message=§b汉化安装成功§f，感谢您使用VM汉化组的汉化！遇到任何问题请加入QQ群反馈
+join_message=§b汉化安装成功§f，感谢您使用VM汉化组的汉化！如遇到任何问题请加入QQ群进行反馈
