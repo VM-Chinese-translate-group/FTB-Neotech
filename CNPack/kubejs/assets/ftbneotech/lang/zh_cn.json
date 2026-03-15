@@ -56,7 +56,9 @@
 
     "tooltip.pneumaticcraft.spawner_core": "只能使用刷怪塔实用设备的液态经验制作",
     "tooltip.immersiveengineering.disabled_multiblocks": "ⓘ 挤压机已禁用",
-    "tooltip.undergarden.virulent_mix_bucket": "⚠ 必须在世界中收集才能被视为流体",
+    "tooltip.undergarden.virulent_mix_bucket": "⚠ 必须在世界中收集后才会被视为流体",
+
+    "tooltip.klein_star": "⚠ 升级时已存储的 EMC 将会丢失",
 
     "tooltip.mekanism.factory_upgrade": "使用工厂安装器获得工厂版本",
 
@@ -1408,7 +1410,7 @@
     "ftbquests.chapter_groups.title1": "技术奇点",
     "ftbquests.chapter_groups.title2": "专业化",
     "ftbquests.chapter_groups.title3": "势不可挡之力",
-    "ftbquests.chapter_groups.title4": "",
+    "ftbquests.chapter_groups.title4": "Feed The Beast",
     "ftbquests.loot_table.title1": "全能工具或锤",
     "ftbquests.loot_table.title2": "超级树苗",
     "ftbquests.loot_table.title3": "装备魔咒",
